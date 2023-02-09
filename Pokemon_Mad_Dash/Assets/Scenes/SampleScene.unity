@@ -232,6 +232,7 @@ MonoBehaviour:
   jumpForce: 500
   isGrounded: 1
   shiftPressed: 0
+  animator: {fileID: 871039257}
 --- !u!50 &871039255
 Rigidbody2D:
   serializedVersion: 4
@@ -266,9 +267,14 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.32411146, y: 0}
-  m_Size: {x: 1.8517771, y: 2.5}
+  m_Offset: {x: 0.32411122, y: 0.0648222}
+  m_Size: {x: 1.5924878, y: 2.413571}
   m_Direction: 0
+--- !u!95 &871039257 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1471873559607236071, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+  m_PrefabInstance: {fileID: 1471873560389014772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1051385129
 GameObject:
   m_ObjectHideFlags: 0

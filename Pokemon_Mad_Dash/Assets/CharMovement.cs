@@ -13,6 +13,7 @@ public class CharMovement : MonoBehaviour
     [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
     [SerializeField] bool shiftPressed = false;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +26,10 @@ public class CharMovement : MonoBehaviour
     void Update()
     {
       movement = Input.GetAxis("Horizontal");
+      animator.SetFloat("Speed", Mathf.Abs(movement));
       if (Input.GetButtonDown("Jump"))
           jumpPressed = true;
+
     }
     void FixedUpdate()
    {
@@ -34,6 +37,7 @@ public class CharMovement : MonoBehaviour
        if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
            Flip();
        if (jumpPressed && isGrounded)
+
            Jump();
    }
 
@@ -49,6 +53,7 @@ public class CharMovement : MonoBehaviour
        rigid.AddForce(new Vector2(0, jumpForce));
        isGrounded = false;
        jumpPressed = false;
+       animator.SetBool("isJumping",true);
    }
 
    private void OnCollisionEnter2D(Collision2D collision)
@@ -56,7 +61,8 @@ public class CharMovement : MonoBehaviour
        if (collision.gameObject.tag == "Ground")
        {
            isGrounded = true;
+           animator.SetBool("isJumping", false);
        }
    }
-   
+
 }
