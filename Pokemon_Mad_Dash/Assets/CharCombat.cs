@@ -9,13 +9,20 @@ public class CharCombat : MonoBehaviour
     public float AttackRange=0.5f;
     public LayerMask enemyLayers;
 
+    public int lightDamage=20;
+
+    public float attackRate= 2f;
+    float nextAttackTime=0f;
     // Update is called once per frame
     void Update()
     {
+      if(Time.time >= nextAttackTime){
         if(Input.GetKeyDown(KeyCode.Q))
         {
           Attack();
+          nextAttackTime=Time.time+ 1f / attackRate;
         }
+      }
     }
     void Attack()
     {
@@ -29,12 +36,14 @@ public class CharCombat : MonoBehaviour
       foreach(Collider2D enemy in hitEnemies)
       {
         Debug.Log("We Hit " + enemy.name);
+        enemy.GetComponent<Caterpie_Health>().TakeDamage(lightDamage);
       }
     }
 
     void OnDrawGizmosSelected()
     {
-
+      if(AttackPoint=null)
+        return;
 
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
 
