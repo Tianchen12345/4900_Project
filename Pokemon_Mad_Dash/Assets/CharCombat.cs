@@ -10,9 +10,12 @@ public class CharCombat : MonoBehaviour
     public LayerMask enemyLayers;
 
     public int lightDamage=20;
-
     public float attackRate= 2f;
     float nextAttackTime=0f;
+
+    public GameObject emberPrefab;
+    private float timeBtwShots;
+    private float startTimeBtwShot;
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +23,11 @@ public class CharCombat : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Q))
         {
           Attack();
+          nextAttackTime=Time.time+ 1f / attackRate;
+        }
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+          SpecialAttack();
           nextAttackTime=Time.time+ 1f / attackRate;
         }
       }
@@ -36,14 +44,22 @@ public class CharCombat : MonoBehaviour
       foreach(Collider2D enemy in hitEnemies)
       {
         Debug.Log("We Hit " + enemy.name);
-        enemy.GetComponent<Caterpie_Health>().TakeDamage(lightDamage);
+        enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
       }
     }
 
+    void SpecialAttack()
+    {
+
+      Instantiate(emberPrefab, AttackPoint.position, AttackPoint.rotation);
+      animator.SetTrigger("Ember");
+
+
+
+    }
     void OnDrawGizmosSelected()
     {
-      if(AttackPoint=null)
-        return;
+
 
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
 
