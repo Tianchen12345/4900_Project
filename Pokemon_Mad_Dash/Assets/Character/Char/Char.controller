@@ -66,22 +66,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -850461561801045760}
-    m_Position: {x: 70, y: 80, z: 0}
+    m_Position: {x: 110, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6945429668030301901}
-    m_Position: {x: 320, y: 280, z: 0}
+    m_Position: {x: 390, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -572701857168767837}
     m_Position: {x: -160, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8534223282816987212}
-    m_Position: {x: -80, y: -110, z: 0}
+    m_Position: {x: -200, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6955836789421112477}
     m_Position: {x: 480, y: -110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -724787216431180661}
-    m_Position: {x: 160, y: 0, z: 0}
+    m_Position: {x: 130, y: -100, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -4827450423929688677}
@@ -90,7 +90,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 190, y: -100, z: 0}
+  m_AnyStatePosition: {x: 170, y: -350, z: 0}
   m_EntryPosition: {x: -80, y: 150, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -317,7 +317,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Ember
+    m_ConditionEvent: SpecialAttack
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6955836789421112477}
@@ -347,25 +347,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: isJumping
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: LightAttack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Ember
+    m_Controller: {fileID: 0}
+  - m_Name: SpecialAttack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

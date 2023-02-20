@@ -13,7 +13,7 @@ public class CharCombat : MonoBehaviour
     public float attackRate= 2f;
     float nextAttackTime=0f;
 
-    public GameObject emberPrefab;
+    public GameObject SpecialAttackPrefab;
     private float timeBtwShots;
     private float startTimeBtwShot;
     // Update is called once per frame
@@ -51,8 +51,8 @@ public class CharCombat : MonoBehaviour
     void SpecialAttack()
     {
 
-      Instantiate(emberPrefab, AttackPoint.position, AttackPoint.rotation);
-      animator.SetTrigger("Ember");
+      Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+      animator.SetTrigger("SpecialAttack");
 
 
 

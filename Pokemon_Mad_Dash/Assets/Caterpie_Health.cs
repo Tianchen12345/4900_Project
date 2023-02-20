@@ -28,6 +28,7 @@ public class Caterpie_Health : MonoBehaviour
 
     void Die()
     {
+
      Debug.Log("enemy die");
       GetComponent<Collider2D>().enabled = false;
       GetComponent<SpriteRenderer>().enabled =false;
