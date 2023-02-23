@@ -52,7 +52,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1471873559607236065
 Transform:
   m_ObjectHideFlags: 0
@@ -219,4 +219,4 @@ MonoBehaviour:
     m_Bits: 8
   lightDamage: 20
   attackRate: 2
-  emberPrefab: {fileID: 7231005292787554250, guid: 09dc6c441cbad474d9e71912f0a6cf0b, type: 3}
+  SpecialAttackPrefab: {fileID: 0}
