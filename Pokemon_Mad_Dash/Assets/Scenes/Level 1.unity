@@ -167,7 +167,7 @@ Transform:
   - {fileID: 827748554}
   - {fileID: 754371518}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -226,7 +226,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 754371521}
   - component: {fileID: 754371523}
   - component: {fileID: 754371522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2755,32 +2755,24 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &6623920874837596102
+--- !u!1001 &1879248232
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1756343485, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
-      propertyPath: jumpSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5681758260098636064, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
-      propertyPath: m_CollisionDetection
+    - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+      propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.97
+      value: -5.181
       objectReference: {fileID: 0}
     - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.86
+      value: -1.697
       objectReference: {fileID: 0}
     - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2817,10 +2809,6 @@ PrefabInstance:
     - target: {fileID: 6623920874689396210, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6623920874689396210, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
