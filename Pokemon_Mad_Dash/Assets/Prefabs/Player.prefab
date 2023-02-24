@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5681758260098636064}
   - component: {fileID: 7653966239719549745}
   - component: {fileID: 1756343485}
+  - component: {fileID: 2051710485}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -138,11 +139,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 6623920874689396210}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.039828062, y: -0.0716905}
+  m_Offset: {x: -0.039828062, y: -0.065113425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +154,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5075073, y: 1.1251577}
+  m_Size: {x: 1.5075073, y: 1.1120036}
   m_EdgeRadius: 0
 --- !u!114 &1756343485
 MonoBehaviour:
@@ -168,3 +169,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 10
+  jumpSpeed: 15
+--- !u!60 &2051710485
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623920874689396210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.32, y: 2.32}
+    newSize: {x: 1.8125, y: 1.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.20220417, y: 0.11838853}
+      - {x: -0.11090067, y: 0.03383887}
+      - {x: -0.23002374, y: -0.17210904}
+      - {x: -0.15604246, y: -0.6377253}
+      - {x: 0.3652843, y: -0.6377253}
+      - {x: 0.41651654, y: -0.32146904}
+      - {x: 0.34253573, y: -0.18113747}
+      - {x: 0.32447863, y: 0.08822274}
