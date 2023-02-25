@@ -10,14 +10,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Enemy
+  - 
   - Water
   - UI
   - Ground
   - Ladder
-  - 
-  - 
-  - 
+  - Player
+  - World Borders
+  - Enemy
   - 
   - 
   - 
@@ -43,14 +43,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Enemy
-    uniqueID: 3731480287
+  - name: World Borders
+    uniqueID: 3151271125
     locked: 0
   - name: Background
     uniqueID: 2883448023
     locked: 0
   - name: Ladder
     uniqueID: 1892297959
+    locked: 0
+  - name: Enemy
+    uniqueID: 3731480287
     locked: 0
   - name: Player
     uniqueID: 1963351719

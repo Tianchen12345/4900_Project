@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: e79dbdf97b8ed45f1af989a8d07e9db3
+guid: 7d7027d3afa8b6741a07d969d22a0a23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -2340,112 +2341,112 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sheet_98: -622227618
-      sheet_62: 1243272674
-      sheet_78: -861950336
-      sheet_94: 2043857791
-      sheet_40: -658110690
-      sheet_50: -353739203
-      sheet_83: 977181021
-      sheet_89: -554029756
-      sheet_35: -774955516
-      sheet_92: 605886124
-      sheet_55: -7895105
-      sheet_41: -2116853714
-      sheet_20: 272943133
-      sheet_63: 944470794
-      sheet_61: 1606965055
-      sheet_68: -867995016
-      sheet_1: -167995951
-      sheet_15: 1516519788
-      sheet_33: 301500086
-      sheet_52: -498125448
-      sheet_30: -108472059
-      sheet_82: 946396272
-      sheet_70: -1404327711
-      sheet_25: 731305092
-      sheet_7: 674723314
-      sheet_17: 2029112655
-      sheet_37: -1323419709
-      sheet_95: -1850952468
-      sheet_67: -228029900
-      sheet_80: 1377691721
-      sheet_22: -1169942124
-      sheet_56: 653048473
-      sheet_45: -88704890
-      sheet_64: -1260569024
-      sheet_8: 981047123
-      sheet_44: -2071397989
-      sheet_75: 795511767
-      sheet_29: 710590562
-      sheet_13: 1585983661
-      sheet_60: 1796734179
-      sheet_88: -524968899
-      sheet_51: 646768349
-      sheet_72: 933688071
-      sheet_66: -644469632
-      sheet_96: -1824852479
-      sheet_57: -156202134
-      sheet_71: 345622059
-      sheet_12: 1764090646
-      sheet_26: 977605214
-      sheet_14: -1260023102
-      sheet_47: 658609422
-      sheet_91: -218666773
-      sheet_49: -238443336
-      sheet_93: -1819709884
-      sheet_53: -3698684
-      sheet_101: -327449091
-      sheet_99: -1389735109
-      sheet_27: -91526098
-      sheet_69: 1858258918
-      sheet_5: -121879685
-      sheet_34: 1759874888
-      sheet_38: 1894316320
-      sheet_65: -1578867110
-      sheet_46: 806948228
-      sheet_76: 1397638985
-      sheet_85: 2066388873
-      sheet_36: 1675892131
-      sheet_105: 1120316715
-      sheet_28: -1413824545
-      sheet_23: -1001822767
-      sheet_79: -134395675
-      sheet_104: -1574555698
-      sheet_86: 1987536684
-      sheet_97: 2013135875
-      sheet_48: -1150043953
-      sheet_11: -1439335270
-      sheet_3: 2040133537
-      sheet_100: -726268371
-      sheet_21: 1610993098
-      sheet_103: 1034762882
-      sheet_77: -697656337
-      sheet_42: 734791344
-      sheet_102: -828250236
-      sheet_73: 1095401077
-      sheet_54: 291960065
-      sheet_43: 1024228373
-      sheet_39: -114052069
       sheet_0: -353652609
-      sheet_87: 1001895340
+      sheet_1: -167995951
       sheet_10: -1982645169
-      sheet_9: 1980038424
-      sheet_31: 1879650690
-      sheet_2: 1657811898
-      sheet_32: -59688424
-      sheet_24: 1713111023
-      sheet_6: 299614164
-      sheet_81: 1755530064
-      sheet_74: -1442822620
-      sheet_18: -1260437951
+      sheet_100: -726268371
+      sheet_101: -327449091
+      sheet_102: -828250236
+      sheet_103: 1034762882
+      sheet_104: -1574555698
+      sheet_105: 1120316715
+      sheet_11: -1439335270
+      sheet_12: 1764090646
+      sheet_13: 1585983661
+      sheet_14: -1260023102
+      sheet_15: 1516519788
       sheet_16: 1383597108
-      sheet_58: 1320209992
-      sheet_84: 1259577839
+      sheet_17: 2029112655
+      sheet_18: -1260437951
       sheet_19: 1051644213
-      sheet_90: -143300865
+      sheet_2: 1657811898
+      sheet_20: 272943133
+      sheet_21: 1610993098
+      sheet_22: -1169942124
+      sheet_23: -1001822767
+      sheet_24: 1713111023
+      sheet_25: 731305092
+      sheet_26: 977605214
+      sheet_27: -91526098
+      sheet_28: -1413824545
+      sheet_29: 710590562
+      sheet_3: 2040133537
+      sheet_30: -108472059
+      sheet_31: 1879650690
+      sheet_32: -59688424
+      sheet_33: 301500086
+      sheet_34: 1759874888
+      sheet_35: -774955516
+      sheet_36: 1675892131
+      sheet_37: -1323419709
+      sheet_38: 1894316320
+      sheet_39: -114052069
       sheet_4: -958659559
+      sheet_40: -658110690
+      sheet_41: -2116853714
+      sheet_42: 734791344
+      sheet_43: 1024228373
+      sheet_44: -2071397989
+      sheet_45: -88704890
+      sheet_46: 806948228
+      sheet_47: 658609422
+      sheet_48: -1150043953
+      sheet_49: -238443336
+      sheet_5: -121879685
+      sheet_50: -353739203
+      sheet_51: 646768349
+      sheet_52: -498125448
+      sheet_53: -3698684
+      sheet_54: 291960065
+      sheet_55: -7895105
+      sheet_56: 653048473
+      sheet_57: -156202134
+      sheet_58: 1320209992
       sheet_59: -1797265662
+      sheet_6: 299614164
+      sheet_60: 1796734179
+      sheet_61: 1606965055
+      sheet_62: 1243272674
+      sheet_63: 944470794
+      sheet_64: -1260569024
+      sheet_65: -1578867110
+      sheet_66: -644469632
+      sheet_67: -228029900
+      sheet_68: -867995016
+      sheet_69: 1858258918
+      sheet_7: 674723314
+      sheet_70: -1404327711
+      sheet_71: 345622059
+      sheet_72: 933688071
+      sheet_73: 1095401077
+      sheet_74: -1442822620
+      sheet_75: 795511767
+      sheet_76: 1397638985
+      sheet_77: -697656337
+      sheet_78: -861950336
+      sheet_79: -134395675
+      sheet_8: 981047123
+      sheet_80: 1377691721
+      sheet_81: 1755530064
+      sheet_82: 946396272
+      sheet_83: 977181021
+      sheet_84: 1259577839
+      sheet_85: 2066388873
+      sheet_86: 1987536684
+      sheet_87: 1001895340
+      sheet_88: -524968899
+      sheet_89: -554029756
+      sheet_9: 1980038424
+      sheet_90: -143300865
+      sheet_91: -218666773
+      sheet_92: 605886124
+      sheet_93: -1819709884
+      sheet_94: 2043857791
+      sheet_95: -1850952468
+      sheet_96: -1824852479
+      sheet_97: 2013135875
+      sheet_98: -622227618
+      sheet_99: -1389735109
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
