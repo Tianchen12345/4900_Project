@@ -18,7 +18,7 @@ TagManager:
   - Player
   - World Borders
   - Enemy
-  - 
+  - Bomb
   - 
   - 
   - 
@@ -57,6 +57,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1963351719
+    locked: 0
+  - name: Bomb
+    uniqueID: 996963647
     locked: 0
   - name: Foreground
     uniqueID: 11060509
