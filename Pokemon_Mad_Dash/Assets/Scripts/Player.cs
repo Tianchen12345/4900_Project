@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float jumpSpeed = 13f;
     [SerializeField] float climbSpeed = 8f;
+    [SerializeField] Vector2 beAttacked = new Vector2(10f, 30f);
 
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
     PolygonCollider2D mypolygonCollider2D;
 
     float MyGravityScale;
+    bool injured = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +35,34 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Run();
-        ChangingToAttackState();
-        Jump();
-        Climb();
+        if (!injured)
+        {
+            Run();
+            ChangingToAttackState();
+            Jump();
+            Climb();
+            if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+            {
+                BeAttacked();
+            }
+        }        
+    }
+
+    private void BeAttacked()
+    {
+        myRigidbody2D.velocity = beAttacked * new Vector2(-transform.localScale.x, 1f);
+
+        myAnimator.SetTrigger("Be Attacked");
+        injured = true;
+
+        StartCoroutine(recoveryFromInjury());
+    }
+
+    IEnumerator recoveryFromInjury()
+    {
+        yield return new WaitForSeconds(1f);
+
+        injured = false;
     }
 
     private void Climb()

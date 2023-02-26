@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1528172986077531080}
   - component: {fileID: 1528172986077531078}
   - component: {fileID: 1528172986077531084}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Char
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,15 +76,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -563487009
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -353652609, guid: e79dbdf97b8ed45f1af989a8d07e9db3, type: 3}
+  m_Sprite: {fileID: -353652609, guid: 7d7027d3afa8b6741a07d969d22a0a23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.5, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &96840652821176119
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -109,7 +109,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!50 &1528172986077531079
 Rigidbody2D:
   serializedVersion: 4
@@ -188,7 +188,7 @@ MonoBehaviour:
     m_Bits: 8
   lightDamage: 20
   attackRate: 2
-  emberPrefab: {fileID: 7231005292787554250, guid: 09dc6c441cbad474d9e71912f0a6cf0b, type: 3}
+  SpecialAttackPrefab: {fileID: 0}
 --- !u!1 &1528172985765808158
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1528172985765808159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
