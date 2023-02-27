@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &96840652821176113
 Transform:
   m_ObjectHideFlags: 0
@@ -166,8 +166,13 @@ MonoBehaviour:
   jumpPressed: 0
   jumpForce: 500
   isGrounded: 1
-  shiftPressed: 0
   animator: {fileID: 96840652821176119}
+  health: 0
+  maxHealth: 300
+  KBForce: 0
+  KBCounter: 0
+  KBTotalTime: 0
+  KnockFromRight: 0
 --- !u!114 &1528172986077531084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,11 +190,10 @@ MonoBehaviour:
   AttackRange: 0.7
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 1032
+    m_Bits: 8
   lightDamage: 20
   attackRate: 2
   SpecialAttackPrefab: {fileID: 7231005292787554250, guid: 09dc6c441cbad474d9e71912f0a6cf0b, type: 3}
-  maxHealth: 50
 --- !u!1 &1528172985765808158
 GameObject:
   m_ObjectHideFlags: 0
