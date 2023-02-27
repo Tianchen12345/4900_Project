@@ -17,13 +17,7 @@ public class CharCombat : MonoBehaviour
     private float timeBtwShots;
     private float startTimeBtwShot;
 
-    public int maxHealth= 50;
-    int currentHealth;
 
-    void Start()
-    {
-        currentHealth=maxHealth;
-    }
     // Update is called once per frame
     void Update()
     {
@@ -75,14 +69,5 @@ public class CharCombat : MonoBehaviour
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
 
     }
-    public void TakeDamage(int damage)
-    {
-      currentHealth -= damage;
-       if(currentHealth <=0)
-       {
-
-         Debug.Log("You died");
-       }
-
-    }
+    
 }

@@ -12,14 +12,23 @@ public class CharMovement : MonoBehaviour
     [SerializeField] bool jumpPressed = false;
     [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
-    [SerializeField] bool shiftPressed = false;
+
     public Animator animator;
+
+    public int health;
+    public int maxHealth= 30;
+
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+    public bool KnockFromRight;
     // Start is called before the first frame update
     void Start()
     {
       if (rigid == null)
           rigid = GetComponent<Rigidbody2D>();
       speed = 15;
+      health=maxHealth;
     }
 
     // Update is called once per frame
@@ -33,12 +42,27 @@ public class CharMovement : MonoBehaviour
     }
     void FixedUpdate()
    {
+     if(KBCounter <=0)
+     {
        rigid.velocity = new Vector2(movement * speed, rigid.velocity.y);
        if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
            Flip();
        if (jumpPressed && isGrounded)
 
            Jump();
+     }
+     else{
+       if(KnockFromRight == true)
+       {
+         rigid.velocity= new Vector2(-KBForce,KBForce);
+       }
+       if(KnockFromRight == false)
+       {
+         rigid.velocity=new Vector2(KBForce,-KBForce);
+       }
+       KBCounter -=Time.deltaTime;
+     }
+
    }
 
    void Flip()
@@ -64,5 +88,13 @@ public class CharMovement : MonoBehaviour
            animator.SetBool("isJumping", false);
        }
    }
+   public void TakeDamage(int damage){
+     health -=damage;
 
+     animator.SetTrigger("TakeDamage");
+
+     if(health<=0){
+       Destroy(gameObject);
+     }
+   }
 }
