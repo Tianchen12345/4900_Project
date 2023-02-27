@@ -3,7 +3,7 @@ guid: f3cab1294d6624f0eb4d5994a0096ab8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1269,61 +1270,61 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Caterpie_11: 838588751
-      Caterpie_26: 1957950095
-      Caterpie_41: -1261847941
-      Caterpie_9: 360396358
-      Caterpie_36: 740059360
-      Caterpie_31: -842351649
-      Caterpie_35: -1909970148
-      Caterpie_54: -1532029047
-      Caterpie_38: -2082739178
-      Caterpie_34: -968347426
-      Caterpie_25: 1760514229
-      Caterpie_50: 264247014
-      Caterpie_16: 1403302980
-      Caterpie_5: -872369071
-      Caterpie_45: 1533242425
-      Caterpie_14: 509066578
-      Caterpie_4: 684620898
-      Caterpie_7: -475664036
-      Caterpie_28: -86292496
-      Caterpie_44: 783960921
-      Caterpie_8: 570211971
-      Caterpie_48: 1966246890
-      Caterpie_1: -418850660
-      Caterpie_18: -1738706045
-      Caterpie_46: 1270027672
-      Caterpie_49: -1838639362
-      Caterpie_51: -1586172114
-      Caterpie_29: 1949966638
-      Caterpie_39: -1079842319
-      Caterpie_30: 2050050457
-      Caterpie_2: -1759166519
-      Caterpie_24: 48086476
-      Caterpie_42: -1882612575
-      Caterpie_27: -434830509
-      Caterpie_37: -174172213
-      Caterpie_47: 1955043283
       Caterpie_0: 2033898565
-      Caterpie_32: -1311865960
-      Caterpie_17: 83078805
-      Caterpie_21: -78068090
-      Caterpie_23: -2071569644
-      Caterpie_12: -1798130144
-      Caterpie_33: 261868864
-      Caterpie_53: -1458206920
-      Caterpie_19: 2098127059
-      Caterpie_3: -871540964
-      Caterpie_22: -2097365857
-      Caterpie_13: -684508142
-      Caterpie_20: 2082673794
-      Caterpie_43: 960435677
-      Caterpie_15: 368575788
-      Caterpie_6: 1016775831
+      Caterpie_1: -418850660
       Caterpie_10: -862512565
+      Caterpie_11: 838588751
+      Caterpie_12: -1798130144
+      Caterpie_13: -684508142
+      Caterpie_14: 509066578
+      Caterpie_15: 368575788
+      Caterpie_16: 1403302980
+      Caterpie_17: 83078805
+      Caterpie_18: -1738706045
+      Caterpie_19: 2098127059
+      Caterpie_2: -1759166519
+      Caterpie_20: 2082673794
+      Caterpie_21: -78068090
+      Caterpie_22: -2097365857
+      Caterpie_23: -2071569644
+      Caterpie_24: 48086476
+      Caterpie_25: 1760514229
+      Caterpie_26: 1957950095
+      Caterpie_27: -434830509
+      Caterpie_28: -86292496
+      Caterpie_29: 1949966638
+      Caterpie_3: -871540964
+      Caterpie_30: 2050050457
+      Caterpie_31: -842351649
+      Caterpie_32: -1311865960
+      Caterpie_33: 261868864
+      Caterpie_34: -968347426
+      Caterpie_35: -1909970148
+      Caterpie_36: 740059360
+      Caterpie_37: -174172213
+      Caterpie_38: -2082739178
+      Caterpie_39: -1079842319
+      Caterpie_4: 684620898
       Caterpie_40: 395546253
+      Caterpie_41: -1261847941
+      Caterpie_42: -1882612575
+      Caterpie_43: 960435677
+      Caterpie_44: 783960921
+      Caterpie_45: 1533242425
+      Caterpie_46: 1270027672
+      Caterpie_47: 1955043283
+      Caterpie_48: 1966246890
+      Caterpie_49: -1838639362
+      Caterpie_5: -872369071
+      Caterpie_50: 264247014
+      Caterpie_51: -1586172114
       Caterpie_52: 646693778
+      Caterpie_53: -1458206920
+      Caterpie_54: -1532029047
+      Caterpie_6: 1016775831
+      Caterpie_7: -475664036
+      Caterpie_8: 570211971
+      Caterpie_9: 360396358
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
