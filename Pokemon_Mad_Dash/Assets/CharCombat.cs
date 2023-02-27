@@ -24,10 +24,11 @@ public class CharCombat : MonoBehaviour
       if(Time.time >= nextAttackTime){
         if(Input.GetKeyDown(KeyCode.Q))
         {
-          //Attack();
+          Attack();
           animator.SetTrigger("LightAttack");
           nextAttackTime=Time.time+ 1f / attackRate;
         }
+
         if(Input.GetKeyDown(KeyCode.E))
         {
           SpecialAttack();
@@ -49,6 +50,7 @@ public class CharCombat : MonoBehaviour
       {
         Debug.Log("We Hit " + enemy.name);
         enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
+
       }
 
     }
@@ -65,9 +67,9 @@ public class CharCombat : MonoBehaviour
     void OnDrawGizmosSelected()
     {
 
-
+      
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
 
     }
-    
+
 }
