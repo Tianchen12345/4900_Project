@@ -22,12 +22,14 @@ public class CharCombat : MonoBehaviour
       if(Time.time >= nextAttackTime){
         if(Input.GetKeyDown(KeyCode.Q))
         {
-          Attack();
+          //Attack();
+          animator.SetTrigger("LightAttack");
           nextAttackTime=Time.time+ 1f / attackRate;
         }
         if(Input.GetKeyDown(KeyCode.E))
         {
           SpecialAttack();
+          //animator.SetTrigger("SpecialAttack");
           nextAttackTime=Time.time+ 1f / attackRate;
         }
       }
@@ -35,7 +37,7 @@ public class CharCombat : MonoBehaviour
     void Attack()
     {
       //attack trigger
-      animator.SetTrigger("LightAttack");
+      //animator.SetTrigger("LightAttack");
 
       //Detect enemies hit
       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position,AttackRange,enemyLayers);
@@ -46,14 +48,15 @@ public class CharCombat : MonoBehaviour
         Debug.Log("We Hit " + enemy.name);
         enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
       }
+    
     }
 
     void SpecialAttack()
     {
 
-      Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+      //Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
       animator.SetTrigger("SpecialAttack");
-
+      Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
 
 
     }
