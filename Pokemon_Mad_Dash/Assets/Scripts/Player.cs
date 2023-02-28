@@ -9,7 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float jumpSpeed = 13f;
     [SerializeField] float climbSpeed = 8f;
+    [SerializeField] float attackRadius = 2f;
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 30f);
+    [SerializeField] Transform hurtBox;
 
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
@@ -38,7 +40,7 @@ public class Player : MonoBehaviour
         if (!injured)
         {
             Run();
-            ChangingToAttackState();
+            Attack();
             Jump();
             Climb();
             if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy")))
@@ -48,7 +50,7 @@ public class Player : MonoBehaviour
         }        
     }
 
-    private void BeAttacked()
+    public void BeAttacked()
     {
         myRigidbody2D.velocity = beAttacked * new Vector2(-transform.localScale.x, 1f);
 
@@ -110,13 +112,22 @@ public class Player : MonoBehaviour
         FlipSprites();
 
         ChangingToRunningState();
-        ChangingToAttackState();
+        Attack();
     }
 
-    private void ChangingToAttackState()
+    private void Attack()
     {
-        bool pressAttackButton = Input.GetKeyDown(KeyCode.Z);
-        myAnimator.SetBool("Attack", pressAttackButton);
+        if (CrossPlatformInputManager.GetButtonDown("Fire1"))
+        {
+            myAnimator.SetTrigger("Attacking");
+            Collider2D[] enemyToHit = Physics2D.OverlapCircleAll(hurtBox.position, attackRadius, LayerMask.GetMask("Enemy"));
+
+            foreach(Collider2D enemy in enemyToHit)
+            {
+                enemy.GetComponent<Nidoran>().Dying();
+            }
+        }
+        
     }
 
     private void ChangingToRunningState()
@@ -134,5 +145,10 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector2(Mathf.Sign(myRigidbody2D.velocity.x), 1f);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(hurtBox.position, attackRadius);
     }
 }
