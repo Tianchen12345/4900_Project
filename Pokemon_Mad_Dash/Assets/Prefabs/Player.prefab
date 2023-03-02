@@ -203,7 +203,7 @@ MonoBehaviour:
   runSpeed: 10
   jumpSpeed: 23
   climbSpeed: 10
-  attackRadius: 1.26
+  attackRadius: 1.66
   beAttacked: {x: 10, y: 30}
   hurtBox: {fileID: 538098018}
 --- !u!60 &2051710485
