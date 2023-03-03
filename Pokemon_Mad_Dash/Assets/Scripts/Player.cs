@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     BoxCollider2D myBoxCollider2D;
     PolygonCollider2D mypolygonCollider2D;
 
+
     float MyGravityScale;
     bool injured = false;
 
@@ -28,7 +29,7 @@ public class Player : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         myBoxCollider2D = GetComponent<BoxCollider2D>();
         mypolygonCollider2D = GetComponent<PolygonCollider2D>();
-
+        
         MyGravityScale = myRigidbody2D.gravityScale;
 
 
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
             {
                 BeAttacked();
             }
-        }        
+        }
     }
 
     public void BeAttacked()
@@ -87,7 +88,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
 
-        if (!mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")) || mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Platform"))))
         {
             return;
         }
