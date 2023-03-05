@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 4642136061265036969}
   - component: {fileID: 4642136061265036968}
   - component: {fileID: 4642136061265036967}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bulb
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 11060509
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -861169148, guid: 2bb3d7a3c65bd4154954db57863885ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &4642136061265036973
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -109,7 +109,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!50 &4642136061265036966
 Rigidbody2D:
   serializedVersion: 4
@@ -144,9 +144,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.75114644}
+  m_Offset: {x: 0.0290699, y: 0.42655194}
   serializedVersion: 2
-  m_Radius: 1.0188931
+  m_Radius: 0.4908085
 --- !u!114 &4642136061265036968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,10 +164,15 @@ MonoBehaviour:
   speed: 0
   isFacingRight: 1
   jumpPressed: 0
-  jumpForce: 500
+  jumpForce: 1000
   isGrounded: 1
-  shiftPressed: 0
   animator: {fileID: 4642136061265036973}
+  health: 0
+  maxHealth: 400
+  KBForce: 10
+  KBCounter: 0
+  KBTotalTime: 0.3
+  KnockFromRight: 0
 --- !u!114 &4642136061265036967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,10 +187,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4642136061265036973}
   AttackPoint: {fileID: 4642136062523450941}
-  AttackRange: 0.5
+  AttackRange: 0.8
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1032
   lightDamage: 20
   attackRate: 2
   SpecialAttackPrefab: {fileID: 6863591976915634980, guid: 5d266b04cc59841f793272f9a5b8c405, type: 3}
