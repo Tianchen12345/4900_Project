@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: eb700a54cf8134377b8eff2d3a54b00c
+guid: cbc3304d203be43e5aabc9aae265557f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -104,64 +105,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ember_0
+      name: Skiploom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 19
+        width: 45
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b851d29543ec462b8a7d4492f9b4043
-      internalID: 543858045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ember_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c0a0da11202d4262b2fe33292071066
-      internalID: -583398007
+      spriteID: 9f01029d3d58848c38e17e0db107569d
+      internalID: -1525189054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ember_2
+      name: Skiploom_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 45
         y: 0
-        width: 16
-        height: 19
+        width: 45
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6849550177a6746069e136b6eabf59aa
-      internalID: -163327751
+      spriteID: f47f542e7f6f64745bd9e3462691aa32
+      internalID: 1677177343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skiploom_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f80626c021942a69c7b974b38f7ac8
+      internalID: -1383946840
       vertices: []
       indices: 
       edges: []
@@ -177,9 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ember_0: 543858045
-      ember_1: -583398007
-      ember_2: -163327751
+      Skiploom_0: -1525189054
+      Skiploom_1: 1677177343
+      Skiploom_2: -1383946840
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
