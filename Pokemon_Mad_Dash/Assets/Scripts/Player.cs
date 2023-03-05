@@ -71,6 +71,8 @@ public class Player : MonoBehaviour
         myAnimator.SetTrigger("Be Attacked");
         injured = true;
 
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
+
         StartCoroutine(recoveryFromInjury());
     }
 
