@@ -8,6 +8,7 @@ public class Heart : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         AudioSource.PlayClipAtPoint(heartSFX, Camera.main.transform.position);
+        FindObjectOfType<GameSession>().addToLives(1);
         Destroy(gameObject);
     }
 }
