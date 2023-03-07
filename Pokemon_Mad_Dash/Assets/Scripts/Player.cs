@@ -32,6 +32,8 @@ public class Player : MonoBehaviour
         
         MyGravityScale = myRigidbody2D.gravityScale;
 
+        myAnimator.SetTrigger("Exit Door");
+
 
     }
 
@@ -59,9 +61,19 @@ public class Player : MonoBehaviour
 
         if (CrossPlatformInputManager.GetButtonDown("Vertical"))
         {
-            FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
+            myAnimator.SetTrigger("Enter Door");
         }
+    }
 
+    public void LoadNextLevel()
+    {
+        FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
+        TurnOffRenderer();
+    }
+
+    private void TurnOffRenderer()
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 
     public void BeAttacked()
