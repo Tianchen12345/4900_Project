@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Nidoran : MonoBehaviour
 {
-    [SerializeField] float NidoranRunSpeed = 5f;
+    [SerializeField] float nidoranRunSpeed = 5f;
+    [SerializeField] AudioClip nidoranDyingSFX;
 
     Rigidbody2D NidoranRigidbody;
     Animator enemyAnimator;
@@ -25,28 +26,28 @@ public class Nidoran : MonoBehaviour
 
     public void Dying()
     {
-        enemyAnimator.SetTrigger("Die");
+        enemyAnimator.SetTrigger("Die");        
         GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
-        NidoranRigidbody.bodyType = RigidbodyType2D.Static;
+        NidoranRigidbody.bodyType = RigidbodyType2D.Static;        
         StartCoroutine(DestroyEnemy());
     }
 
     IEnumerator DestroyEnemy()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
         Destroy(gameObject);
     }
 
     private void EnemyMovement()
     {
-        if (isFacingLeft())
+        if (IsFacingLeft())
         {
-            NidoranRigidbody.velocity = new Vector2(-NidoranRunSpeed, 0f);
+            NidoranRigidbody.velocity = new Vector2(-nidoranRunSpeed, 0f);
         }
         else
         {
-            NidoranRigidbody.velocity = new Vector2(NidoranRunSpeed, 0f);
+            NidoranRigidbody.velocity = new Vector2(nidoranRunSpeed, 0f);
         }
     }
 
@@ -60,8 +61,13 @@ public class Nidoran : MonoBehaviour
         transform.localScale = new Vector2(Mathf.Sign(NidoranRigidbody.velocity.x), 1f);
     }
 
-    private bool isFacingLeft()
+    private bool IsFacingLeft()
     {
         return transform.localScale.x > 0;
+    }
+
+    void PlaynidoranDyingSFX()
+    {
+        AudioSource.PlayClipAtPoint(nidoranDyingSFX, Camera.main.transform.position);
     }
 }

@@ -12,11 +12,13 @@ public class Player : MonoBehaviour
     [SerializeField] float attackRadius = 2f;
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 30f);
     [SerializeField] Transform hurtBox;
+    [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX;
 
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
     BoxCollider2D myBoxCollider2D;
     PolygonCollider2D mypolygonCollider2D;
+    AudioSource myAudioSource;
 
 
     float MyGravityScale;
@@ -29,6 +31,7 @@ public class Player : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         myBoxCollider2D = GetComponent<BoxCollider2D>();
         mypolygonCollider2D = GetComponent<PolygonCollider2D>();
+        myAudioSource = GetComponent<AudioSource>();
         
         MyGravityScale = myRigidbody2D.gravityScale;
 
@@ -82,6 +85,7 @@ public class Player : MonoBehaviour
 
         myAnimator.SetTrigger("Be Attacked");
         injured = true;
+        myAudioSource.PlayOneShot(beAttackedSFX);
 
         FindObjectOfType<GameSession>().ProcessPlayerDeath();
 
@@ -126,6 +130,8 @@ public class Player : MonoBehaviour
         {
             Vector2 jumpVelocity = new Vector2(myRigidbody2D.velocity.x, jumpSpeed);
             myRigidbody2D.velocity = jumpVelocity;
+
+            myAudioSource.PlayOneShot(jumpingSFX);
         }
     }
 
@@ -143,11 +149,30 @@ public class Player : MonoBehaviour
         Attack();
     }
 
+    void PlayRunningSFX()
+    {
+        bool playerMovesHorizontally = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
+
+        if (playerMovesHorizontally)
+        {
+            if (mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            {
+                myAudioSource.PlayOneShot(runningSFX);
+            }
+        }
+        else
+        {
+            myAudioSource.Stop();
+        }
+    }
+
     private void Attack()
     {
         if (CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
             myAnimator.SetTrigger("Attacking");
+            myAudioSource.PlayOneShot(attackingSFX);
+
             Collider2D[] enemyToHit = Physics2D.OverlapCircleAll(hurtBox.position, attackRadius, LayerMask.GetMask("Enemy"));
 
             foreach(Collider2D enemy in enemyToHit)

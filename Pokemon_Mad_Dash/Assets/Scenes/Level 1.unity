@@ -13357,10 +13357,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit Door
       objectReference: {fileID: 0}
-    - target: {fileID: 4512335095765475013, guid: 34ae7a7a3c0babf4488b8ed339576ea6, type: 3}
-      propertyPath: timeToLoad
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4512335095765475014, guid: 34ae7a7a3c0babf4488b8ed339576ea6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -43365,11 +43361,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033489172438460917, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.54
+      value: 3.84
       objectReference: {fileID: 0}
     - target: {fileID: 4033489172438460917, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.44
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 4033489172438460917, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -43401,14 +43397,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033489172438460917, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4033489172438460919, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
-      propertyPath: explosionForce.x
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 4033489172438460919, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
-      propertyPath: explosionForce.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
