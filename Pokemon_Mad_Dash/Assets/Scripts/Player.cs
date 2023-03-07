@@ -119,7 +119,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
 
-        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")) || mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Platform"))))
+        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))))
         {
             return;
         }
