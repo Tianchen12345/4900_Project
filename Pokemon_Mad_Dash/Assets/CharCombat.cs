@@ -67,7 +67,7 @@ public class CharCombat : MonoBehaviour
     void OnDrawGizmosSelected()
     {
 
-      
+
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
 
     }

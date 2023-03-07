@@ -1,0 +1,3115 @@
+fileFormatVersion: 2
+guid: 63d2b5c79d6924668beb4cf0fe2f9a50
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scyther_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa22f1cd0d994292b90db3a1a2e288c
+      internalID: -1612386910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 260
+        width: 74
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423f1a097d991402e9364cad8f299486
+      internalID: 262842013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 260
+        width: 82
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a0c30682d4a4b1791670d662158fb4
+      internalID: -59006713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 260
+        width: 72
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4085035557a406f8ee5bc838da8988
+      internalID: -1703446297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 260
+        width: 77
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ced3751731844382b39d5881759db87
+      internalID: 1537258183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 264
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd70777097114f899cb32509bb38ae4
+      internalID: -906735032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 264
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb766a6faa3494b17b44815a916c55db
+      internalID: -1181258570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_7
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 264
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c90e4b9794074b2c99765ab2893d456
+      internalID: -5504404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_8
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 264
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3200d8c2f0e5a4abb91332dd9bfaadb7
+      internalID: 1585820334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_9
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 264
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3347e2a834f154d80a052ade0c894e8f
+      internalID: -822612140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 68
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d821d2a28c464ab4ed33b54a7c9b2
+      internalID: 1153534743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 239
+        width: 27
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3f3f8deff934023a96d6f3951fd0e5
+      internalID: -1803040445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_12
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 239
+        width: 34
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54317966cc62d4d1e8c0b51a80b75c8b
+      internalID: -156154957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 245
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd798d9913af4394a647a36c4da3115
+      internalID: -636244643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 247
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f41e5d464fee4c2bab999e852877a7f
+      internalID: -1985911688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 245
+        width: 36
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9ed69c61b5a49b9b6e3711d520884c
+      internalID: -1616308175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_16
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 239
+        width: 33
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad3a60dd60440e8aca79338fe7f0c4
+      internalID: -973737267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_17
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 242
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158cb240b559a4db7a0e69be9aa2bf4e
+      internalID: 767281084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 240
+        width: 20
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd9c9d28646b4b698a362c4b1792aa1
+      internalID: -1122106899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_19
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 237
+        width: 21
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70011d50f0c1845eaab7ea0c82ba5942
+      internalID: 546887870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_20
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 237
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de305545fae86401c96b271452083918
+      internalID: -934304529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 241
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f58f653453a048b0be3811e66d7474b
+      internalID: 848448589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_22
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 243
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95337f12ad824b7485cd562c210037b
+      internalID: 1344015292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 234
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3620dc8a494e01863fd856a4847e3
+      internalID: 951513366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 233
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491bcfa0c7f3401bbe322709fe89216
+      internalID: 1367065657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 233
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef101bec12e484f229167ea75a77160c
+      internalID: 368738640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 233
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b59811f011214b0ba62348d91b0cf1e
+      internalID: -482132597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 233
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc9c7699a77b4f088074face98cd168
+      internalID: 375302459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c86cfdd6914c93a7171d84c991931
+      internalID: -1237039693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59720c4552d2e4dd980c7c86115a0127
+      internalID: -1813308968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 233
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e46647a559d45b48eb4760d377ecec
+      internalID: -541693496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_31
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd520ecc31874609a43b5a2500ff8d6
+      internalID: 50332997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 232
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd524beef5d4b9eb71cc76b8fc7650
+      internalID: 2040374973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_33
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 233
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9461a251f414492e9237c75fd408bca
+      internalID: -1660152201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9b70f8bb84e4750888afe2b73db42a
+      internalID: 1690407362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 231
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8faf30954a409686bf270e923084c
+      internalID: 166079773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 233
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc1aadb3ed5648d8bec0e732b4af003
+      internalID: 371635571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_37
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 233
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2d5bd5380f46c3a85f678697f1d4e
+      internalID: 1761022721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_38
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 233
+        width: 9
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bcf3b39ab0e463a9477531a1bd069d
+      internalID: 1345825483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_39
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 231
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a7ea0ea9d3f4e9fb4b444c5baa9bcb
+      internalID: 1587147693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_40
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 233
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ab5b24d833a4bf7b9a44e4c6a9f200
+      internalID: 723475179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 231
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7710e6035f9f45bdade633da2684aab
+      internalID: 946784585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_42
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 233
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10879359045644330bf448c120ad17fe
+      internalID: 1026966023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_43
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 231
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe352bfb23ca641588d322505ee91c03
+      internalID: -1199345356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_44
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 233
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf6cbc53fbe94cf4bbb6b6a3118689e
+      internalID: 1872803207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_45
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7226d18850e2b4dbe99279a77e3492c3
+      internalID: 625895807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 233
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e691ba9cfa242d8955dec8b10e73fc
+      internalID: -800477988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_47
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 233
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257c24c8e36124fe78f90da6caeeab2a
+      internalID: -614633077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_48
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 233
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393138450114c413982697691f571493
+      internalID: -50070789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_49
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 233
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9924e7824814a4ec49dee0cbd7d036ed
+      internalID: 582408696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_50
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 233
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d32361f752e04a829f08500bb4eb33f
+      internalID: -2012278400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_51
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 220
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9487990d09d46e6bc48a871161f558
+      internalID: -953969212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_52
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 219
+        width: 28
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff455049660740eca005b99d9f1c308
+      internalID: -389631055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_53
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 224
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce876d1b1c8f4a4590256bb5b8ccc06
+      internalID: 1840728316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 229
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef16c35e2e1c4240b646528c8222a28
+      internalID: -532269849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_55
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 214
+        width: 38
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a7d8442f484e7ca6d9f6c50af6bd1
+      internalID: 2117706564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_56
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 216
+        width: 38
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279d4a070a63e400aa18d523709fefe9
+      internalID: 120684847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_57
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 219
+        width: 25
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94f4a1b03075461683c5da0af73d232
+      internalID: -711602323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_58
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 221
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a82cfd82b045e9aa3c84a10c2848d
+      internalID: 939794168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_59
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 218
+        width: 19
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b120ff56ab68e48cca50168da8c087ec
+      internalID: -2073280349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_60
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 219
+        width: 19
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22325553c3d345b59cac4ab1951e7d5
+      internalID: -972383430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_61
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 219
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3d0b53fa1d64eb7a154988ff0f00a7
+      internalID: -1691002246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_62
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 218
+        width: 37
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e881c3da48d7d475f87a9babbbaf9b58
+      internalID: -1528480006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_63
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 227
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ec7d9aea74242459a09a6e38270dda
+      internalID: 1030615433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_64
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 222
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fee7ac6b24a46329238dd872dd66c5
+      internalID: 1429799220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_65
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 228
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8121e7fd8334248898faf6c858c65c78
+      internalID: 528500720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 221
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcd0224bc6c94584a7301df8834ccd1
+      internalID: 909684667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_67
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69a0040f66b4f4bafc6c6f484fabf2
+      internalID: -959685400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_68
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766304b16508241c0b03fc25ce4ca40c
+      internalID: -1342155639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_69
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb3d9fec5eef4adc9b41e331363da26
+      internalID: -1555811077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_70
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccbb2ec046de4e1696776ac44eaf56c
+      internalID: 201399600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 221
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f254c2caf794737892d4571eb1811c
+      internalID: 1675419273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_72
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ef1bc80fd9469d958617a1f3ab435
+      internalID: 349391345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_73
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c53194d4d294daf9a9c631200e5db9
+      internalID: -254795547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_74
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 221
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3263749ddec544cd7a7b48df1e3ee241
+      internalID: -516735968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_75
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 221
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ffc133e51c549cd9edab565875db81
+      internalID: -1147764792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_76
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 221
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a963ec1c0644f5e8fe3b420c0fe783
+      internalID: 1082834108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_77
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 221
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f3cd830a844fd79d4c9bb66d13030
+      internalID: -980730481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_78
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 220
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6c1d1ecb404b8cadab5d9e20b738e
+      internalID: 1359627055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_79
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a48a379fa55d43709dbf54d90639ed2
+      internalID: 464247501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_80
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1efca4ac0b3e4084893437ef6ce2e81
+      internalID: -1682591109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_81
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 221
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d03c7c8acb6f4ecaa7b929ba5e7ebbd
+      internalID: 955254168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_82
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 221
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37679c20272f14ce6a970b718df8591f
+      internalID: -949315261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_83
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 211
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4476eb41fe88b4d5e8635f945cd678d7
+      internalID: -1011188776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_84
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 201
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165edfd683c6a413a8b66d87f5d3abd8
+      internalID: 304086848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_85
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 196
+        width: 38
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0ff1ec4eefe4050aa1a3d05754d30e
+      internalID: -1432714461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_86
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 182
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0134fedd582447ea864f6d57db2d93
+      internalID: -853330332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_87
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 185
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3900276c28f054c1eb8cca9405f4fe64
+      internalID: 1121626451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_88
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 185
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16513d36488d34da7926736314ece0d0
+      internalID: 1323113627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_89
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 184
+        width: 25
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eaeb55f9b6d4515945b44c1183fea1
+      internalID: -2120168737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_90
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 186
+        width: 26
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424e6634b6cd24bedb423dcf792eaed2
+      internalID: 1966015905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_91
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 188
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d896ba1c4bf6845718d54e7c49b35565
+      internalID: -1200419700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_92
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 190
+        width: 22
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c1ba2145724204a46fbb319ac5ed8
+      internalID: -1477291781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_93
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 188
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245232c9777a470b982c1613d1e2ef4
+      internalID: 1928406376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_94
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 190
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a2b3aaba0b4282b6fc7fed40357e5
+      internalID: -1684516217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_95
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 188
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216a3297e736b49f3b1c3a904ad4a924
+      internalID: -367202577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_96
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 190
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3693af2f40554ba3892a8d5c9c397c4
+      internalID: -1359749298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_97
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 203
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad298fba7c76411999239809102ce1c
+      internalID: 177816602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_98
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 188
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1843478ed8a4b36a44d3caf2ca792d
+      internalID: 149169703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_99
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 187
+        width: 21
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954c94a3b50ba4c9aa99d2a4cff2d39f
+      internalID: 1737917056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 73
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec3f19ecd83421c94cf4dd10de5e7f
+      internalID: 1007680468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_101
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 142
+        width: 78
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee3f8ff78d574116ab0bc76455bc08a
+      internalID: -503297725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_102
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 142
+        width: 78
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab0b94c587c44b11916d4fe0a715fa1
+      internalID: -742041161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_103
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 161
+        width: 51
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd316bd8aac746fc8bf213425b03057
+      internalID: -1387666663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_104
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 162
+        width: 38
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19092392861a44318ece5a1f5b5c6ce
+      internalID: 627484915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_105
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 156
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa221b81e6f2b42a5b56e94a27c9e716
+      internalID: -801822681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_106
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 153
+        width: 18
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d19fc7a159de4e1cbdf681a59bba4fe
+      internalID: 523930546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_107
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 156
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24367cf2095ab43ad893cda020c01d9b
+      internalID: 642921729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_108
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 153
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a475cff2790dc4a898f2e3f31a8296ab
+      internalID: 536610777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_109
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 159
+        width: 22
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2890c974b8dbc453d8d6edba95313de3
+      internalID: -2010845751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_110
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 155
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c1cc3738685450ea0554a4ab611b91
+      internalID: -1153401049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_111
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 182
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ded812be506e4c149be1a3058658052
+      internalID: 1574964479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_112
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 163
+        width: 23
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f826ec46c7041ef9c08a61ed7bbdb7
+      internalID: 1731795526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_113
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 162
+        width: 30
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454688fb442f4670844052681fa0cd7
+      internalID: -166774764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_114
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 162
+        width: 39
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6945d8b89ea3d4f5eb98d65fd43ec27c
+      internalID: 773932668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_115
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 155
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca57c8df7efb464f995c78b703ae113
+      internalID: 1412476094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_116
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 154
+        width: 21
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf254ae9224844b71abb7b340c90268c
+      internalID: -560701000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b8e864f62c745b980aa1d586f40cb4
+      internalID: 1509189516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_118
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 69
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c904a1fa136754e8d9454a635ed2eaab
+      internalID: 1075688753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 54
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1dc53ae27fc4156a43950e8bb0a5d8
+      internalID: -650893805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_120
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 69
+        width: 62
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64f27cafc14431b9c9a92115ad5f04
+      internalID: 460183598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_121
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 68
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8604da1a6f17144e29a8e950124d2b0d
+      internalID: -333395835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_122
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 68
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74697105d566464fb7d8c83d8bee0cb
+      internalID: -528782134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_123
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 68
+        width: 80
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fadc7ab27657403e8e8c845409a82e1
+      internalID: -793896027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_124
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 68
+        width: 77
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc4c7132e528445f9508360cf6846e7
+      internalID: -271235353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_125
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 68
+        width: 69
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eff99ca2d6bc41b68eb92ddb0e4ce5f
+      internalID: -174199619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d15d5f4725e4c3aa93bc224db02c67
+      internalID: 1396073262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_127
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca71b6244dd4427185aaed436e6b172
+      internalID: -1347585171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 54
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d517d897711a34d75a84727e4bcf2a58
+      internalID: -1960510621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_129
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2
+        width: 62
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8830d49ddadf149198fe8797993cd9e3
+      internalID: -1878998671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_130
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a376d51fe347d2906d314146cca2c
+      internalID: 2017440968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_131
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1
+        width: 68
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b77e39c1c30144f7af9a56a986a3ca2
+      internalID: -1103299864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_132
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1
+        width: 72
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a556591678849a6bc7798bf2391129
+      internalID: -143496900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_133
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 79
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648edb06deb1942de93453b626efbaab
+      internalID: -58841177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_134
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 79
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaa5e2324b404347950ed9d61eb1c76
+      internalID: -593000483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scyther_135
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1
+        width: 68
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6154f26957f10419185d0db7690f2533
+      internalID: 1632652800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Scyther_0: -1612386910
+      Scyther_1: 262842013
+      Scyther_10: 1153534743
+      Scyther_100: 1007680468
+      Scyther_101: -503297725
+      Scyther_102: -742041161
+      Scyther_103: -1387666663
+      Scyther_104: 627484915
+      Scyther_105: -801822681
+      Scyther_106: 523930546
+      Scyther_107: 642921729
+      Scyther_108: 536610777
+      Scyther_109: -2010845751
+      Scyther_11: -1803040445
+      Scyther_110: -1153401049
+      Scyther_111: 1574964479
+      Scyther_112: 1731795526
+      Scyther_113: -166774764
+      Scyther_114: 773932668
+      Scyther_115: 1412476094
+      Scyther_116: -560701000
+      Scyther_117: 1509189516
+      Scyther_118: 1075688753
+      Scyther_119: -650893805
+      Scyther_12: -156154957
+      Scyther_120: 460183598
+      Scyther_121: -333395835
+      Scyther_122: -528782134
+      Scyther_123: -793896027
+      Scyther_124: -271235353
+      Scyther_125: -174199619
+      Scyther_126: 1396073262
+      Scyther_127: -1347585171
+      Scyther_128: -1960510621
+      Scyther_129: -1878998671
+      Scyther_13: -636244643
+      Scyther_130: 2017440968
+      Scyther_131: -1103299864
+      Scyther_132: -143496900
+      Scyther_133: -58841177
+      Scyther_134: -593000483
+      Scyther_135: 1632652800
+      Scyther_14: -1985911688
+      Scyther_15: -1616308175
+      Scyther_16: -973737267
+      Scyther_17: 767281084
+      Scyther_18: -1122106899
+      Scyther_19: 546887870
+      Scyther_2: -59006713
+      Scyther_20: -934304529
+      Scyther_21: 848448589
+      Scyther_22: 1344015292
+      Scyther_23: 951513366
+      Scyther_24: 1367065657
+      Scyther_25: 368738640
+      Scyther_26: -482132597
+      Scyther_27: 375302459
+      Scyther_28: -1237039693
+      Scyther_29: -1813308968
+      Scyther_3: -1703446297
+      Scyther_30: -541693496
+      Scyther_31: 50332997
+      Scyther_32: 2040374973
+      Scyther_33: -1660152201
+      Scyther_34: 1690407362
+      Scyther_35: 166079773
+      Scyther_36: 371635571
+      Scyther_37: 1761022721
+      Scyther_38: 1345825483
+      Scyther_39: 1587147693
+      Scyther_4: 1537258183
+      Scyther_40: 723475179
+      Scyther_41: 946784585
+      Scyther_42: 1026966023
+      Scyther_43: -1199345356
+      Scyther_44: 1872803207
+      Scyther_45: 625895807
+      Scyther_46: -800477988
+      Scyther_47: -614633077
+      Scyther_48: -50070789
+      Scyther_49: 582408696
+      Scyther_5: -906735032
+      Scyther_50: -2012278400
+      Scyther_51: -953969212
+      Scyther_52: -389631055
+      Scyther_53: 1840728316
+      Scyther_54: -532269849
+      Scyther_55: 2117706564
+      Scyther_56: 120684847
+      Scyther_57: -711602323
+      Scyther_58: 939794168
+      Scyther_59: -2073280349
+      Scyther_6: -1181258570
+      Scyther_60: -972383430
+      Scyther_61: -1691002246
+      Scyther_62: -1528480006
+      Scyther_63: 1030615433
+      Scyther_64: 1429799220
+      Scyther_65: 528500720
+      Scyther_66: 909684667
+      Scyther_67: -959685400
+      Scyther_68: -1342155639
+      Scyther_69: -1555811077
+      Scyther_7: -5504404
+      Scyther_70: 201399600
+      Scyther_71: 1675419273
+      Scyther_72: 349391345
+      Scyther_73: -254795547
+      Scyther_74: -516735968
+      Scyther_75: -1147764792
+      Scyther_76: 1082834108
+      Scyther_77: -980730481
+      Scyther_78: 1359627055
+      Scyther_79: 464247501
+      Scyther_8: 1585820334
+      Scyther_80: -1682591109
+      Scyther_81: 955254168
+      Scyther_82: -949315261
+      Scyther_83: -1011188776
+      Scyther_84: 304086848
+      Scyther_85: -1432714461
+      Scyther_86: -853330332
+      Scyther_87: 1121626451
+      Scyther_88: 1323113627
+      Scyther_89: -2120168737
+      Scyther_9: -822612140
+      Scyther_90: 1966015905
+      Scyther_91: -1200419700
+      Scyther_92: -1477291781
+      Scyther_93: 1928406376
+      Scyther_94: -1684516217
+      Scyther_95: -367202577
+      Scyther_96: -1359749298
+      Scyther_97: 177816602
+      Scyther_98: 149169703
+      Scyther_99: 1737917056
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
