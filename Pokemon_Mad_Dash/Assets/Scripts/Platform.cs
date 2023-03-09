@@ -1,42 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Platform : MonoBehaviour
 {
-    private PlatformEffector2D myPlatformEffector2D;
-    public float waitTime;
+    PlatformEffector2D myPlatformEffector2D;
+    
 
-    // Start is called before the first frame update
     void Start()
     {
         myPlatformEffector2D = GetComponent<PlatformEffector2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (CrossPlatformInputManager.GetButton("GoDown"))
         {
-            waitTime = 0.5f;
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            if(waitTime <= 0)
-            {
-                myPlatformEffector2D.rotationalOffset = 180f;
-                waitTime = 0.5f;
-            }
-            else
-            {
-                waitTime -= Time.deltaTime;
-            }
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            myPlatformEffector2D.rotationalOffset = 0f;
+            myPlatformEffector2D.rotationalOffset = 180f;
+            StartCoroutine(resetPlatform());
         }
     }
+
+    IEnumerator resetPlatform()
+    {
+        yield return new WaitForSeconds(0.15f);
+        myPlatformEffector2D.rotationalOffset = 0f;
+    }
+
+
 }
