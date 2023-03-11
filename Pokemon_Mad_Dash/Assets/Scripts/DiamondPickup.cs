@@ -8,8 +8,11 @@ public class DiamondPickup : MonoBehaviour
     [SerializeField] int diamondValue = 100;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        AudioSource.PlayClipAtPoint(diamondSFX, Camera.main.transform.position);
-        FindObjectOfType<GameSession>().addToScore(diamondValue);
-        Destroy(gameObject);
+        if (collision.GetType().ToString().Equals("UnityEngine.BoxCollider2D"))
+        {
+            AudioSource.PlayClipAtPoint(diamondSFX, Camera.main.transform.position);
+            FindObjectOfType<GameSession>().addToScore(diamondValue);
+            Destroy(gameObject);
+        }
     }
 }
