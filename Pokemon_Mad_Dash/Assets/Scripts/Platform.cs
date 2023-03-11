@@ -1,42 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Platform : MonoBehaviour
 {
-    private PlatformEffector2D myPlatformEffector2D;
-    public float waitTime;
+    PlatformEffector2D myPlatformEffector2D;
+    TilemapCollider2D myTilemapCollider2D;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         myPlatformEffector2D = GetComponent<PlatformEffector2D>();
+        myTilemapCollider2D = GetComponent<TilemapCollider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (myTilemapCollider2D.IsTouchingLayers(LayerMask.GetMask("Player")))
         {
-            waitTime = 0.5f;
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            if(waitTime <= 0)
+            if (CrossPlatformInputManager.GetButton("GoDown"))
             {
                 myPlatformEffector2D.rotationalOffset = 180f;
-                waitTime = 0.5f;
-            }
-            else
-            {
-                waitTime -= Time.deltaTime;
+                StartCoroutine(resetPlatform());
             }
         }
+        
+    }
 
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            myPlatformEffector2D.rotationalOffset = 0f;
-        }
+    IEnumerator resetPlatform()
+    {
+        yield return new WaitForSeconds(0.15f);
+        myPlatformEffector2D.rotationalOffset = 0f;
     }
 }

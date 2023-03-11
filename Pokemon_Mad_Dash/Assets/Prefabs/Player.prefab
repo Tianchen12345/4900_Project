@@ -170,7 +170,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6623920874689396210}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
   m_IsTrigger: 0
@@ -220,7 +220,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 6623920874689396210}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -236,15 +236,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.45699525, y: 0.1543839}
-      - {x: 0.40445203, y: 0.4318725}
-      - {x: -0.24236181, y: 0.4332782}
-      - {x: -0.31092274, y: -0.19233385}
-      - {x: -0.19143593, y: -0.6175007}
-      - {x: 0.35011587, y: -0.6175005}
-      - {x: 0.41651654, y: -0.32146904}
-      - {x: 0.49422145, y: -0.21147457}
-      - {x: 0.44582748, y: -0.023013592}
+    - - {x: -0.19298637, y: -0.39160553}
+      - {x: -0.18255866, y: -0.62992877}
+      - {x: 0.3305858, y: -0.6299285}
+      - {x: 0.3401718, y: -0.39071175}
 --- !u!82 &8854258865540579166
 AudioSource:
   m_ObjectHideFlags: 0
