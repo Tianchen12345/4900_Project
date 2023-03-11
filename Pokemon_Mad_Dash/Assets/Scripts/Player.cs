@@ -53,6 +53,11 @@ public class Player : MonoBehaviour
             {
                 BeAttacked();
             }
+
+            if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Trap")))
+            {
+                BeAttacked();
+            }
         }
 
         ExitLevel();
@@ -65,6 +70,7 @@ public class Player : MonoBehaviour
         if (CrossPlatformInputManager.GetButtonDown("Vertical"))
         {
             myAnimator.SetTrigger("Enter Door");
+            Debug.LogWarning("acaadca");
         }
     }
 
