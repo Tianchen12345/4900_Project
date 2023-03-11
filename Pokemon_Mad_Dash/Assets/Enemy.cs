@@ -33,6 +33,7 @@ int currentHealth;
    Debug.Log("enemy die");
     GetComponent<Collider2D>().enabled = false;
     GetComponent<SpriteRenderer>().enabled =false;
+    GetComponent<Animator>().enabled = false;
     //this.enabled = false;
   }
   private void OnCollisionEnter2D(Collision2D collision){

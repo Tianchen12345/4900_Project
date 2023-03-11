@@ -24,7 +24,7 @@ public class EmberMovement : MonoBehaviour
         hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
         DestroyProjectile();
       }
-      
+
     }
     rb.velocity = transform.right * speed;
 

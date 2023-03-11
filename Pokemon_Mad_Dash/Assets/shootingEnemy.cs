@@ -19,7 +19,9 @@ public class shootingEnemy : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, patrolPoints[0].position, speed * Time.deltaTime);
         if(Vector2.Distance(transform.position,patrolPoints[0].position)<.2f)
         {
+
           transform.localScale = new Vector3(1,1,1);
+          Shoot();
           PatrolDestination =1;
         }
       }
@@ -28,14 +30,16 @@ public class shootingEnemy : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, patrolPoints[1].position, speed * Time.deltaTime);
         if(Vector2.Distance(transform.position,patrolPoints[1].position)<.2f)
         {
+
           transform.localScale = new Vector3(-1,1,1);
+          Shoot();
           PatrolDestination =0;
         }
       }
   }
   public void Shoot()
   {
-    GameObject bullet = Instantiate(xPrefab, AttackPoint.position, Quaternion.identity);
+    Instantiate(xPrefab, AttackPoint.position, Quaternion.identity);
 
   }
 }

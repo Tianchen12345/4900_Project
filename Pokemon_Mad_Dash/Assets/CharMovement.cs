@@ -96,7 +96,7 @@ public class CharMovement : MonoBehaviour
      if(health<=0){
 
        //Destroy(gameObject);
-       SceneManager.LoadScene("Level 2");
+       SceneManager.LoadScene("Test Level");
      }
    }
 }
