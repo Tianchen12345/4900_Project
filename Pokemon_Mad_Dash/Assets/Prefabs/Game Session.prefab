@@ -329,7 +329,6 @@ MonoBehaviour:
   - {fileID: 1143634092594163199}
   - {fileID: 7555090725921078634}
   - {fileID: 1934611399371360652}
-  gameOverScreen: {fileID: 0}
   Player: {fileID: 0}
 --- !u!1 &3320340645826035897
 GameObject:

@@ -59,12 +59,6 @@ public class GameSession : MonoBehaviour
         else
         {
             resetGame();
-            //gameOverScreen.SetActive(true);
-            //playerLives = 3;
-            //updatedHearts();
-            //livesText.text = playerLives.ToString();
-            //Player.SetActive(false);
-
         }
     }
 

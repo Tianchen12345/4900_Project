@@ -135,5 +135,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d57b3fdbb9c154997cd8fe4ca35067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementDistance: 5
+  movementDistance: 3
   Sawspeed: 5
