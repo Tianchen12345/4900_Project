@@ -10,11 +10,14 @@ public class GameSession : MonoBehaviour
     [SerializeField] int playerLives = 3, playerScore = 0;
     [SerializeField] Text livesText, scoreText;
     [SerializeField] Image[] hearts;
+
+    [SerializeField] private GameObject Player;
+
     private void Awake()
     {
         int numOfGameSession = FindObjectsOfType<GameSession>().Length;
 
-        if(numOfGameSession > 1)
+        if (numOfGameSession > 1)
         {
             Destroy(gameObject);
         }

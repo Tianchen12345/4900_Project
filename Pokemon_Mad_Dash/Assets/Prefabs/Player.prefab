@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 8854258865540579166}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,10 +236,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.19298637, y: -0.39160553}
+    - - {x: -0.08612716, y: -0.5497569}
       - {x: -0.18255866, y: -0.62992877}
       - {x: 0.3305858, y: -0.6299285}
-      - {x: 0.3401718, y: -0.39071175}
+      - {x: 0.25895858, y: -0.5488632}
 --- !u!82 &8854258865540579166
 AudioSource:
   m_ObjectHideFlags: 0
