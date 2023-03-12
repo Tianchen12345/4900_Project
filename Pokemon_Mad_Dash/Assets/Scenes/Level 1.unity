@@ -1917,7 +1917,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1888146, y: -3.29928, z: -10.132756}
+  m_LocalPosition: {x: -0.81945205, y: -1.0894098, z: -10.132756}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14030,6 +14030,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8700519600876393933, guid: 9aa26c2bb25d6f54f9af10d7325c24b2, type: 3}
   m_PrefabInstance: {fileID: 1198868744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1200314762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6623920874689396210, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+  m_PrefabInstance: {fileID: 1879248232}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1274986442
 PrefabInstance:
@@ -43228,10 +43233,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 49.393692, y: 32.812443}
-      - {x: -11.144144, y: 32.76262}
-      - {x: -11.064983, y: -10.206968}
-      - {x: 49.075207, y: -9.978188}
+    - - {x: 41.179035, y: 24.690084}
+      - {x: 5.4111667, y: 24.284533}
+      - {x: -9.243321, y: 12.424166}
+      - {x: -9.614342, y: 6.326407}
+      - {x: -9.772792, y: -6.1457896}
+      - {x: 41.50665, y: -5.8247104}
 --- !u!1 &1387137795
 GameObject:
   m_ObjectHideFlags: 0
@@ -43319,6 +43326,10 @@ MonoBehaviour:
   - m_Hash: 432961822
     m_ParentHash: 756556552
   - m_Hash: 2095466574
+    m_ParentHash: 756556552
+  - m_Hash: 1169233534
+    m_ParentHash: 756556552
+  - m_Hash: -1258400062
     m_ParentHash: 756556552
 --- !u!1 &1437210554
 GameObject:
@@ -43701,6 +43712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Session
       objectReference: {fileID: 0}
+    - target: {fileID: 749561055799169781, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1200314762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
 --- !u!1001 &1172206839100253844
