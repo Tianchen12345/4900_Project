@@ -7,8 +7,7 @@ public class shootingEnemy : MonoBehaviour
   public Transform [] patrolPoints;
   public float speed;
   [SerializeField]public int PatrolDestination;
-[SerializeField]  private GameObject xPrefab;
-[SerializeField]  private Transform AttackPoint;
+
 
 
   // Update is called once per frame
@@ -21,7 +20,7 @@ public class shootingEnemy : MonoBehaviour
         {
 
           transform.localScale = new Vector3(1,1,1);
-          Shoot();
+        
           PatrolDestination =1;
         }
       }
@@ -32,14 +31,10 @@ public class shootingEnemy : MonoBehaviour
         {
 
           transform.localScale = new Vector3(-1,1,1);
-          Shoot();
+
           PatrolDestination =0;
         }
       }
   }
-  public void Shoot()
-  {
-    Instantiate(xPrefab, AttackPoint.position, Quaternion.identity);
 
-  }
 }

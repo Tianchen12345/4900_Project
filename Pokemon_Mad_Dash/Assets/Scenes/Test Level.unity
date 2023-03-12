@@ -893,7 +893,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 13
-      m_TileSpriteIndex: 20
+      m_TileSpriteIndex: 24
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1433,7 +1433,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 19
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1483,7 +1483,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 17
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1562,22 +1562,22 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1558004743, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: -519971357, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1338700097, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
+    m_Data: {fileID: -1558004743, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 825177081, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
+    m_Data: {fileID: 1338700097, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1195459080, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 566662692, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1805173461, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 825177081, guid: 73f0355449ece9a4588df9f391e962bf, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 60
     m_Data:
@@ -8929,27 +8929,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!1 &1003561104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2932293137403536598, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
-  m_PrefabInstance: {fileID: 1719557940}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1003561110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003561104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d61015aa055e4c7c833b5643680d864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  targetTag: Player
-  lifeTime: 0
-  distance: 0
 --- !u!1 &1039395715
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,6 +8944,7 @@ GameObject:
   - component: {fileID: 1039395720}
   - component: {fileID: 1039395719}
   - component: {fileID: 1039395722}
+  - component: {fileID: 1039395723}
   m_Layer: 10
   m_Name: Scyther
   m_TagString: Enemy
@@ -9067,7 +9047,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039395715}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36484285774dc4b6b8ca68383386e3f8, type: 3}
   m_Name: 
@@ -9077,8 +9057,6 @@ MonoBehaviour:
   - {fileID: 530772144}
   speed: 5
   PatrolDestination: 0
-  xPrefab: {fileID: 2932293137403536598, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
-  AttackPoint: {fileID: 29451293}
 --- !u!70 &1039395720
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9131,6 +9109,21 @@ MonoBehaviour:
   charMovement: {fileID: 1363617491}
   maxHealth: 50
   damage: 10
+--- !u!114 &1039395723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039395715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a582220b6f8494dc2acee9734a471d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPrefab: {fileID: 2932293137403536598, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
+  AttackPoint: {fileID: 29451293}
+  animator: {fileID: 1039395718}
 --- !u!1001 &1074327386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37792,7 +37785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2932293137403536598, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2932293137403536598, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
       propertyPath: m_TagString
