@@ -4,10 +4,17 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseGameScreen;
+    [SerializeField] private GameObject gameSession;
+
+    AudioSource myMusic;
 
     private void Awake()
     {
-        pauseGameScreen.SetActive(false);
+
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 3)
+        {
+            pauseGameScreen.SetActive(false);
+        }
     }
     public void StartGame()
     {
@@ -24,11 +31,15 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         pauseGameScreen.SetActive(false);
+        Destroy(gameSession);
+        Time.timeScale = 1;
     }
 
     public void Quit()
     {
         Application.Quit();
+
+        UnityEditor.EditorApplication.isPlaying = false;
     }
     #endregion
 
@@ -62,6 +73,28 @@ public class UIManager : MonoBehaviour
         {
             Time.timeScale = 1;
         }
+    }
+
+
+    public void ChangeMusicVolume()
+    {
+        //get the initial volume of Sound and Change it
+        float currentVolume = PlayerPrefs.GetFloat("MusicVolume");
+        currentVolume += 0.2f;
+
+        //check if the volume reach the maximum and minimum
+        if (currentVolume < 0)
+        {
+            currentVolume = 1;
+        }
+        else if (currentVolume > 1)
+        {
+            currentVolume = 0;
+        }
+        //assign final volume
+        myMusic.volume = currentVolume;
+
+        PlayerPrefs.SetFloat("MusicVolume", currentVolume);
     }
     #endregion
 }

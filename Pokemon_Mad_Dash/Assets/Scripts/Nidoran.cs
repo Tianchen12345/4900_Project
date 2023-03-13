@@ -41,14 +41,18 @@ public class Nidoran : MonoBehaviour
 
     private void EnemyMovement()
     {
-        if (IsFacingLeft())
+        if(GetComponent<BoxCollider2D>().enabled)
         {
-            NidoranRigidbody.velocity = new Vector2(-nidoranRunSpeed, 0f);
+            if (IsFacingLeft())
+            {
+                NidoranRigidbody.velocity = new Vector2(-nidoranRunSpeed, 0f);
+            }
+            else
+            {
+                NidoranRigidbody.velocity = new Vector2(nidoranRunSpeed, 0f);
+            }
         }
-        else
-        {
-            NidoranRigidbody.velocity = new Vector2(nidoranRunSpeed, 0f);
-        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
