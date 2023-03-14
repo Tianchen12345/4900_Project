@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseGameScreen;
-    [SerializeField] private GameObject gameSession;
+    [SerializeField] private GameObject MainMenuScreen;
+    [SerializeField] private GameObject SettingScreen;
 
     AudioSource myMusic;
 
@@ -12,27 +13,32 @@ public class UIManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
 
-        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 3)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 4)
         {
             pauseGameScreen.SetActive(false);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SettingScreen.SetActive(false);
+            MainMenuScreen.SetActive(true);
         }
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     #region Game Over
     public void Restart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         pauseGameScreen.SetActive(false);
-        Destroy(gameSession);
         Time.timeScale = 1;
     }
 
@@ -98,4 +104,16 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetFloat("musicVolume", currentVolume);
     }
     #endregion
+
+    public void SettingBackToMenu()
+    {
+        MainMenuScreen.SetActive(true);
+        SettingScreen.SetActive(false);
+    }
+
+    public void MenuToSetting()
+    {
+        SettingScreen.SetActive(true);
+        MainMenuScreen.SetActive(false);
+    }
 }
