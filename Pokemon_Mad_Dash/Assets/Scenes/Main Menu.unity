@@ -13589,7 +13589,6 @@ MonoBehaviour:
   - {fileID: 647168422}
   - {fileID: 1981135806}
   - {fileID: 901344253}
-  gameOverScreen: {fileID: 613014830}
 --- !u!114 &1677345643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13824,6 +13823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9843ea24dc603ac42bc9342d19886889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseGameScreen: {fileID: 0}
+  gameSession: {fileID: 0}
 --- !u!1 &1981135805
 GameObject:
   m_ObjectHideFlags: 0

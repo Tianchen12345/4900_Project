@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class SelectionArrow : MonoBehaviour
 {
     [SerializeField] private RectTransform[] options;
-    [SerializeField] private GameObject gameOverScreen;
 
     private RectTransform myRectTransform;
     private int currentPosition;

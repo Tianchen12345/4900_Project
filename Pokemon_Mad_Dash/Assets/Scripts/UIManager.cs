@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
+        myMusic = GetComponent<AudioSource>();
 
         if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 3)
         {
@@ -79,7 +80,7 @@ public class UIManager : MonoBehaviour
     public void ChangeMusicVolume()
     {
         //get the initial volume of Sound and Change it
-        float currentVolume = PlayerPrefs.GetFloat("MusicVolume");
+        float currentVolume = PlayerPrefs.GetFloat("musicVolume");
         currentVolume += 0.2f;
 
         //check if the volume reach the maximum and minimum
@@ -94,7 +95,7 @@ public class UIManager : MonoBehaviour
         //assign final volume
         myMusic.volume = currentVolume;
 
-        PlayerPrefs.SetFloat("MusicVolume", currentVolume);
+        PlayerPrefs.SetFloat("musicVolume", currentVolume);
     }
     #endregion
 }
