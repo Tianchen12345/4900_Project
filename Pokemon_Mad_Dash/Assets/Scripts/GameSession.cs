@@ -33,6 +33,14 @@ public class GameSession : MonoBehaviour
         scoreText.text = playerScore.ToString();
     }
 
+    private void Update()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     public void addToScore(int value)
     {
         playerScore += value;
@@ -86,7 +94,7 @@ public class GameSession : MonoBehaviour
 
     private void resetGame()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(0);
         Destroy(gameObject);
     }
 }

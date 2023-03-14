@@ -4,31 +4,49 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseGameScreen;
+    [SerializeField] private GameObject MainMenuScreen;
+    [SerializeField] private GameObject SettingScreen;
+
+    AudioSource myMusic;
 
     private void Awake()
     {
-        pauseGameScreen.SetActive(false);
+        myMusic = GetComponent<AudioSource>();
+
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 4)
+        {
+            pauseGameScreen.SetActive(false);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SettingScreen.SetActive(false);
+            MainMenuScreen.SetActive(true);
+        }
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     #region Game Over
     public void Restart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         pauseGameScreen.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void Quit()
     {
         Application.Quit();
+
+        UnityEditor.EditorApplication.isPlaying = false;
     }
     #endregion
 
@@ -63,5 +81,39 @@ public class UIManager : MonoBehaviour
             Time.timeScale = 1;
         }
     }
+
+
+    public void ChangeMusicVolume()
+    {
+        //get the initial volume of Sound and Change it
+        float currentVolume = PlayerPrefs.GetFloat("musicVolume");
+        currentVolume += 0.2f;
+
+        //check if the volume reach the maximum and minimum
+        if (currentVolume < 0)
+        {
+            currentVolume = 1;
+        }
+        else if (currentVolume > 1)
+        {
+            currentVolume = 0;
+        }
+        //assign final volume
+        myMusic.volume = currentVolume;
+
+        PlayerPrefs.SetFloat("musicVolume", currentVolume);
+    }
     #endregion
+
+    public void SettingBackToMenu()
+    {
+        MainMenuScreen.SetActive(true);
+        SettingScreen.SetActive(false);
+    }
+
+    public void MenuToSetting()
+    {
+        SettingScreen.SetActive(true);
+        MainMenuScreen.SetActive(false);
+    }
 }
