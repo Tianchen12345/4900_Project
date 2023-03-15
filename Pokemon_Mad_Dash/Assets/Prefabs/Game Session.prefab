@@ -1289,7 +1289,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseGameScreen: {fileID: 1037198272}
-  gameSession: {fileID: 749561055799169780}
   MainMenuScreen: {fileID: 0}
   SettingScreen: {fileID: 0}
 --- !u!82 &749561057220829844
