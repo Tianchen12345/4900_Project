@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseGameScreen;
     [SerializeField] private GameObject MainMenuScreen;
     [SerializeField] private GameObject SettingScreen;
+    [SerializeField] private GameObject KeySettingScreen;
 
     AudioSource myMusic;
 
@@ -22,6 +23,7 @@ public class UIManager : MonoBehaviour
         {
             SettingScreen.SetActive(false);
             MainMenuScreen.SetActive(true);
+            KeySettingScreen.SetActive(false);
         }
     }
     public void StartGame()
@@ -87,7 +89,7 @@ public class UIManager : MonoBehaviour
     {
         //get the initial volume of Sound and Change it
         float currentVolume = PlayerPrefs.GetFloat("musicVolume");
-        currentVolume += 0.2f;
+        currentVolume += 0.1f;
 
         //check if the volume reach the maximum and minimum
         if (currentVolume < 0)
@@ -115,5 +117,17 @@ public class UIManager : MonoBehaviour
     {
         SettingScreen.SetActive(true);
         MainMenuScreen.SetActive(false);
+    }
+
+    public void MenuToKeySetting()
+    {
+        KeySettingScreen.SetActive(true);
+        MainMenuScreen.SetActive(false);
+    }
+
+    public void KeySettingBackToMenu()
+    {
+        MainMenuScreen.SetActive(true);
+        KeySettingScreen.SetActive(false);
     }
 }
