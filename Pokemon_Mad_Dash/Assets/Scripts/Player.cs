@@ -6,23 +6,23 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 10f;
-    [SerializeField] float jumpSpeed = 13f;
-    [SerializeField] float climbSpeed = 8f;
-    [SerializeField] float attackRadius = 2f;
-    [SerializeField] Vector2 beAttacked = new Vector2(10f, 30f);
-    [SerializeField] Transform hurtBox;
-    [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX;
+    [SerializeField] float runSpeed = 10f;  // The player's movement speed on the ground
+    [SerializeField] float jumpSpeed = 13f; // The player's jump speed
+    [SerializeField] float climbSpeed = 8f; // The player's climbing speed
+    [SerializeField] float attackRadius = 2f;   // player attack range
+    [SerializeField] Vector2 beAttacked = new Vector2(10f, 20f);    // The force and direction of knockback when hit
+    [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
+    [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX; // SFX is Sound effects
 
+    // Components of the player object
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
     BoxCollider2D myBoxCollider2D;
     PolygonCollider2D mypolygonCollider2D;
     AudioSource myAudioSource;
 
-
-    float MyGravityScale;
-    bool injured = false;
+    float MyGravityScale;   // Gravity scale of the player's rigidbody
+    bool injured = false;   // player injury state
 
     // Start is called before the first frame update
     void Start()
@@ -35,34 +35,35 @@ public class Player : MonoBehaviour
         
         MyGravityScale = myRigidbody2D.gravityScale;
 
-        myAnimator.SetTrigger("Exit Door");
-
-
+        myAnimator.SetTrigger("Exit Door"); // Trigger the "Exit Door" animation state at the begining of game
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Only allow player actions if not injured
         if (!injured)
         {
             Run();
             Attack();
             Jump();
             Climb();
+
+            // Check for collision with enemy or trap layers to trigger injury
             if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy")))
             {
                 BeAttacked();
             }
-
             if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Trap")))
             {
                 BeAttacked();
             }
         }
-
+        // Check for collision with interactable layer to trigger enter door animation
         ExitLevel();
     }
 
+    // Check for collision with interactable layer to trigger enter door animation
     private void ExitLevel()
     {
         if (!myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))){   return; }
@@ -73,37 +74,43 @@ public class Player : MonoBehaviour
         }
     }
 
+    // Load the next level when player enters door
     public void LoadNextLevel()
     {
         FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
         TurnOffRenderer();
     }
 
+    // Turn off player sprite renderer
     private void TurnOffRenderer()
     {
         GetComponent<SpriteRenderer>().enabled = false;
     }
 
+    // The player is attacked
     public void BeAttacked()
     {
+        // Add a thrust to the player
         myRigidbody2D.velocity = beAttacked * new Vector2(-transform.localScale.x, 1f);
 
         myAnimator.SetTrigger("Be Attacked");
         injured = true;
         myAudioSource.PlayOneShot(beAttackedSFX);
 
+        // Take the player's life, if not enough, reset the game
         FindObjectOfType<GameSession>().ProcessPlayerDeath();
 
         StartCoroutine(recoveryFromInjury());
     }
 
+    // continue when player recovers from injury
     IEnumerator recoveryFromInjury()
     {
         yield return new WaitForSeconds(1f);
-
         injured = false;
     }
 
+    // Allow the player to climb when the player touches the ladder
     private void Climb()
     {
         if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladder")))
@@ -112,22 +119,18 @@ public class Player : MonoBehaviour
             Vector2 climbingVelocity = new Vector2(myRigidbody2D.velocity.x, controlThrow * climbSpeed);
 
             myRigidbody2D.velocity = climbingVelocity;
-
-            myRigidbody2D.gravityScale = 0f;
+            myRigidbody2D.gravityScale = 0f;    // Disable gravity to make the player climb up the ladder
         }
         else
         {
-            myRigidbody2D.gravityScale = MyGravityScale;
+            myRigidbody2D.gravityScale = MyGravityScale;    // If the player is not touching a ladder, enable gravity again
         }
     }
 
     private void Jump()
     {
-
-        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))))
-        {
-            return;
-        }
+        // Check if the player is touching the ground
+        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))){  return;}
 
         bool isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
 
@@ -140,7 +143,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Running is a method for running
+    // Allows the player to run when the player presses the left and right buttons
     private void Run()
     {
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");
@@ -149,11 +152,11 @@ public class Player : MonoBehaviour
         myRigidbody2D.velocity = playerVelocity;
 
         FlipSprites();
-
         ChangingToRunningState();
         Attack();
     }
 
+    // Play running SFX when the player is running
     void PlayRunningSFX()
     {
         bool playerMovesHorizontally = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
@@ -173,6 +176,7 @@ public class Player : MonoBehaviour
 
     private void Attack()
     {
+        // Trigger the attacking animation and play the attacking sound effect
         if (CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
             myAnimator.SetTrigger("Attacking");
