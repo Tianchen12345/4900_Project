@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         myBoxCollider2D = GetComponent<BoxCollider2D>();
         mypolygonCollider2D = GetComponent<PolygonCollider2D>();
         myAudioSource = GetComponent<AudioSource>();
-        
+
         MyGravityScale = myRigidbody2D.gravityScale;
 
         myAnimator.SetTrigger("Exit Door"); // Trigger the "Exit Door" animation state at the begining of game
@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
     // Check for collision with interactable layer to trigger enter door animation
     private void ExitLevel()
     {
-        if (!myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))){   return; }
+        if (!myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))) { return; }
 
         if (CrossPlatformInputManager.GetButtonDown("Vertical"))
         {
@@ -130,7 +130,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
         // Check if the player is touching the ground
-        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))){  return;}
+        if (!(mypolygonCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))) { return; }
 
         bool isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
 
@@ -184,12 +184,12 @@ public class Player : MonoBehaviour
 
             Collider2D[] enemyToHit = Physics2D.OverlapCircleAll(hurtBox.position, attackRadius, LayerMask.GetMask("Enemy"));
 
-            foreach(Collider2D enemy in enemyToHit)
+            foreach (Collider2D enemy in enemyToHit)
             {
                 enemy.GetComponent<Nidoran>().Dying();
             }
         }
-        
+
     }
 
     private void ChangingToRunningState()
@@ -225,7 +225,8 @@ public class Player : MonoBehaviour
         if (currentVolume < 0)
         {
             currentVolume = 1;
-        }else if(currentVolume > 1)
+        }
+        else if (currentVolume > 1)
         {
             currentVolume = 0;
         }
