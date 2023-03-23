@@ -1,0 +1,3291 @@
+fileFormatVersion: 2
+guid: 414919f62abd04c64bb1fe41f9423427
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Breloom_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 50
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e95f203a7964ae4811558b2734da40
+      internalID: -1741427971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 275
+        width: 48
+        height: 62
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cc06a5181aa46d383661ac26f3be3e
+      internalID: 1969379344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 275
+        width: 47
+        height: 60
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1283073a1bcc478fa8964a5d2eb1234
+      internalID: 1169121200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 275
+        width: 45
+        height: 59
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd7ab2f1b0af4a17bdabf28613bbf19
+      internalID: 1648711647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_4
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 317
+        width: 16
+        height: 20
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11f30a1b7f24438be2ab32174ddfa0
+      internalID: 1088769431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 312
+        width: 17
+        height: 27
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba9bc8b21454714ab4c0808a390bfc
+      internalID: -1063999138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 320
+        width: 17
+        height: 18
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87723e66b9b6f4a2e90187ae2e1aa26d
+      internalID: -1033598457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 319
+        width: 26
+        height: 20
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb8dcb5caa5c4c878242ad77869d9eb
+      internalID: 937014106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_8
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 319
+        width: 19
+        height: 19
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6522a40ead5747d8800f90ea448dc5f
+      internalID: -1031334325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 315
+        width: 19
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e77d574372741feaab8f791608ac38
+      internalID: 1069379578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 316
+        width: 17
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5640d6b2aeb4442a3bb21a8b61e519da
+      internalID: 605634778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 315
+        width: 12
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4c2e58cc469426a81f6181124d76ed
+      internalID: 1534359214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 275
+        width: 50
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55765fe692e6459181f435751c8ac20
+      internalID: -867166865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_13
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 275
+        width: 50
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3b43c07068e4e8b871b13e638068d7
+      internalID: -943583668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_14
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 275
+        width: 50
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7b0c20d5195490e87e2cc870127554
+      internalID: 17102604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 286
+        width: 14
+        height: 23
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491308fe15d684ed7b0858c6f99e35e7
+      internalID: -123083727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 289
+        width: 17
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3f8a55909bc475cb4552b144024864
+      internalID: -1008421809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 289
+        width: 26
+        height: 20
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2c292b7488497faa880f2f95feeef
+      internalID: -2010134915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 294
+        width: 21
+        height: 17
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c02ab6f321b472bbc480e1f4bb5ce3
+      internalID: 10730163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 286
+        width: 19
+        height: 23
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4d76f105bfd41aab352554d66d4d08
+      internalID: -921369424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_20
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 292
+        width: 22
+        height: 19
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f799c681914264774bf47e4ccc9af6d5
+      internalID: -1749321582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_21
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 286
+        width: 12
+        height: 23
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417f7b4bdef344acc9711c93f35b13b8
+      internalID: 398423434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_22
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 285
+        width: 16
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988a1ace56f7a434ca901a11420660d7
+      internalID: 833584744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 209
+        width: 47
+        height: 65
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1730631459804c99ae496f01470c746
+      internalID: -1124933599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 247
+        width: 18
+        height: 25
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f1f36030fd4b948060f50c423482b
+      internalID: 769587484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_25
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 243
+        width: 15
+        height: 29
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36df9f2a1eecb4820a7bb7ee6096faa4
+      internalID: 796048432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_26
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 244
+        width: 20
+        height: 36
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c5c93834c0842cd94c5d663db36f9e
+      internalID: 1260338195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 244
+        width: 19
+        height: 38
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e62a7edd89e404bb410a316862a9ff
+      internalID: 269652174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_28
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 244
+        width: 21
+        height: 37
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132a12a8053eb4af18e1d03486ef7710
+      internalID: -224398272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_29
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 263
+        width: 23
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16c30d0e4c594d0aba9cd9d666ad921
+      internalID: -1399570341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_30
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 250
+        width: 16
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfded1410ea7940a0ae54592c520638e
+      internalID: -1832688976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_31
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 246
+        width: 12
+        height: 28
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e09fa92193254cdd88c3c828ec4824e
+      internalID: 819861044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_32
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 250
+        width: 30
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e580a7eea5a5421399e35a7b042fdb6
+      internalID: -1791904273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 249
+        width: 11
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0736cdc79b0b94f77b9099beda3448d3
+      internalID: 466669047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ae1b633765d4387bd7f0015d62c862
+      internalID: -324645200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_35
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 249
+        width: 9
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f750dad6a877457f906ac00f80458ff
+      internalID: -877112907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_36
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f30090a97a4b27b5a491b9af1cc84
+      internalID: -1423548686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 249
+        width: 4
+        height: 6
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75400a17dc6ed42c3aa1875a98315c8a
+      internalID: -1517465376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3d7a0b8bca34b2499622b0ec4057a8
+      internalID: 1666659386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_39
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 249
+        width: 11
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27d6627cd5904915adae5e7d26bc41d
+      internalID: 46017075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 247
+        width: 9
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83df39cf1fe4c02b6104ba82370183
+      internalID: 2129543146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87602a63693754b73971121a310e6dd1
+      internalID: -1623852046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_42
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93071874485a415fb001dcb15ae0a00
+      internalID: -439266155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_43
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 247
+        width: 9
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b46a9d0331994df1b3aebb7d016e758
+      internalID: 664663763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_44
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 249
+        width: 4
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd120b0a06774a6cb67d369427c3dbd
+      internalID: -447497503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_45
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 249
+        width: 4
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c844ea8695eb44078d7c60ef5aa221b
+      internalID: 874729631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 250
+        width: 4
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e6c732e321d46f9a66e23792925d21
+      internalID: 1455362744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 250
+        width: 5
+        height: 6
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269354303e7bb4a7a8b7f44df2202918
+      internalID: -1948175700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_48
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 249
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f37d9fab4644199772c96d9c70793
+      internalID: 1008631371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_49
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 249
+        width: 10
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8be914c45b74e9bba6a79c8f8f613d
+      internalID: -1353966206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_50
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 254
+        width: 33
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a47d0f1c11b84e8b853a29f0f40c02a
+      internalID: 1125954877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_51
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 239
+        width: 30
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8f3a2739594574b9909d5e9f57c40
+      internalID: -242625672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 249
+        width: 4
+        height: 4
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b27274863826496eb36b0d6c09187e5
+      internalID: 1562602929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_53
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d255dde71c34241d5bf7a175d16ecc26
+      internalID: -1531677020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_54
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31981ac7adf054a5fa593b6c7eda987a
+      internalID: -1196385975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_55
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 250
+        width: 7
+        height: 4
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0712747d50b424010a21fa760f36e4a2
+      internalID: -2141309267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_56
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff0483b892324d5aa8b7315d843dc7a
+      internalID: 1492223244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e5e2ac6a9f14e3aafd51c4d48788a8
+      internalID: -277960773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_58
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 250
+        width: 7
+        height: 4
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb6382b5fbc45bc9b57403757be9f1
+      internalID: 579292366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_59
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 248
+        width: 4
+        height: 6
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9455900dc347424db59a76308f60676
+      internalID: 15264965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_60
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97574b917c254d739db44fed32a1539
+      internalID: 625186821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_61
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 249
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1fe95c4e1114c04a7d8ad8728c3fa9
+      internalID: -2075819829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_62
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 245
+        width: 38
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b335a4220e6848ba9a13bd021eeecef
+      internalID: -828281214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_63
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 225
+        width: 30
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed75847e6384c3c99825ed8a3cb33e
+      internalID: 1500819419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_64
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 237
+        width: 8
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b8ec3014f7f46558a3b22d287d1097
+      internalID: -1631929963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd1cc6b4fc21478a82a41a9fbadda66
+      internalID: -2014619230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_66
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f6c7628d9694dbb80077a93193b4c6
+      internalID: -1118942213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_67
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c12c451750a2454c96e827fc8619dfd
+      internalID: -1548313054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_68
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d943e684b82449d281903987974df85
+      internalID: 516095139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_69
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 237
+        width: 9
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea42dd293b214d0caeb29df13f002d0
+      internalID: -1720743499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_70
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfebfcda016234e47ab902de67baffda
+      internalID: 275847417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_71
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea8e9d562814fba84711961789beed
+      internalID: 190630604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_72
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 237
+        width: 5
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d62d6a8d7824253a27603aa21a22b5
+      internalID: -756921924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_73
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 237
+        width: 8
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1247057406ce41448dd945593899ae5
+      internalID: -1021267777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_74
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 237
+        width: 4
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3059a96464dc451ea4ecb6a933e5242
+      internalID: -1451497934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_75
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 237
+        width: 16
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0050d036902245a489f0c181b585508
+      internalID: -2064507649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_76
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 237
+        width: 4
+        height: 4
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632ce574c66004532bc96852002ac338
+      internalID: -730738888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_77
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682ec71abf78e4bb4b30c45ce963b57a
+      internalID: 1378659295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_78
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 237
+        width: 4
+        height: 5
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2899f32a8b9664809baa0f237fae6346
+      internalID: 1572597584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_79
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 237
+        width: 8
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b702192789794544a1254131676fbb4
+      internalID: 1816557439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_80
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 224
+        width: 15
+        height: 20
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87039998a6014b5381dad434647e021
+      internalID: -1835802331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_81
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 220
+        width: 16
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0234c0464f1574d6485af960ebec82a4
+      internalID: 982572414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_82
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 224
+        width: 15
+        height: 21
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610d860cb6d5248f7a3e1eae1b3ceaf5
+      internalID: -1694791313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_83
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 220
+        width: 15
+        height: 25
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086d030e2b8164e9498bb07776de0214
+      internalID: 1945925345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_84
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 223
+        width: 22
+        height: 15
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e22c362bf4945dcafa670eee45b081
+      internalID: -669978555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_85
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 229
+        width: 10
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a004eae8c9314c648f2f97f0f9a34c9
+      internalID: 2103905414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_86
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 234
+        width: 20
+        height: 15
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c49ad2ef7c294a24b081436e0d92911
+      internalID: 1779034148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_87
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 212
+        width: 22
+        height: 34
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe39055fda54d4c8e9e4376185eacf
+      internalID: -414948788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_88
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 211
+        width: 21
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb0b416ebe3946e4bdba5758f95b609
+      internalID: 2051527332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_89
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 227
+        width: 8
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a2b5fd1ba86407083d251c9add84f7
+      internalID: 723250304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 50
+        height: 65
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9b5391378c14757bd61182e0f11e49
+      internalID: -1359209108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 148
+        width: 54
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07124e97fce4cf89f98ffbd1b0251e
+      internalID: -1476851672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_92
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 150
+        width: 54
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7921478fad95f41f38c259dc24728c4e
+      internalID: -632828572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_93
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 143
+        width: 53
+        height: 62
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06922e528e1f44fda04cd00a711c147
+      internalID: 1706081306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_94
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 142
+        width: 45
+        height: 61
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82ecdad6cf384160a42deba3c4f11f6
+      internalID: 718107783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_95
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 148
+        width: 47
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e56f51ae28a44f0987deeb58981fb86
+      internalID: 1893735789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_96
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 150
+        width: 47
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647664dafba1f4c1583c243abbedc600
+      internalID: 870247331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_97
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 144
+        width: 44
+        height: 61
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b230441e458a24caf9bf63a5de3db36c
+      internalID: -811147571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_98
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 198
+        width: 30
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb30b4487c441453d9c6574ddd7a2156
+      internalID: -250967827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_99
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 198
+        width: 30
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ec1d3557584324a19fa1c4b0636ae
+      internalID: 2131710435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_100
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 202
+        width: 16
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791e5d6872ac7454a8246571386f2e70
+      internalID: 1691853213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_101
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 198
+        width: 13
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88da7976df22e4362bd7784ab210ba85
+      internalID: 1765199724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_102
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 140
+        width: 47
+        height: 62
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3ac075969a45c3a2d0319fc6b2eba
+      internalID: -951706244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_103
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 138
+        width: 43
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ce39a064564d47b4b19e62a2bf37b
+      internalID: -109245118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_104
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 179
+        width: 20
+        height: 13
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942ed5c6847c3461b951c5749690153b
+      internalID: 368912179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_105
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 177
+        width: 16
+        height: 19
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41d3bb541b1844719a0ab2471c0383e
+      internalID: 1618782655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_106
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 174
+        width: 13
+        height: 23
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207ed41db01904a9a808a9cd4a19df2a
+      internalID: 1758214095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_107
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 175
+        width: 30
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991d0041d1f474635b2e4b718fd8b367
+      internalID: 60793105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_108
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 175
+        width: 30
+        height: 21
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b84497b7b024a6da5cbff14bec26d8
+      internalID: 226870566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_109
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 148
+        width: 14
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd69cf4371d14ea5bba01b90a0827f5
+      internalID: -2098641912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_110
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 151
+        width: 16
+        height: 21
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09fa5fbba22b49899fefacd595811c2
+      internalID: 2067241225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_111
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 148
+        width: 13
+        height: 25
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b209fdca077244918e7e250cb11d268
+      internalID: 1348915718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_112
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 151
+        width: 16
+        height: 20
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3d3211e3c2f453190e1d5761ed6cc9
+      internalID: 1142066480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_113
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 148
+        width: 13
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38ad8f72d25496f9b71aa035baacef
+      internalID: 161958527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_114
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 159
+        width: 20
+        height: 14
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69447509c3cf840daaa3fa058cbfd687
+      internalID: 1879111576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_115
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 160
+        width: 20
+        height: 13
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ae8239e10c84c2092f5add712cd184
+      internalID: -2114909380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_116
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 139
+        width: 10
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576061196ea624d55a0e1fb1b6155ca4
+      internalID: 608009821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_117
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 137
+        width: 10
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0097b3aa6517348b8a4f994661dfce16
+      internalID: 1851616104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_118
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 135
+        width: 9
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e0a8a1bf90465bbaa273b8f19197a
+      internalID: -1985639088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_119
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 134
+        width: 8
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0dba7ba18e34c82bb38be1678f1408
+      internalID: 328253323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_120
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 136
+        width: 9
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd48c8b8a0c4f2c8da7ae805645fc4
+      internalID: 1431694983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_121
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 138
+        width: 10
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a714cbb9e54bcfa2e049d8cf81c90
+      internalID: -2002405857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_122
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 136
+        width: 16
+        height: 22
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122492f24d1b44215a4a82218ad03657
+      internalID: 1413866792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_123
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 132
+        width: 14
+        height: 26
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c58a6d4d802f48b2b52f21a1803a644
+      internalID: 389691792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 47
+        height: 62
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6a329ab10d47099c3224db4ec3950
+      internalID: 430495406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_125
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 69
+        width: 47
+        height: 59
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eadbf096270b4664b20359685464ec5
+      internalID: -251478786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_126
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 69
+        width: 45
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95564503005404f1891d857c05e56ed9
+      internalID: 375339093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_127
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 69
+        width: 47
+        height: 59
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a1cbe2acb34586adb5055159c6465
+      internalID: 333534133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_128
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 69
+        width: 47
+        height: 62
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e1afe330134cf08292e733bd58c8d
+      internalID: -754836655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_129
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 50
+        height: 65
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14279e661b70f4da5bd5d7535f35ac2d
+      internalID: -440419888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_130
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 69
+        width: 51
+        height: 67
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94995ad5582714c24951034705dafbfd
+      internalID: -793684668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_131
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 69
+        width: 53
+        height: 68
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c83b1b567a84b16a02f47e8635a995
+      internalID: 1274844126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_132
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 69
+        width: 51
+        height: 67
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d31caf21fe954b7882c531ff912aff7
+      internalID: 1789988177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_133
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 69
+        width: 50
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03ade8ae786247fe9e29f4206f448f2
+      internalID: 526399143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_134
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 49
+        height: 66
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bbbdb71230d480c845a5f15efa0d66
+      internalID: 1726037661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_135
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 50
+        height: 67
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d3878e21ccd417fa694e8de208b54b
+      internalID: -582324245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_136
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 48
+        height: 66
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7264ac03aab4d07aad69fb92bb390c
+      internalID: 1437768268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_137
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 49
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a1298711b8046018b4376e8f496802
+      internalID: 892357895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_138
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 65
+        height: 59
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402292c220d4e4dd4985f986a28e4022
+      internalID: 849640712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_139
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1
+        width: 75
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7259ea7576cbd4f029b1389fab17a553
+      internalID: -1959653028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_140
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1
+        width: 80
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0122a2175da5a4900aab6f143926590d
+      internalID: 1681458686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_141
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1
+        width: 75
+        height: 58
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aae1f6cfef05426fb067b3e70cacf42
+      internalID: -1492126162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_142
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1
+        width: 65
+        height: 59
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7722b82cdf2b94b0e809e3f0e4d8b4dc
+      internalID: 128308990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breloom_143
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1
+        width: 51
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f78238a8a4b245fd93557610551d048
+      internalID: 53494760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Breloom_0: -1741427971
+      Breloom_1: 1969379344
+      Breloom_10: 605634778
+      Breloom_100: 1691853213
+      Breloom_101: 1765199724
+      Breloom_102: -951706244
+      Breloom_103: -109245118
+      Breloom_104: 368912179
+      Breloom_105: 1618782655
+      Breloom_106: 1758214095
+      Breloom_107: 60793105
+      Breloom_108: 226870566
+      Breloom_109: -2098641912
+      Breloom_11: 1534359214
+      Breloom_110: 2067241225
+      Breloom_111: 1348915718
+      Breloom_112: 1142066480
+      Breloom_113: 161958527
+      Breloom_114: 1879111576
+      Breloom_115: -2114909380
+      Breloom_116: 608009821
+      Breloom_117: 1851616104
+      Breloom_118: -1985639088
+      Breloom_119: 328253323
+      Breloom_12: -867166865
+      Breloom_120: 1431694983
+      Breloom_121: -2002405857
+      Breloom_122: 1413866792
+      Breloom_123: 389691792
+      Breloom_124: 430495406
+      Breloom_125: -251478786
+      Breloom_126: 375339093
+      Breloom_127: 333534133
+      Breloom_128: -754836655
+      Breloom_129: -440419888
+      Breloom_13: -943583668
+      Breloom_130: -793684668
+      Breloom_131: 1274844126
+      Breloom_132: 1789988177
+      Breloom_133: 526399143
+      Breloom_134: 1726037661
+      Breloom_135: -582324245
+      Breloom_136: 1437768268
+      Breloom_137: 892357895
+      Breloom_138: 849640712
+      Breloom_139: -1959653028
+      Breloom_14: 17102604
+      Breloom_140: 1681458686
+      Breloom_141: -1492126162
+      Breloom_142: 128308990
+      Breloom_143: 53494760
+      Breloom_15: -123083727
+      Breloom_16: -1008421809
+      Breloom_17: -2010134915
+      Breloom_18: 10730163
+      Breloom_19: -921369424
+      Breloom_2: 1169121200
+      Breloom_20: -1749321582
+      Breloom_21: 398423434
+      Breloom_22: 833584744
+      Breloom_23: -1124933599
+      Breloom_24: 769587484
+      Breloom_25: 796048432
+      Breloom_26: 1260338195
+      Breloom_27: 269652174
+      Breloom_28: -224398272
+      Breloom_29: -1399570341
+      Breloom_3: 1648711647
+      Breloom_30: -1832688976
+      Breloom_31: 819861044
+      Breloom_32: -1791904273
+      Breloom_33: 466669047
+      Breloom_34: -324645200
+      Breloom_35: -877112907
+      Breloom_36: -1423548686
+      Breloom_37: -1517465376
+      Breloom_38: 1666659386
+      Breloom_39: 46017075
+      Breloom_4: 1088769431
+      Breloom_40: 2129543146
+      Breloom_41: -1623852046
+      Breloom_42: -439266155
+      Breloom_43: 664663763
+      Breloom_44: -447497503
+      Breloom_45: 874729631
+      Breloom_46: 1455362744
+      Breloom_47: -1948175700
+      Breloom_48: 1008631371
+      Breloom_49: -1353966206
+      Breloom_5: -1063999138
+      Breloom_50: 1125954877
+      Breloom_51: -242625672
+      Breloom_52: 1562602929
+      Breloom_53: -1531677020
+      Breloom_54: -1196385975
+      Breloom_55: -2141309267
+      Breloom_56: 1492223244
+      Breloom_57: -277960773
+      Breloom_58: 579292366
+      Breloom_59: 15264965
+      Breloom_6: -1033598457
+      Breloom_60: 625186821
+      Breloom_61: -2075819829
+      Breloom_62: -828281214
+      Breloom_63: 1500819419
+      Breloom_64: -1631929963
+      Breloom_65: -2014619230
+      Breloom_66: -1118942213
+      Breloom_67: -1548313054
+      Breloom_68: 516095139
+      Breloom_69: -1720743499
+      Breloom_7: 937014106
+      Breloom_70: 275847417
+      Breloom_71: 190630604
+      Breloom_72: -756921924
+      Breloom_73: -1021267777
+      Breloom_74: -1451497934
+      Breloom_75: -2064507649
+      Breloom_76: -730738888
+      Breloom_77: 1378659295
+      Breloom_78: 1572597584
+      Breloom_79: 1816557439
+      Breloom_8: -1031334325
+      Breloom_80: -1835802331
+      Breloom_81: 982572414
+      Breloom_82: -1694791313
+      Breloom_83: 1945925345
+      Breloom_84: -669978555
+      Breloom_85: 2103905414
+      Breloom_86: 1779034148
+      Breloom_87: -414948788
+      Breloom_88: 2051527332
+      Breloom_89: 723250304
+      Breloom_9: 1069379578
+      Breloom_90: -1359209108
+      Breloom_91: -1476851672
+      Breloom_92: -632828572
+      Breloom_93: 1706081306
+      Breloom_94: 718107783
+      Breloom_95: 1893735789
+      Breloom_96: 870247331
+      Breloom_97: -811147571
+      Breloom_98: -250967827
+      Breloom_99: 2131710435
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
