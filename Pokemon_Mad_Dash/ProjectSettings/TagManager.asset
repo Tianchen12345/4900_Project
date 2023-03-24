@@ -23,7 +23,7 @@ TagManager:
   - Interactable
   - Trap
   - Pickable
-  - 
+  - NPC
   - 
   - 
   - 
@@ -67,4 +67,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 11060509
+    locked: 0
+  - name: NPC
+    uniqueID: 1526876021
     locked: 0
