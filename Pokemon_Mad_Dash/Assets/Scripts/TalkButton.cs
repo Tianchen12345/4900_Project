@@ -4,17 +4,33 @@ using UnityEngine;
 
 public class TalkButton : MonoBehaviour
 {
-    [SerializeField] GameObject talkButton;
+    [Header("Talk Button")]
+    [SerializeField] private GameObject talkButton;
     [SerializeField] GameObject talkUI;
 
+    [Header("Ink Json")]
+    [SerializeField] TextAsset textFile;
+
+
+
+    private void Awake()
+    {
+        talkButton.SetActive(false);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        talkButton.SetActive(true);
+        if(collision.gameObject.tag == "Player")
+        {
+            talkButton.SetActive(true);
+        }        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        talkButton.SetActive(false);
+        if (collision.gameObject.tag == "Player")
+        {
+            talkButton.SetActive(false);
+        }
     }
     // Update is called once per frame
     void Update()

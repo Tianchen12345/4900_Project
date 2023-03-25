@@ -41,6 +41,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (DialogueManager.GetInstance().storyIsPlaying)
+        {
+            return;
+        }
+
         // Only allow player actions if not injured
         if (!injured)
         {
