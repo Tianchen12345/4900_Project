@@ -1333,7 +1333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521371503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.85, y: 13.07, z: -0.20420922}
+  m_LocalPosition: {x: 9.06, y: 12.53, z: -0.20420922}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13145,7 +13145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925807780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.23, y: 12.97, z: -0.20420922}
+  m_LocalPosition: {x: 36.16, y: 12.47, z: -0.20420922}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42769,6 +42769,7 @@ GameObject:
   - component: {fileID: 1437770989}
   - component: {fileID: 1437770992}
   - component: {fileID: 1437770991}
+  - component: {fileID: 1437770993}
   m_Layer: 10
   m_Name: Breloom
   m_TagString: Enemy
@@ -42870,7 +42871,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437770985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4001499d13b664e129185134c1329fdc, type: 3}
   m_Name: 
@@ -42896,8 +42897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charMovement: {fileID: 1176143563}
-  maxHealth: 100
+  maxHealth: 200
   damage: 20
+  isBoss1: 1
 --- !u!70 &1437770991
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -42911,8 +42913,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.9786587, y: 0.008773327}
-  m_Size: {x: 1.0799522, y: 2.0175467}
+  m_Offset: {x: -0.21205711, y: 1}
+  m_Size: {x: 1.1383858, y: 2}
   m_Direction: 0
 --- !u!50 &1437770992
 Rigidbody2D:
@@ -42935,6 +42937,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1437770993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437770985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220e7933baaf34d54870d49834f53f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints:
+  - {fileID: 925807781}
+  - {fileID: 521371504}
+  speed: 7
+  PatrolDestination: 0
 --- !u!95 &1484647539 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6623920874689396211, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}

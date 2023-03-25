@@ -8,7 +8,7 @@ public CharMovement charMovement;
 public int maxHealth= 50;
 public int damage = 10;
 int currentHealth;
-
+public bool isBoss1 = false;
   // Start is called before the first frame update
   void Start()
   {
@@ -24,7 +24,12 @@ int currentHealth;
 
        Die();
      }
-
+     if(isBoss1 && currentHealth <= 100)
+     {
+       GetComponent<EnemyPatrolMovement>().enabled = false;
+       GetComponent<EnemyJump>().enabled = true;
+       GetComponent<Animator>().SetBool("IsJumping", true);
+     }
   }
 
   void Die()
