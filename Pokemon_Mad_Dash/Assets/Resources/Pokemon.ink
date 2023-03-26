@@ -1,8 +1,8 @@
 -> main
 
 === main ===
-hello, do you want to have a pokemon?(press e to continue)
-Which pokemon do you choose?(press space to chose, then press e to continue)
+hello, do you want to have a pokemon?(press space to continue)
+Which pokemon do you choose?
     + [Charmander]
         -> chosen("Charmander")
     + [Bulbasaur]

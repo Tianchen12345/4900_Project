@@ -43723,6 +43723,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 124434915, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1037198272, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -44147,6 +44151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7932774104122443625, guid: d94560af413204149aca684cf4699ba7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7932774105267387188, guid: d94560af413204149aca684cf4699ba7, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -44195,6 +44203,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7932774105618204950, guid: d94560af413204149aca684cf4699ba7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 05792bd6259ba9645a8d24a6fa81ac98, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d94560af413204149aca684cf4699ba7, type: 3}
 --- !u!1001 &9138325407572364946
