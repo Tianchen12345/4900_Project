@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Debug.LogWarning("Found more than 1 Dialogue Manager");
         }
