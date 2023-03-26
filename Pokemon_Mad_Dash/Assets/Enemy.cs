@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public int maxHealth= 50;
 public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
+public UnityEvent<float> OnHealthChange;
   // Start is called before the first frame update
   void Start()
   {
@@ -19,6 +22,7 @@ public bool isBoss1 = false;
   public void TakeDamage(int damage)
   {
     currentHealth -= damage;
+    OnHealthChange?.Invoke((float)currentHealth / maxHealth);
      if(currentHealth <=0)
      {
 
@@ -36,9 +40,11 @@ public bool isBoss1 = false;
   {
 
    Debug.Log("enemy die");
+    Destroy(gameObject);
     GetComponent<Collider2D>().enabled = false;
     GetComponent<SpriteRenderer>().enabled =false;
     GetComponent<Animator>().enabled = false;
+
     //this.enabled = false;
   }
   private void OnCollisionEnter2D(Collision2D collision){
