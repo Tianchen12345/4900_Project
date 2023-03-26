@@ -222,6 +222,6 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1032
-  lightDamage: 20
+  lightDamage: 30
   attackRate: 2
   SpecialAttackPrefab: {fileID: 7231005292787554250, guid: 09dc6c441cbad474d9e71912f0a6cf0b, type: 3}

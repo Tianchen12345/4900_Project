@@ -49,7 +49,14 @@ public class CharCombat : MonoBehaviour
       foreach(Collider2D enemy in hitEnemies)
       {
         Debug.Log("We Hit " + enemy.name);
+
+          if(enemy.tag == "Bullet"){
+            enemy.GetComponent<Projectile>().TakeDamage(lightDamage);
+
+          }
+        else{
         enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
+      }
 
       }
 
