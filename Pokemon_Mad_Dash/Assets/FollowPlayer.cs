@@ -24,4 +24,8 @@ public class FollowPlayer : MonoBehaviour
 
 
   }
+  public void isSelected(){
+    isChar1= true;
+    isChar2= false;
+  }
 }

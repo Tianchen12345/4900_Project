@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
+public GameObject [] characters;
+
 
 public CharMovement charMovement1;
 public CharMovement charMovement2;
@@ -13,8 +15,8 @@ public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
 public UnityEvent<float> OnHealthChange;
-public bool isChar1 = false;
-public bool isChar2 = true;
+public bool isChar1 = true;
+public bool isChar2 = false;
   // Start is called before the first frame update
   void Start()
   {
@@ -84,7 +86,12 @@ public bool isChar2 = true;
 
   }
 
-
+  public void isSelected(){
+    isChar1 = true;
+    isChar2 = false;
+    characters[0].SetActive(true);
+    characters[1].SetActive(false);
+  }
 
 
 }
