@@ -22,7 +22,7 @@ public class CharCombat : MonoBehaviour
     void Update()
     {
       if(Time.time >= nextAttackTime){
-        if(Input.GetKeyDown(KeyCode.Q))
+        if(Input.GetMouseButtonDown(0))
         {
           Attack();
           animator.SetTrigger("LightAttack");
