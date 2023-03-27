@@ -10,9 +10,12 @@ public class Projectile : MonoBehaviour
   public float distance;
   private Vector2 direction;
   private int damage = 10;
+  public int maxHealth= 50;
+  int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
         Invoke("DestroyProjectile", lifeTime);
     }
 
@@ -34,5 +37,9 @@ public class Projectile : MonoBehaviour
     void DestroyProjectile(){
 
       Destroy(gameObject);
+    }
+    public void TakeDamage(int damage)
+    {
+      DestroyProjectile();
     }
 }

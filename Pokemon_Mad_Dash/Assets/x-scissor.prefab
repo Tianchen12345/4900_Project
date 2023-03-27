@@ -140,3 +140,4 @@ MonoBehaviour:
   targetTag: Player
   lifeTime: 1
   distance: 0
+  maxHealth: 50
