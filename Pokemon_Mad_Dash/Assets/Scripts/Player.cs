@@ -41,10 +41,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (DialogueManager.GetInstance().storyIsPlaying)
+        if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("NPC")))
         {
-            return;
-        }
+            if (DialogueManager.GetInstance().storyIsPlaying)
+            {
+                return;
+            }
+        }     
 
         // Only allow player actions if not injured
         if (!injured)
@@ -111,7 +114,7 @@ public class Player : MonoBehaviour
     // continue when player recovers from injury
     IEnumerator recoveryFromInjury()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         injured = false;
     }
 

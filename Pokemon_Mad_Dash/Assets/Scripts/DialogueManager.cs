@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Debug.LogWarning("Found more than 1 Dialogue Manager");
         }
@@ -57,7 +57,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ContinueStory();
         }

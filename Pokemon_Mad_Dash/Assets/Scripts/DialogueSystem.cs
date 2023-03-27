@@ -42,7 +42,7 @@ public class DialogueSystem : MonoBehaviour
         if (playerInRange && !DialogueManager.GetInstance().storyIsPlaying)
         {
             talkButton.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
