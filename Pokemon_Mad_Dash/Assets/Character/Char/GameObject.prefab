@@ -125,7 +125,7 @@ MonoBehaviour:
   distance: 0
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 1032
+    m_Bits: 1024
   rb: {fileID: 85243237}
 --- !u!50 &85243237
 Rigidbody2D:
