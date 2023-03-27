@@ -561,7 +561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb766e80c6d41a79154615961fcab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charMovement: {fileID: 0}
+  charMovement1: {fileID: 0}
+  charMovement2: {fileID: 0}
   maxHealth: 50
   damage: 10
   isBoss1: 0
@@ -580,6 +581,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isChar1: 0
+  isChar2: 1
 --- !u!114 &292915366363711286
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 public class CharMovement : MonoBehaviour
 {
 
@@ -13,12 +14,14 @@ public class CharMovement : MonoBehaviour
     [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
 
+
     public Animator animator;
 
     public int health;
     public int maxHealth= 30;
     bool isInvincible = false;
     [SerializeField] private float invincibilityDurationSeconds;
+    public UnityEvent<float> OnHealthChange;
 
     public float KBForce;
     public float KBCounter;
@@ -94,6 +97,7 @@ public class CharMovement : MonoBehaviour
      if(isInvincible) return;
 
      health -=damage;
+     OnHealthChange?.Invoke((float)health / maxHealth);
      animator.SetTrigger("TakeDamage");
 
      if(health<=0){
@@ -112,7 +116,7 @@ public class CharMovement : MonoBehaviour
     yield return new WaitForSeconds(invincibilityDurationSeconds);
 
     isInvincible = false;
-    
+
 
 }
 }

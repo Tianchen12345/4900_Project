@@ -513,7 +513,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!70 &4549176577913126192
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -542,7 +542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb766e80c6d41a79154615961fcab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charMovement: {fileID: 0}
+  charMovement1: {fileID: 0}
+  charMovement2: {fileID: 0}
   maxHealth: 50
   damage: 10
   isBoss1: 0
@@ -561,6 +562,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isChar1: 0
+  isChar2: 1
 --- !u!95 &4549176577913126189
 Animator:
   serializedVersion: 5

@@ -5,12 +5,16 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
-public CharMovement charMovement;
+
+public CharMovement charMovement1;
+public CharMovement charMovement2;
 public int maxHealth= 50;
 public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
 public UnityEvent<float> OnHealthChange;
+public bool isChar1 = false;
+public bool isChar2 = true;
   // Start is called before the first frame update
   void Start()
   {
@@ -46,17 +50,41 @@ public UnityEvent<float> OnHealthChange;
 
     //this.enabled = false;
   }
-  private void OnCollisionEnter2D(Collision2D collision){
-    if(collision.gameObject.tag == "Player"){
-      //Debug.Log(damage);
-      charMovement.KBCounter = charMovement.KBTotalTime;
-      if(collision.transform.position.x <= transform.position.x){
-        charMovement.KnockFromRight = true;
+  private void OnCollisionEnter2D(Collision2D collision)
+  {
+    if(collision.gameObject.tag == "Player")
+    {
+      if(isChar2)
+      {
+        charMovement2.KBCounter = charMovement2.KBTotalTime;
+        charMovement2.TakeDamage(damage);
+        if(collision.transform.position.x <= transform.position.x)
+        {
+          charMovement2.KnockFromRight = true;
+        }
+        if(collision.transform.position.x > transform.position.x)
+        {
+          charMovement2.KnockFromRight = false;
+        }
       }
-      if(collision.transform.position.x > transform.position.x){
-        charMovement.KnockFromRight = false;
+      if(isChar1)
+      {
+        charMovement1.KBCounter = charMovement1.KBTotalTime;
+        charMovement1.TakeDamage(damage);
+        if(collision.transform.position.x <= transform.position.x)
+        {
+          charMovement1.KnockFromRight = true;
+        }
+        if(collision.transform.position.x > transform.position.x)
+        {
+          charMovement1.KnockFromRight = false;
+        }
       }
-      charMovement.TakeDamage(damage);
-    }
   }
+
+  }
+
+
+
+
 }

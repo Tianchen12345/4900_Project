@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Char
       objectReference: {fileID: 0}
+    - target: {fileID: 1471873559607236070, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
 --- !u!1 &80323796
@@ -228,6 +232,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &115993848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2490543859746406092, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
+  m_PrefabInstance: {fileID: 716464611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &115993849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115993848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ceb766e80c6d41a79154615961fcab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charMovement: {fileID: 834739202}
+  maxHealth: 40
+  damage: 10
+  isBoss1: 0
+  OnHealthChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1729253103}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
+        m_MethodName: set_value
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &181412230
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,9 +281,11 @@ GameObject:
   - component: {fileID: 181412233}
   - component: {fileID: 181412232}
   - component: {fileID: 181412231}
+  - component: {fileID: 181412236}
+  - component: {fileID: 181412237}
   m_Layer: 10
   m_Name: Solrock
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,13 +405,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181412230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38, y: -1.32, z: -0.10377928}
+  m_LocalPosition: {x: 16.9, y: 1.3, z: -0.10377928}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181412236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181412230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3392dcd2efe28094eb83ad33e79bb831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 5
+  speed: 2
+--- !u!50 &181412237
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181412230}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &227069554
 GameObject:
   m_ObjectHideFlags: 0
@@ -8799,6 +8876,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &834739202 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4642136061265036968, guid: e9aa4208094884219b7faad239009a99, type: 3}
+  m_PrefabInstance: {fileID: 1074327386}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569a5102c90444a7b91dfbe43a5b77a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &917108536
 GameObject:
   m_ObjectHideFlags: 0
@@ -8921,10 +9009,6 @@ PrefabInstance:
     - target: {fileID: 4642136061265036972, guid: e9aa4208094884219b7faad239009a99, type: 3}
       propertyPath: m_Name
       value: Bulb
-      objectReference: {fileID: 0}
-    - target: {fileID: 4642136061265036972, guid: e9aa4208094884219b7faad239009a99, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9aa4208094884219b7faad239009a99, type: 3}
@@ -37609,6 +37693,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1cda83d6fe740b19d0d4ddc8762ca0, type: 3}
+--- !u!114 &1729253103 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2099799130, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
+  m_PrefabInstance: {fileID: 716464611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1872118671
 GameObject:
   m_ObjectHideFlags: 0
