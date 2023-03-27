@@ -17,6 +17,8 @@ public class CharMovement : MonoBehaviour
 
     public int health;
     public int maxHealth= 30;
+    bool isInvincible = false;
+    [SerializeField] private float invincibilityDurationSeconds;
 
     public float KBForce;
     public float KBCounter;
@@ -52,13 +54,13 @@ public class CharMovement : MonoBehaviour
            Jump();
      }
      else{
-       if(KnockFromRight == true)
+       if(KnockFromRight)
        {
          rigid.velocity= new Vector2(-KBForce,KBForce);
        }
-       if(KnockFromRight == false)
+       if(!KnockFromRight)
        {
-         rigid.velocity=new Vector2(KBForce,-KBForce);
+         rigid.velocity=new Vector2(KBForce,KBForce);
        }
        KBCounter -=Time.deltaTime;
      }
@@ -89,8 +91,9 @@ public class CharMovement : MonoBehaviour
        }
    }
    public void TakeDamage(int damage){
-     health -=damage;
+     if(isInvincible) return;
 
+     health -=damage;
      animator.SetTrigger("TakeDamage");
 
      if(health<=0){
@@ -98,5 +101,18 @@ public class CharMovement : MonoBehaviour
        //Destroy(gameObject);
        SceneManager.LoadScene("Test Level");
      }
+      StartCoroutine(BecomeTemporarilyInvincible());
    }
+
+   private IEnumerator BecomeTemporarilyInvincible()
+{
+
+    isInvincible = true;
+
+    yield return new WaitForSeconds(invincibilityDurationSeconds);
+
+    isInvincible = false;
+    
+
+}
 }
