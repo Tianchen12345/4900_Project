@@ -7,26 +7,37 @@ public class Caterpie : MonoBehaviour
 {
     [SerializeField] float CaterpieRunSpeed = 5f;
 
-    Rigidbody2D CaterpieRigidbody;
+    Rigidbody2D myRigidbody;
+
+    float speed;
 
     // Start is called before the first frame update
     void Start()
     {
-        CaterpieRigidbody = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
+        speed = GetComponent<Enemies>().speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isFacingLeft())
-        {
-            CaterpieRigidbody.velocity = new Vector2(-CaterpieRunSpeed, 0f);
-        }
-        else
-        {
-            CaterpieRigidbody.velocity = new Vector2(CaterpieRunSpeed, 0f);
-        }
+        speed = GetComponent<Enemies>().speed;
+        EnemyMovement();
+    }
 
+    private void EnemyMovement()
+    {
+        if (GetComponent<BoxCollider2D>().enabled)
+        {
+            if (IsFacingLeft())
+            {
+                myRigidbody.velocity = new Vector2(-speed, 0f);
+            }
+            else
+            {
+                myRigidbody.velocity = new Vector2(speed, 0f);
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -36,10 +47,10 @@ public class Caterpie : MonoBehaviour
 
     private void FlipSprites()
     {
-        transform.localScale = new Vector2(Mathf.Sign(CaterpieRigidbody.velocity.x), 1f);
+        transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
     }
 
-    private bool isFacingLeft()
+    private bool IsFacingLeft()
     {
         return transform.localScale.x > 0;
     }
