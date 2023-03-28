@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class Nidoran : MonoBehaviour
 {
-    [SerializeField] float nidoranRunSpeed = 5f;
+    [SerializeField] float runSpeed = 5f;
     [SerializeField] AudioClip nidoranDyingSFX;
 
-    Rigidbody2D NidoranRigidbody;
+    Rigidbody2D myRigidbody;
     Animator enemyAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
-        NidoranRigidbody = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
         enemyAnimator = GetComponent<Animator>();
     }
 
@@ -29,7 +29,7 @@ public class Nidoran : MonoBehaviour
         enemyAnimator.SetTrigger("Die");        
         GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
-        NidoranRigidbody.bodyType = RigidbodyType2D.Static;        
+        myRigidbody.bodyType = RigidbodyType2D.Static;        
         StartCoroutine(DestroyEnemy());
     }
 
@@ -45,11 +45,11 @@ public class Nidoran : MonoBehaviour
         {
             if (IsFacingLeft())
             {
-                NidoranRigidbody.velocity = new Vector2(-nidoranRunSpeed, 0f);
+                myRigidbody.velocity = new Vector2(-runSpeed, 0f);
             }
             else
             {
-                NidoranRigidbody.velocity = new Vector2(nidoranRunSpeed, 0f);
+                myRigidbody.velocity = new Vector2(runSpeed, 0f);
             }
         }
 
@@ -62,7 +62,7 @@ public class Nidoran : MonoBehaviour
 
     private void FlipSprites()
     {
-        transform.localScale = new Vector2(Mathf.Sign(NidoranRigidbody.velocity.x), 1f);
+        transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
     }
 
     private bool IsFacingLeft()

@@ -594,6 +594,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb766e80c6d41a79154615961fcab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 0}
+  - {fileID: 0}
   charMovement1: {fileID: 0}
   charMovement2: {fileID: 0}
   maxHealth: 40
@@ -614,8 +617,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  isChar1: 0
-  isChar2: 1
+  isChar1: 1
+  isChar2: 0
 --- !u!114 &2039383052
 MonoBehaviour:
   m_ObjectHideFlags: 0
