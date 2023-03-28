@@ -58,7 +58,7 @@ public UnityEvent<float> OnHealthChange;
     {
 
         charMovement1.KBCounter = charMovement1.KBTotalTime;
-        charMovement1.TakeDamage(damage);
+
         if(collision.transform.position.x <= transform.position.x)
         {
           charMovement1.KnockFromRight = true;
