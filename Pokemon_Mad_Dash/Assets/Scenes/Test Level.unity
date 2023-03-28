@@ -933,22 +933,6 @@ PrefabInstance:
       value: Caterpie
       objectReference: {fileID: 0}
     - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
-      propertyPath: isChar1
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
-      propertyPath: isChar2
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
-      propertyPath: characters1
-      value: 
-      objectReference: {fileID: 1363617490}
-    - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
-      propertyPath: characters2
-      value: 
-      objectReference: {fileID: 834739201}
-    - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 1363617491}
@@ -956,10 +940,6 @@ PrefabInstance:
       propertyPath: charMovement2
       value: 
       objectReference: {fileID: 834739202}
-    - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
-      propertyPath: characters.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8368734115596533576, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: characters.Array.data[0]
       value: 

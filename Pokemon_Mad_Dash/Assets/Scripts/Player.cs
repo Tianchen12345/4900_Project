@@ -3,15 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    [Header("Player Movement")]
     [SerializeField] float runSpeed = 10f;  // The player's movement speed on the ground
     [SerializeField] float jumpSpeed = 13f; // The player's jump speed
     [SerializeField] float climbSpeed = 8f; // The player's climbing speed
     [SerializeField] float attackRadius = 2f;   // player attack range
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 20f);    // The force and direction of knockback when hit
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
+
+    [Header("Sound Effects")]
     [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX; // SFX is Sound effects
 
     // Components of the player object
@@ -23,6 +28,28 @@ public class Player : MonoBehaviour
 
     float MyGravityScale;   // Gravity scale of the player's rigidbody
     bool injured = false;   // player injury state
+
+    [Header("Merged From Char")]
+    public GameObject SpecialAttackPrefab;
+    public Transform AttackPoint;
+    float nextAttackTime = 0f;
+    public float attackRate = 2f;
+
+    [SerializeField] int speed;
+    [SerializeField] bool jumpPressed = false;
+    [SerializeField] float jumpForce = 500.0f;
+    [SerializeField] bool isGrounded = true;
+
+    public int health;
+    public int maxHealth = 30;
+    bool isInvincible = false;
+    [SerializeField] private float invincibilityDurationSeconds;
+    public UnityEvent<float> OnHealthChange;
+
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+    public bool KnockFromRight;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +63,10 @@ public class Player : MonoBehaviour
         MyGravityScale = myRigidbody2D.gravityScale;
 
         myAnimator.SetTrigger("Exit Door"); // Trigger the "Exit Door" animation state at the begining of game
+
+        // From CharMovement.cs
+        speed = 15;
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -47,7 +78,17 @@ public class Player : MonoBehaviour
             {
                 return;
             }
-        }     
+        }
+
+        if (Time.time >= nextAttackTime)
+        {
+             if (Input.GetKeyDown(KeyCode.E))
+            {
+                Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+                //animator.SetTrigger("SpecialAttack");
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+        }
 
         // Only allow player actions if not injured
         if (!injured)
@@ -71,6 +112,31 @@ public class Player : MonoBehaviour
         ExitLevel();
     }
 
+    // From CharMovement.cs
+    public void TakeDamage(int damage)
+    {
+        if (isInvincible) return;
+
+        health -= damage;
+        OnHealthChange?.Invoke((float)health / maxHealth);
+        myAnimator.SetTrigger("TakeDamage");
+
+        if (health <= 0)
+        {
+            //Destroy(gameObject);
+            SceneManager.LoadScene("Test Level");
+        }
+        StartCoroutine(BecomeTemporarilyInvincible());
+    }
+
+    private IEnumerator BecomeTemporarilyInvincible()
+    {
+        isInvincible = true;
+        yield return new WaitForSeconds(invincibilityDurationSeconds);
+        isInvincible = false;
+    }
+
+    #region Load and Exit level
     // Check for collision with interactable layer to trigger enter door animation
     private void ExitLevel()
     {
@@ -95,6 +161,8 @@ public class Player : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = false;
     }
 
+    #endregion
+
     // The player is attacked
     public void BeAttacked()
     {
@@ -118,6 +186,7 @@ public class Player : MonoBehaviour
         injured = false;
     }
 
+    #region Player action
     // Allow the player to climb when the player touches the ladder
     private void Climb()
     {
@@ -158,7 +227,7 @@ public class Player : MonoBehaviour
 
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
-
+                
         FlipSprites();
         ChangingToRunningState();
         Attack();
@@ -213,7 +282,13 @@ public class Player : MonoBehaviour
 
         if (runningHorizontally)
         {
-            transform.localScale = new Vector2(Mathf.Sign(myRigidbody2D.velocity.x), 1f);
+            float horizontalVelocity = myRigidbody2D.velocity.x;
+            transform.localScale = new Vector3(Mathf.Sign(horizontalVelocity), 1f, 1f);
+            if (horizontalVelocity != 0)
+            {
+                float rotationY = horizontalVelocity < 0 ? 180f : 0f;
+                AttackPoint.transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
+            }
         }
     }
 
@@ -221,8 +296,8 @@ public class Player : MonoBehaviour
     {
         Gizmos.DrawWireSphere(hurtBox.position, attackRadius);
     }
-
-    #region Volume
+    #endregion
+    #region Change Sound Volume
     public void ChangeSoundVolume()
     {
         //get the initial volume of Sound and Change it
