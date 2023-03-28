@@ -52,7 +52,6 @@ public class Nidoran : MonoBehaviour
                 myRigidbody.velocity = new Vector2(runSpeed, 0f);
             }
         }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)

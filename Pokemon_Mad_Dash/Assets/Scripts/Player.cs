@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] float attackRadius = 2f;   // player attack range
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 20f);    // The force and direction of knockback when hit
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
+    [SerializeField] Transform AttackPoint;
 
     [Header("Sound Effects")]
     [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX; // SFX is Sound effects
@@ -26,30 +27,9 @@ public class Player : MonoBehaviour
     PolygonCollider2D mypolygonCollider2D;
     AudioSource myAudioSource;
 
+
     float MyGravityScale;   // Gravity scale of the player's rigidbody
     bool injured = false;   // player injury state
-
-    [Header("Merged From Char")]
-    public GameObject SpecialAttackPrefab;
-    public Transform AttackPoint;
-    float nextAttackTime = 0f;
-    public float attackRate = 2f;
-
-    [SerializeField] int speed;
-    [SerializeField] bool jumpPressed = false;
-    [SerializeField] float jumpForce = 500.0f;
-    [SerializeField] bool isGrounded = true;
-
-    public int health;
-    public int maxHealth = 30;
-    bool isInvincible = false;
-    [SerializeField] private float invincibilityDurationSeconds;
-    public UnityEvent<float> OnHealthChange;
-
-    public float KBForce;
-    public float KBCounter;
-    public float KBTotalTime;
-    public bool KnockFromRight;
 
     // Start is called before the first frame update
     void Start()
@@ -64,9 +44,6 @@ public class Player : MonoBehaviour
 
         myAnimator.SetTrigger("Exit Door"); // Trigger the "Exit Door" animation state at the begining of game
 
-        // From CharMovement.cs
-        speed = 15;
-        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -80,21 +57,10 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Time.time >= nextAttackTime)
-        {
-             if (Input.GetKeyDown(KeyCode.E))
-            {
-                Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
-                //animator.SetTrigger("SpecialAttack");
-                nextAttackTime = Time.time + 1f / attackRate;
-            }
-        }
-
         // Only allow player actions if not injured
         if (!injured)
         {
             Run();
-            Attack();
             Jump();
             Climb();
 
@@ -112,29 +78,6 @@ public class Player : MonoBehaviour
         ExitLevel();
     }
 
-    // From CharMovement.cs
-    public void TakeDamage(int damage)
-    {
-        if (isInvincible) return;
-
-        health -= damage;
-        OnHealthChange?.Invoke((float)health / maxHealth);
-        myAnimator.SetTrigger("TakeDamage");
-
-        if (health <= 0)
-        {
-            //Destroy(gameObject);
-            SceneManager.LoadScene("Test Level");
-        }
-        StartCoroutine(BecomeTemporarilyInvincible());
-    }
-
-    private IEnumerator BecomeTemporarilyInvincible()
-    {
-        isInvincible = true;
-        yield return new WaitForSeconds(invincibilityDurationSeconds);
-        isInvincible = false;
-    }
 
     #region Load and Exit level
     // Check for collision with interactable layer to trigger enter door animation
@@ -230,7 +173,6 @@ public class Player : MonoBehaviour
                 
         FlipSprites();
         ChangingToRunningState();
-        Attack();
     }
 
     // Play running SFX when the player is running
@@ -251,24 +193,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Attack()
-    {
-        // Trigger the attacking animation and play the attacking sound effect
-        if (CrossPlatformInputManager.GetButtonDown("Fire1"))
-        {
-            myAnimator.SetTrigger("Attacking");
-            myAudioSource.PlayOneShot(attackingSFX);
-
-            Collider2D[] enemyToHit = Physics2D.OverlapCircleAll(hurtBox.position, attackRadius, LayerMask.GetMask("Enemy"));
-
-            foreach (Collider2D enemy in enemyToHit)
-            {
-                enemy.GetComponent<Nidoran>().Dying();
-            }
-        }
-
-    }
-
     private void ChangingToRunningState()
     {
         bool runningHorizontally = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
@@ -284,6 +208,7 @@ public class Player : MonoBehaviour
         {
             float horizontalVelocity = myRigidbody2D.velocity.x;
             transform.localScale = new Vector3(Mathf.Sign(horizontalVelocity), 1f, 1f);
+            
             if (horizontalVelocity != 0)
             {
                 float rotationY = horizontalVelocity < 0 ? 180f : 0f;

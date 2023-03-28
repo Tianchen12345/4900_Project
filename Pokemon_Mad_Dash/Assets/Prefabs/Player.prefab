@@ -243,9 +243,6 @@ MonoBehaviour:
   attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}
   beAttackedSFX: {fileID: 8300000, guid: 3f896834aeaeb434498aa6ab953c5155, type: 3}
   runningSFX: {fileID: 8300000, guid: 17780f6784ef65b49b08f3f415b7073e, type: 3}
-  SpecialAttackPrefab: {fileID: 7231005292787554250, guid: d51f833b15d7ca84d9ffa4336b293f67, type: 3}
-  AttackPoint: {fileID: 76629380}
-  attackRate: 2
 --- !u!60 &2051710485
 PolygonCollider2D:
   m_ObjectHideFlags: 0
