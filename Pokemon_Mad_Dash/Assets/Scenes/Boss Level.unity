@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 57660244}
   - component: {fileID: 57660243}
   - component: {fileID: 57660248}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ GameObject:
   - component: {fileID: 754371521}
   - component: {fileID: 754371523}
   - component: {fileID: 754371522}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Foreground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -13183,7 +13183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16dd46fe211bd49788f2bb8388dfddf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1176143561}
+  player1: {fileID: 0}
 --- !u!81 &950569817
 AudioListener:
   m_ObjectHideFlags: 0
@@ -13423,17 +13423,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1176143561 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1471873559607236070, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-  m_PrefabInstance: {fileID: 2075509415}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1176143563 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
   m_PrefabInstance: {fileID: 2075509415}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176143561}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 569a5102c90444a7b91dfbe43a5b77a9, type: 3}

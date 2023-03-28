@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 754371521}
   - component: {fileID: 754371523}
   - component: {fileID: 754371522}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16567,6 +16567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9843ea24dc603ac42bc9342d19886889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseGameScreen: {fileID: 0}
+  MainMenuScreen: {fileID: 0}
+  SettingScreen: {fileID: 0}
+  KeySettingScreen: {fileID: 0}
 --- !u!1 &1935379002
 GameObject:
   m_ObjectHideFlags: 0
@@ -16623,7 +16627,6 @@ MonoBehaviour:
   - {fileID: 143847790}
   - {fileID: 64803800}
   - {fileID: 13601287}
-  gameOverScreen: {fileID: 2056905377}
 --- !u!114 &1935379005
 MonoBehaviour:
   m_ObjectHideFlags: 0
