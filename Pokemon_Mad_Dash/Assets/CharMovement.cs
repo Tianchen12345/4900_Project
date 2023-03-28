@@ -11,12 +11,11 @@ public class CharMovement : MonoBehaviour
     [SerializeField] int speed;
     [SerializeField] bool isFacingRight = true;
     [SerializeField] bool jumpPressed = false;
-    [SerializeField] float jumpForce = 1500.0f;
+    [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
 
-    public bool door = false;
+
     public Animator animator;
-    [SerializeField] CapsuleCollider2D myCollider2D;
 
     public int health;
     public int maxHealth= 30;
@@ -40,17 +39,12 @@ public class CharMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Run();
-
-    if (myCollider2D.gameObject.tag == "Door") {
-        door = true;
-        animator.SetTrigger("EnterDoor");
-      }
+      movement = Input.GetAxis("Horizontal");
+      animator.SetFloat("Speed", Mathf.Abs(movement));
       if (Input.GetButtonDown("Jump"))
           jumpPressed = true;
 
     }
-
     void FixedUpdate()
    {
      if(KBCounter <=0)
@@ -65,21 +59,17 @@ public class CharMovement : MonoBehaviour
      else{
        if(KnockFromRight)
        {
-         rigid.AddForce((Vector2.right + Vector2.up)* KBForce, ForceMode2D.Impulse);
+         rigid.velocity= new Vector2(-KBForce,KBForce);
        }
        if(!KnockFromRight)
        {
-         rigid.AddForce((Vector2.left + Vector2.up)* KBForce, ForceMode2D.Impulse);
+         rigid.velocity=new Vector2(KBForce,KBForce);
        }
        KBCounter -=Time.deltaTime;
      }
 
    }
 
-   void Run(){
-     movement = Input.GetAxis("Horizontal");
-     animator.SetFloat("Speed", Mathf.Abs(movement));
-   }
    void Flip()
    {
        transform.Rotate(0, 180, 0);
@@ -102,26 +92,14 @@ public class CharMovement : MonoBehaviour
            isGrounded = true;
            animator.SetBool("isJumping", false);
        }
-       if(collision.gameObject.layer == 13){
-         TakeDamage(20);
    }
- }
    public void TakeDamage(int damage){
      if(isInvincible) return;
 
      health -=damage;
      OnHealthChange?.Invoke((float)health / maxHealth);
      animator.SetTrigger("TakeDamage");
-     KBCounter = KBTotalTime;
 
-        if(myCollider2D.transform.position.x <= transform.position.x)
-        {
-          KnockFromRight = true;
-        }
-        if(myCollider2D.transform.position.x > transform.position.x)
-        {
-          KnockFromRight = false;
-        }
      if(health<=0){
 
        //Destroy(gameObject);
@@ -141,13 +119,4 @@ public class CharMovement : MonoBehaviour
 
 
 }
-public void LoadNextLevel()
-{
-    FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
-    GetComponent<SpriteRenderer>().enabled = false;
-}
-
-
-
-
 }
