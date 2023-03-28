@@ -3393,6 +3393,11 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &522830187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 76629380, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+  m_PrefabInstance: {fileID: 1879248232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &546944852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4972578603948734520, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
@@ -96865,11 +96870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 504377096255458772, guid: 08a083899633b6241bb7187abe4d41c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.546921
+      value: 8.95
       objectReference: {fileID: 0}
     - target: {fileID: 504377096255458772, guid: 08a083899633b6241bb7187abe4d41c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.568031
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 504377096255458772, guid: 08a083899633b6241bb7187abe4d41c0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -97247,6 +97252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTimeBetweenAttack: 0.3
+  AttackPoint: {fileID: 522830187}
+  SpecialAttackPrefab: {fileID: 7231005292787554250, guid: d51f833b15d7ca84d9ffa4336b293f67, type: 3}
   hurtBox: {fileID: 2120371239}
   attackRadius: 1.5
   damage: 5
@@ -97263,6 +97270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756343485, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+      propertyPath: AttackPoint
+      value: 
+      objectReference: {fileID: 522830187}
     - target: {fileID: 1756343485, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: attackRadius
       value: 1.3

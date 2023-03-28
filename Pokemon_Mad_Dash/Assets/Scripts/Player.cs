@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] float attackRadius = 2f;   // player attack range
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 20f);    // The force and direction of knockback when hit
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
+    [SerializeField] Transform AttackPoint;
 
     [Header("Sound Effects")]
     [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX; // SFX is Sound effects
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     BoxCollider2D myBoxCollider2D;
     PolygonCollider2D mypolygonCollider2D;
     AudioSource myAudioSource;
+
 
     float MyGravityScale;   // Gravity scale of the player's rigidbody
     bool injured = false;   // player injury state
@@ -206,12 +208,12 @@ public class Player : MonoBehaviour
         {
             float horizontalVelocity = myRigidbody2D.velocity.x;
             transform.localScale = new Vector3(Mathf.Sign(horizontalVelocity), 1f, 1f);
-            /*
+            
             if (horizontalVelocity != 0)
             {
                 float rotationY = horizontalVelocity < 0 ? 180f : 0f;
                 AttackPoint.transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
-            }*/
+            }
         }
     }
 

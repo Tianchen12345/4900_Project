@@ -6,7 +6,9 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerAttack : MonoBehaviour
 {
     private float timeBtwAttack;
-    public float startTimeBetweenAttack;
+    [SerializeField] float startTimeBetweenAttack;
+    [SerializeField] Transform AttackPoint;
+    [SerializeField] GameObject SpecialAttackPrefab;
 
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
     [SerializeField] float attackRadius = 2f;   // player attack range
@@ -48,6 +50,16 @@ public class PlayerAttack : MonoBehaviour
         {
             timeBtwAttack -= Time.deltaTime;
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SpecialAttack();
+        }
+    }
+
+    private void SpecialAttack()
+    {
+        Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
     }
 
     private void OnDrawGizmosSelected()
