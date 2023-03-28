@@ -5,18 +5,18 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
-public GameObject [] characters;
+//public GameObject [] characters;
 
 
 public CharMovement charMovement1;
-public CharMovement charMovement2;
+//public CharMovement charMovement2;
 public int maxHealth= 50;
 public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
 public UnityEvent<float> OnHealthChange;
-public bool isChar1 = true;
-public bool isChar2 = false;
+//public bool isChar1 = true;
+//public bool isChar2 = false;
   // Start is called before the first frame update
   void Start()
   {
@@ -56,21 +56,7 @@ public bool isChar2 = false;
   {
     if(collision.gameObject.tag == "Player")
     {
-      if(isChar2)
-      {
-        charMovement2.KBCounter = charMovement2.KBTotalTime;
-        charMovement2.TakeDamage(damage);
-        if(collision.transform.position.x <= transform.position.x)
-        {
-          charMovement2.KnockFromRight = true;
-        }
-        if(collision.transform.position.x > transform.position.x)
-        {
-          charMovement2.KnockFromRight = false;
-        }
-      }
-      if(isChar1)
-      {
+
         charMovement1.KBCounter = charMovement1.KBTotalTime;
         charMovement1.TakeDamage(damage);
         if(collision.transform.position.x <= transform.position.x)
@@ -81,17 +67,12 @@ public bool isChar2 = false;
         {
           charMovement1.KnockFromRight = false;
         }
-      }
-  }
 
   }
 
-  public void isSelected(){
-    isChar1 = true;
-    isChar2 = false;
-    characters[0].SetActive(true);
-    characters[1].SetActive(false);
   }
+
+
 
 
 }
