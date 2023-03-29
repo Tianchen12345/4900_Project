@@ -16,7 +16,7 @@ public class CharMovement : MonoBehaviour
 
     public bool door = false;
     public Animator animator;
-    [SerializeField] CapsuleCollider2D myCollider2D;
+    //[SerializeField] CapsuleCollider2D myCollider2D;
 
     public int health;
     public int maxHealth= 30;
@@ -62,11 +62,11 @@ public class CharMovement : MonoBehaviour
      else{
        if(KnockFromRight)
        {
-         rigid.AddForce((Vector2.right + Vector2.up)* KBForce, ForceMode2D.Impulse);
+         rigid.velocity= new Vector2(-KBForce,KBForce);
        }
        if(!KnockFromRight)
        {
-         rigid.AddForce((Vector2.left + Vector2.up)* KBForce, ForceMode2D.Impulse);
+         rigid.velocity=new Vector2(KBForce,KBForce);
        }
        KBCounter -=Time.deltaTime;
      }
@@ -103,11 +103,11 @@ public class CharMovement : MonoBehaviour
          TakeDamage(20);
          KBCounter = KBTotalTime;
 
-            if(myCollider2D.transform.position.x <= transform.position.x)
+            if(collision.transform.position.x <= transform.position.x)
             {
               KnockFromRight = true;
             }
-            if(myCollider2D.transform.position.x > transform.position.x)
+            if(collision.transform.position.x > transform.position.x)
             {
               KnockFromRight = false;
             }

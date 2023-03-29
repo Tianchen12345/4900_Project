@@ -56,7 +56,7 @@ public UnityEvent<float> OnHealthChange;
   {
     if(collision.gameObject.tag == "Player")
     {
-
+        charMovement1.TakeDamage(damage);
         charMovement1.KBCounter = charMovement1.KBTotalTime;
 
         if(collision.transform.position.x <= transform.position.x)
@@ -67,6 +67,7 @@ public UnityEvent<float> OnHealthChange;
         {
           charMovement1.KnockFromRight = false;
         }
+
 
   }
 

@@ -541,7 +541,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -559,8 +559,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2742405, y: 0.0075318217}
-  m_Size: {x: 0.6948166, y: 1.351446}
+  m_Offset: {x: 0.31742477, y: 0.018794298}
+  m_Size: {x: 0.51836395, y: 1.2292304}
   m_Direction: 0
 --- !u!114 &871039254
 MonoBehaviour:
@@ -583,7 +583,6 @@ MonoBehaviour:
   isGrounded: 1
   door: 0
   animator: {fileID: 1471873559607236071}
-  myCollider2D: {fileID: 871039256}
   health: 0
   maxHealth: 100
   invincibilityDurationSeconds: 1.5
@@ -602,7 +601,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  KBForce: 0.5
+  KBForce: 7
   KBCounter: 0
   KBTotalTime: 0.3
   KnockFromRight: 0
@@ -623,7 +622,7 @@ MonoBehaviour:
   AttackRange: 0.9
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 1032
+    m_Bits: 4096
   lightDamage: 30
   attackRate: 2
   SpecialAttackPrefab: {fileID: 7231005292787554250, guid: 09dc6c441cbad474d9e71912f0a6cf0b, type: 3}
