@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 1756343485}
   - component: {fileID: 2051710485}
   - component: {fileID: 8854258865540579166}
+  - component: {fileID: 1862468089}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -208,7 +209,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1111536, y: -0.065113425}
+  m_Offset: {x: 0.105134964, y: -0.065113425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -219,7 +220,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9639759, y: 1.1120036}
+  m_Size: {x: 0.9519386, y: 1.1120036}
   m_EdgeRadius: 0
 --- !u!114 &1756343485
 MonoBehaviour:
@@ -236,9 +237,10 @@ MonoBehaviour:
   runSpeed: 10
   jumpSpeed: 23
   climbSpeed: 10
-  attackRadius: 1.66
+  attackRadius: 1.3
   beAttacked: {x: 10, y: 30}
   hurtBox: {fileID: 538098018}
+  AttackPoint: {fileID: 76629380}
   jumpingSFX: {fileID: 8300000, guid: 4a49f54c131c92a4bbe3055767742a0b, type: 3}
   attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}
   beAttackedSFX: {fileID: 8300000, guid: 3f896834aeaeb434498aa6ab953c5155, type: 3}
@@ -368,3 +370,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1862468089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623920874689396210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bc8ec0910b09c24ab182789d8c92612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimeBetweenAttack: 0.3
+  AttackPoint: {fileID: 76629380}
+  SpecialAttackPrefab: {fileID: 7231005292787554250, guid: d51f833b15d7ca84d9ffa4336b293f67, type: 3}
+  hurtBox: {fileID: 538098018}
+  attackRadius: 1.5
+  damage: 5
+  attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}
