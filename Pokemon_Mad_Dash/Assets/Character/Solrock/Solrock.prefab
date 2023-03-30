@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4270124427470867332}
   - component: {fileID: 5819402904630312565}
   - component: {fileID: 6344456711441808365}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8027600319784008260}
   - component: {fileID: 1083314861143092391}
   - component: {fileID: 3998338794353407170}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 16.090027, y: 2.539978}
+  m_AnchoredPosition: {x: 959.36, y: 541.38}
   m_SizeDelta: {x: 1.1599998, y: 0.1}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &8027600319784008260
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 3957757257055031991}
   - component: {fileID: 3957757257055031996}
   - component: {fileID: 3957757257055031997}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Solrock
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -344,7 +344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charMovement1: {fileID: 0}
-  charMovement2: {fileID: 0}
   maxHealth: 200
   damage: 10
   isBoss1: 0
@@ -363,8 +362,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  isChar1: 0
-  isChar2: 1
 --- !u!114 &3957757257055031996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3392dcd2efe28094eb83ad33e79bb831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementDistance: 5
+  movementDistanceX: 10
+  movementDistanceY: 0
   speed: 2
 --- !u!50 &3957757257055031997
 Rigidbody2D:
@@ -412,7 +410,7 @@ GameObject:
   - component: {fileID: 2677752258816422109}
   - component: {fileID: 8730405909106520706}
   - component: {fileID: 4777814488814101050}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 943.1, y: 538.7}
+  m_AnchoredPosition: {x: -0.17, y: -0.2}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2677752258816422109
@@ -512,7 +510,7 @@ GameObject:
   - component: {fileID: 6537067905749079057}
   - component: {fileID: 5254627350218855261}
   - component: {fileID: 350604786579448548}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthFillPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

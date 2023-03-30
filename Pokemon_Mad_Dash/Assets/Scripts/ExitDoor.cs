@@ -12,10 +12,14 @@ public class ExitDoor : MonoBehaviour
     {
         GetComponent<Animator>().SetTrigger("Open Door");
 
+<<<<<<< HEAD
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             StartCoroutine(LoadNextLevel());
         }   
+=======
+        
+>>>>>>> f5b8c5c2934ae40d146f498cd40b2ad27fe2d358
     }
 
     public void StartLoadingNextLevel()
