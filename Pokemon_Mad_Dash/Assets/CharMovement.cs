@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class CharMovement : MonoBehaviour
 {
 
+    [SerializeField] float climbSpeed = 8f;
     [SerializeField] float movement;
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] int speed;
@@ -16,7 +17,7 @@ public class CharMovement : MonoBehaviour
 
     public bool door = false;
     public Animator animator;
-    //[SerializeField] CapsuleCollider2D myCollider2D;
+    [SerializeField] CapsuleCollider2D myCollider2D;
 
     public int health;
     public int maxHealth= 30;
@@ -41,8 +42,8 @@ public class CharMovement : MonoBehaviour
     void Update()
     {
       Run();
-
-
+      Climb();
+      ExitLevel();
       if (Input.GetButtonDown("Jump"))
           jumpPressed = true;
 
@@ -112,6 +113,7 @@ public class CharMovement : MonoBehaviour
               KnockFromRight = false;
             }
    }
+
  }
    public void TakeDamage(int damage){
      if(isInvincible) return;
@@ -139,6 +141,15 @@ public class CharMovement : MonoBehaviour
 
 
 }
+private void ExitLevel()
+{
+    if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))) { return; }
+
+    if (Input.GetButtonDown("Vertical"))
+    {
+        animator.SetTrigger("EnterDoor");
+    }
+}
 public void LoadNextLevel()
 {
     FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
@@ -146,6 +157,20 @@ public void LoadNextLevel()
 }
 
 
+private void Climb()
+{
+    if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladder")))
+    {
+        float controlThrow = Input.GetAxis("Vertical");
+        Vector2 climbingVelocity = new Vector2(rigid.velocity.x, controlThrow * climbSpeed);
 
+        rigid.velocity = climbingVelocity;
+        rigid.gravityScale = 0f;    // Disable gravity to make the player climb up the ladder
+    }
+    else
+    {
+        rigid.gravityScale = 1;    // If the player is not touching a ladder, enable gravity again
+    }
+}
 
 }
