@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class Caterpie : MonoBehaviour
 {
-    [SerializeField] float CaterpieRunSpeed = 5f;
-
     Rigidbody2D myRigidbody;
 
     float speed;

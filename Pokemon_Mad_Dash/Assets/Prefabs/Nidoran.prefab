@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 1172206837732892317}
   - component: {fileID: 1172206837732892315}
   - component: {fileID: 2148804354711957785}
-  m_Layer: 10
+  - component: {fileID: 8414247134694041108}
+  m_Layer: 12
   m_Name: Nidoran
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +99,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172206837732892316}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -165,8 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f57d7e604afd254f8b0d00a926655c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nidoranRunSpeed: 5
-  nidoranDyingSFX: {fileID: 8300000, guid: 419024d3190f3c5449039e63e349d3c8, type: 3}
 --- !u!95 &1172206837732892315
 Animator:
   serializedVersion: 5
@@ -283,3 +282,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8414247134694041108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172206837732892316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1907c5a8544ddb142994ffd2520eb092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  speed: 2
+  startDazedTime: 0.3
