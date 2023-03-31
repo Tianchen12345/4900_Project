@@ -11,8 +11,10 @@ public class ExitDoor : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GetComponent<Animator>().SetTrigger("Open Door");
-
-        
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            StartLoadingNextLevel();
+        }  
     }
 
     public void StartLoadingNextLevel()

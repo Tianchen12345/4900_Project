@@ -8,9 +8,12 @@ public class Starly : MonoBehaviour
     [SerializeField] private float movementDistanceY;
 
     private bool movingLeft;
+    private bool movingUp;
 
     private float leftEdge;
     private float rightEdge;
+    private float upEdge;
+    private float downEdge;
 
     float speed;
 
@@ -18,6 +21,8 @@ public class Starly : MonoBehaviour
     {
         leftEdge = transform.position.x - movementDistanceX;
         rightEdge = transform.position.x + movementDistanceX;
+        upEdge = transform.position.y + movementDistanceY;
+        downEdge = transform.position.y - movementDistanceY;
     }
 
     // Start is called before the first frame update
@@ -57,7 +62,31 @@ public class Starly : MonoBehaviour
                 FlipSprites();
             }
         }
+
+        if (movingUp)
+        {
+            if (transform.position.y <= upEdge)
+            {
+                transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.deltaTime);
+            }
+            else
+            {
+                movingUp = false;
+            }
+        }
+        else
+        {
+            if (transform.position.y >= downEdge)
+            {
+                transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.deltaTime);
+            }
+            else
+            {
+                movingUp = true;
+            }
+        }
     }
+
 
     private void FlipSprites()
     {
