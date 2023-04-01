@@ -76,6 +76,8 @@ public class CharMovement : MonoBehaviour
 
    void Run(){
      movement = Input.GetAxis("Horizontal");
+     Vector2 playerVelocity = new Vector2(movement * speed, rigid.velocity.y);
+     rigid.velocity = playerVelocity;
      animator.SetFloat("Speed", Mathf.Abs(movement));
    }
    void Flip()
@@ -125,7 +127,8 @@ public class CharMovement : MonoBehaviour
      if(health<=0){
 
        //Destroy(gameObject);
-       SceneManager.LoadScene("Level 1");
+       var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+       SceneManager.LoadScene(currentSceneIndex);
      }
       StartCoroutine(BecomeTemporarilyInvincible());
    }
