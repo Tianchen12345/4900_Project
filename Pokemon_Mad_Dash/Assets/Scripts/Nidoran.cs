@@ -5,51 +5,35 @@ using UnityEngine;
 
 public class Nidoran : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 5f;
-    [SerializeField] AudioClip nidoranDyingSFX;
-
     Rigidbody2D myRigidbody;
-    Animator enemyAnimator;
+
+    float speed;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        enemyAnimator = GetComponent<Animator>();
+        speed = GetComponent<Enemies>().speed;
     }
 
     // Update is called once per frame
     void Update()
     {
+        speed = GetComponent<Enemies>().speed;
         EnemyMovement();
-    }
-
-    public void Dying()
-    {
-        enemyAnimator.SetTrigger("Die");        
-        GetComponent<CapsuleCollider2D>().enabled = false;
-        GetComponent<BoxCollider2D>().enabled = false;
-        myRigidbody.bodyType = RigidbodyType2D.Static;        
-        StartCoroutine(DestroyEnemy());
-    }
-
-    IEnumerator DestroyEnemy()
-    {
-        yield return new WaitForSeconds(1.5f);
-        Destroy(gameObject);
     }
 
     private void EnemyMovement()
     {
-        if(GetComponent<BoxCollider2D>().enabled)
+        if (GetComponent<BoxCollider2D>().enabled)
         {
             if (IsFacingLeft())
             {
-                myRigidbody.velocity = new Vector2(-runSpeed, 0f);
+                myRigidbody.velocity = new Vector2(-speed, 0f);
             }
             else
             {
-                myRigidbody.velocity = new Vector2(runSpeed, 0f);
+                myRigidbody.velocity = new Vector2(speed, 0f);
             }
         }
     }
@@ -67,10 +51,5 @@ public class Nidoran : MonoBehaviour
     private bool IsFacingLeft()
     {
         return transform.localScale.x > 0;
-    }
-
-    void PlaynidoranDyingSFX()
-    {
-        AudioSource.PlayClipAtPoint(nidoranDyingSFX, Camera.main.transform.position);
     }
 }

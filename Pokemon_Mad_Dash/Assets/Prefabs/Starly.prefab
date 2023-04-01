@@ -201,4 +201,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementDistanceX: 3
-  movementDistanceY: 0
+  movementDistanceY: 1
