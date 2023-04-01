@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
 
-        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 4)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 5)
         {
             pauseGameScreen.SetActive(false);
         }
@@ -25,6 +25,8 @@ public class UIManager : MonoBehaviour
             MainMenuScreen.SetActive(true);
             KeySettingScreen.SetActive(false);
         }
+
+
     }
     public void StartGame()
     {
@@ -40,7 +42,6 @@ public class UIManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(1);
-        pauseGameScreen.SetActive(false);
         Time.timeScale = 1;
     }
 
@@ -56,17 +57,21 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 5)
         {
-            if (pauseGameScreen.activeInHierarchy)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                PauseGame(false);
+                if (pauseGameScreen.activeInHierarchy)
+                {
+                    PauseGame(false);
+                }
+                else
+                {
+                    PauseGame(true);
+                }
             }
-            else
-            {
-                PauseGame(true);
-            }
-        }
+        }       
+
     }
 
     public void PauseGame(bool status)
