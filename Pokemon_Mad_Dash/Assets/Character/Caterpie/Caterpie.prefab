@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 79777014}
   - component: {fileID: 79777013}
   - component: {fileID: 79777012}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 1300099662}
   - component: {fileID: 1300099664}
   - component: {fileID: 1300099663}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthFillPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 1918436683}
   - component: {fileID: 1918436682}
   - component: {fileID: 1918436681}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 2099799132}
   - component: {fileID: 2099799131}
   - component: {fileID: 2099799130}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 2490543859746406088}
   - component: {fileID: 8368734115596533576}
   - component: {fileID: 2039383052}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Caterpie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -594,12 +594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb766e80c6d41a79154615961fcab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters:
-  - {fileID: 0}
-  - {fileID: 0}
   charMovement1: {fileID: 0}
-  charMovement2: {fileID: 0}
-  maxHealth: 40
+  maxHealth: 30
   damage: 10
   isBoss1: 0
   OnHealthChange:
@@ -617,8 +613,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  isChar1: 1
-  isChar2: 0
 --- !u!114 &2039383052
 MonoBehaviour:
   m_ObjectHideFlags: 0

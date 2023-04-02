@@ -544,7 +544,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &871039256
 CapsuleCollider2D:
@@ -574,6 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569a5102c90444a7b91dfbe43a5b77a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  climbSpeed: 8
   movement: 0
   rigid: {fileID: 871039255}
   speed: 0
@@ -583,6 +584,7 @@ MonoBehaviour:
   isGrounded: 1
   door: 0
   animator: {fileID: 1471873559607236071}
+  myCollider2D: {fileID: 871039256}
   health: 0
   maxHealth: 100
   invincibilityDurationSeconds: 1.5

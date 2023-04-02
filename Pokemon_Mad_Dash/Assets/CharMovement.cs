@@ -133,6 +133,13 @@ public class CharMovement : MonoBehaviour
       StartCoroutine(BecomeTemporarilyInvincible());
    }
 
+   public void Heal(int heal){
+     health +=heal;
+     if(health>maxHealth){
+       health = maxHealth;
+     }
+     OnHealthChange?.Invoke((float)health / maxHealth);
+   }
    private IEnumerator BecomeTemporarilyInvincible()
 {
 

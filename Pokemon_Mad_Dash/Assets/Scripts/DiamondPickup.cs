@@ -14,5 +14,12 @@ public class DiamondPickup : MonoBehaviour
             FindObjectOfType<GameSession>().addToScore(diamondValue);
             Destroy(gameObject);
         }
+        // works with charmander
+        if (collision.GetType().ToString().Equals("UnityEngine.CapsuleCollider2D"))
+        {
+            AudioSource.PlayClipAtPoint(diamondSFX, Camera.main.transform.position);
+            FindObjectOfType<GameSession>().addToScore(diamondValue);
+            Destroy(gameObject);
+        }
     }
 }
