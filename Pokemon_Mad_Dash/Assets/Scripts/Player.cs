@@ -43,7 +43,6 @@ public class Player : MonoBehaviour
         MyGravityScale = myRigidbody2D.gravityScale;
 
         myAnimator.SetTrigger("Exit Door"); // Trigger the "Exit Door" animation state at the begining of game
-
     }
 
     // Update is called once per frame
