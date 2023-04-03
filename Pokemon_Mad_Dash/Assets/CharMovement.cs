@@ -144,6 +144,7 @@ public class CharMovement : MonoBehaviour
 {
 
     isInvincible = true;
+    
 
     yield return new WaitForSeconds(invincibilityDurationSeconds);
 

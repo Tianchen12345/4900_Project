@@ -57,6 +57,7 @@ public UnityEvent<float> OnHealthChange;
     if(collision.gameObject.tag == "Player")
     {
         charMovement1.TakeDamage(damage);
+        StartCoroutine(IgnoreCollision());
         charMovement1.KBCounter = charMovement1.KBTotalTime;
 
         if(collision.transform.position.x <= transform.position.x)
@@ -72,7 +73,17 @@ public UnityEvent<float> OnHealthChange;
   }
 
   }
+  private IEnumerator IgnoreCollision(){
 
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), true);
+
+
+    yield return new WaitForSeconds(2);
+
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
+
+
+  }
 
 
 
