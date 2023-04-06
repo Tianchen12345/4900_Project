@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
 
-        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 5)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 6)
         {
             pauseGameScreen.SetActive(false);
         }
@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
     #region Game Over
     public void Restart()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
@@ -57,7 +57,7 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 5)
+        if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 6)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {

@@ -12,6 +12,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] Image[] hearts;
 
     [SerializeField] private GameObject Player;
+    [SerializeField] private GameObject GameOverScreen;
 
     private void Awake()
     {
@@ -35,7 +36,7 @@ public class GameSession : MonoBehaviour
 
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 5)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 6)
         {            
             Destroy(gameObject);
         }
@@ -66,7 +67,9 @@ public class GameSession : MonoBehaviour
         }
         else
         {
-            resetGame();
+            Time.timeScale = 0;
+            GameOverScreen.SetActive(true);
+            //resetGame();
         }
     }
 
@@ -92,9 +95,10 @@ public class GameSession : MonoBehaviour
         }
     }
 
-    private void resetGame()
+    public void resetGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
         Destroy(gameObject);
     }
 }
