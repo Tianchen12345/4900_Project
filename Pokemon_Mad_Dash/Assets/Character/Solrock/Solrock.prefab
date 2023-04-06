@@ -113,7 +113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 959.36, y: 541.38}
+  m_AnchoredPosition: {x: 959.6237, y: 541.4073}
   m_SizeDelta: {x: 1.1599998, y: 0.1}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &8027600319784008260
@@ -215,11 +215,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3957757257055031995}
   - component: {fileID: 3957757257055031994}
-  - component: {fileID: 3957757257055031993}
   - component: {fileID: 3957757257055031992}
   - component: {fileID: 3957757257055031991}
   - component: {fileID: 3957757257055031996}
   - component: {fileID: 3957757257055031997}
+  - component: {fileID: -1640284791545031770}
   m_Layer: 12
   m_Name: Solrock
   m_TagString: Enemy
@@ -295,22 +295,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &3957757257055031993
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3957757257055031990}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.9111626
 --- !u!95 &3957757257055031992
 Animator:
   serializedVersion: 5
@@ -398,6 +382,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!70 &-1640284791545031770
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3957757257055031990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.018189907, y: -0.009094715}
+  m_Size: {x: 1.862895, y: 2.026599}
+  m_Direction: 0
 --- !u!1 &4119386484283891267
 GameObject:
   m_ObjectHideFlags: 0

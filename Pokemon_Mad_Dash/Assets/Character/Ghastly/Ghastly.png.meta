@@ -1,0 +1,5909 @@
+fileFormatVersion: 2
+guid: bfc1c0b5d2b7541bea4529c9bdd869aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghastly_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 372
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b94e77afb8341819cd1a56400f5097
+      internalID: -693174722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 372
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b493510fcab18454db27fd1c6576549d
+      internalID: 300003108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 373
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e550693a9b49b4bcc60ffdae22086
+      internalID: -278087871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_3
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 372
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54b0d23a5f9498fa3fd4043d0100b1
+      internalID: 1422600128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 321
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3123d848468984387af68312ed650896
+      internalID: -161733810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311322e24d384804ab6df88439714bf
+      internalID: 977120798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 322
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f460c4476b34d39a398989fb8eb255
+      internalID: 1383829730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 318
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8768c4248a6fd418abafd8afa33f9b57
+      internalID: 677150200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 321
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d7e347078ff45a6a1d0da0fa03114b
+      internalID: -336173638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87ee2f1d8dd4ca68110709a654e602
+      internalID: 525028306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 359
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64668a99dd9e54715a50d607a77f5762
+      internalID: 1828467344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 355
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b502464116e04a6eb5baa58d4124786
+      internalID: -1474733493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 359
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d89b66d50374feb86c8f6cb3e00fce
+      internalID: -509116751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 354
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f962f229a29e42dfaab42555ec1c5c1
+      internalID: 1671062260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 348
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfef019af5834716a4fabbcb70287ed
+      internalID: -664608978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 348
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92073a244eb184fb18fc95c8467510d8
+      internalID: 1990007016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 342
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6505a31bc24b3495794ecf6533218297
+      internalID: -1334778102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 338
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c18f20d092d47b6989f732fd9bda8e
+      internalID: -1716340783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_18
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 342
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893839fced6734bfa844e33843557594
+      internalID: 1669867872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 336
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baa3ed9e62b44bf1beae8781db64158
+      internalID: -954071248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 336
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e239137aec1844d6ea1124bec6e50845
+      internalID: -1019266190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dd9acbfa4fe4b1ca13cc79160f08a4
+      internalID: 856733436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 332
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8491f85cf2b3d4ad298dd67f94eb7bce
+      internalID: -401330692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d7cf199bd0d4368a6f164f2059e9eb
+      internalID: -425696586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_24
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509c1183d383745afaafac2ffebc7edf
+      internalID: 2076873320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 318
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0617865e3744ceba328eb4c2e1df9
+      internalID: 1066563811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_26
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a4c838d89745f69ac670463bb538e
+      internalID: 301188543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 318
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a8af32b70704c48bb3ccbd6620e04a
+      internalID: -1808368473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f523ab5aea74f1bb6c5081b276cff1
+      internalID: 2078919172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_29
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 291
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30efca4efc49d414faec87e7435c3e26
+      internalID: 1436474895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_30
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 291
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c85cb93c01da4025b138048f28ab69d
+      internalID: 375238845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a982c6c688c4ecd9ac1cc9dcd58200
+      internalID: 1384204906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ee1b41fcdce48c592fb727723fcf0f
+      internalID: -794628590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea94737e2528f4de3b5c8999c89bd43b
+      internalID: 622888535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a2aef2638824b67b7905c92132e3cf
+      internalID: 1747052831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_35
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1bf852f3e8f4835b331ae407132f22
+      internalID: 873674133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_36
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 299
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a020cb323fc4a48af21b054dc5bb86
+      internalID: -712418726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 248
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f328a6613640c5b34435f0a0fea23
+      internalID: -648172595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 295
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a4fe481dbee4be6a8220f10ce250d7
+      internalID: -874272463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 248
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4040d9cc2589543f5982c797a3ea6b5e
+      internalID: -1864040507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 295
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706c61c38da5e4c51b62656af4be99aa
+      internalID: -603664047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 248
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7547ffc3027dc4c40a05d3b27b402c12
+      internalID: 1607423892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_42
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 295
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b9758490b143679fe9aaa06d54195
+      internalID: 755828613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_43
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 248
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321ef09e0110548b3a638ad583c005c2
+      internalID: -204643952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_44
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 248
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d97138c3eb34eae9d4b9941f49b0c1
+      internalID: -142017054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 295
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d31d4cc1936446da54f59abbe80e26
+      internalID: -950379736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_46
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 248
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80030222a1a9141d680482f9cf805b4d
+      internalID: 2114974496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_47
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 295
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded01b65d725474d82f5fd0ac8d7889
+      internalID: 547385387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_48
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 291
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb8a456955c841e3bd84b6f1ce15c34
+      internalID: 2078523991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_49
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 291
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7713fd2f3bd14df29eafd9cbc527338
+      internalID: 503292961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 291
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b71875fff2c4174ba96c73ba6f1f20
+      internalID: 174625908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_51
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 264
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d3b77f6881d4b428e55a561e2b4ae1
+      internalID: -277376904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_52
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 291
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94556fe4fead349b695351c3272a5d07
+      internalID: -1458512442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_53
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67c2ecc21674ffc8b150ffca666c7f
+      internalID: 1231571398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_54
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98656def933174c85b61e8f2a91f68a2
+      internalID: 2029860687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_55
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea9157aa846843fe82ac94b72683729
+      internalID: -885300496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bc72a1a6e8d426a8f13c8c7e140358
+      internalID: 1065505485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_57
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4ab37bd527b48a68b2cb0cdd4a3348
+      internalID: 258709554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_58
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08843e8c12c7a44f9bc61bab118e58b0
+      internalID: -594277867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_59
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 263
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eee08c3429f4bd48e2646a6ccd35b8
+      internalID: -1537659697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_60
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 263
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd062b0785c364b49b418b5f53a9c371
+      internalID: -1503361524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_61
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55f7172bbb14913a3eb286cb4e8bd6
+      internalID: -423388221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 275
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb8a03f2c78b404c8a1c4a3b5ab63f5
+      internalID: -358263905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_63
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 275
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde665ba4e114e7189a97f5a67a3543
+      internalID: -1463098942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_64
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0681419d4baa49199ce8106e0683e98
+      internalID: 519358560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_65
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db875cbf29284b939743bed572b352d
+      internalID: -489296562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b14c9c45659c498e8c5d54396e2fd53
+      internalID: -445650773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_67
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc620d72d8bda42cda2a6b011dd3c455
+      internalID: 1878601690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_68
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce853999408364d2286979f5a6d6ab37
+      internalID: -1300830664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_69
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd2c83efe504f3db5e6bb119ac3328
+      internalID: 149786407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_70
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e0a86377a594dacb674108fac6e0cc
+      internalID: 2060981021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_71
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddecf10396fa4ef7a17c535583b5446
+      internalID: 1366393595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_72
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0249786d72e2b4d7282e90ed8c621c87
+      internalID: 150658125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_73
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43693c2fed44643a38f9b77c765e9db0
+      internalID: 2176794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_74
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70505254ed8f140bcb4883962a3fb409
+      internalID: -833593221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_75
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff861f5f1d74c5188ab2925da12818
+      internalID: 222657654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36758c03717ca447f80c44ad2a6d73ff
+      internalID: 1472491889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_77
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd4e2310823645e199b48a87c626007
+      internalID: -1209039698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813df1b90eb2446b380cc17dc2cea289
+      internalID: -532385901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_79
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b19ccea165e47e5ac2b7ace1255565
+      internalID: -1903563056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac6a50d114ea499caace78b12467a3f
+      internalID: -1305486592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_81
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b7d0b175024644bfe24517520e868
+      internalID: 264314477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_82
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 214
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c78d0f6a48d4cc88d26a18455de744
+      internalID: -1893137150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_83
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 214
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de85c5de62354602825e0064c7a2db1
+      internalID: -1979022433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_84
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1372cf539ffa40dd8d03c0494cdfca0
+      internalID: -1187732955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_85
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0667c9286c77d4c49b6834c17358934f
+      internalID: 1165015772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cde66b575c645ceb7bdc2cc1671cdb
+      internalID: -1304290303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_87
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19c43a4f6c74c6b823567ec0b03e50
+      internalID: -1942331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_88
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1cab65439c642d09958eea3fd7f57f
+      internalID: -672050291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_89
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d834bcb0035134f81b6aab1e1acba249
+      internalID: -1048929851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_90
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 231
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211c3d7927464fbf9daffd54225f268
+      internalID: 903973136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9331d228ef1714c4aa791e1e86ed6d7d
+      internalID: 1471993497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f2b76a56da40bd827fd47765acb13
+      internalID: 907412786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_93
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 202
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f0f15bde93e451389a51f45e48ebe1
+      internalID: -218021288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_94
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c887d6786a3b4014aa3d5a92e9add4c
+      internalID: -1260711714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_95
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 202
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa069b17ff5e41c087355b6667d42dc
+      internalID: 2136550922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_96
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43cc45a6b5834e6b9eabb8400f7c570
+      internalID: -971234779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8fc8e0d7d5c4cacb342fb3ca8c77fc
+      internalID: 366814248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_98
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5600a92c6ebac4b7a8cb37cd48841041
+      internalID: 1511123289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_99
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 202
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667606ba4d8c44e3ea902f934e291236
+      internalID: -1269394808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_100
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db84572c1f24f79ab9bcbbac91b96f
+      internalID: -214418667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_101
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf14284b20684cd49e805888408bb3b
+      internalID: -1022631234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_102
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31af7f20e1bd47d496bea8469beee5c
+      internalID: 41763179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_103
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a01703aa4a4ee48060f68ee705537
+      internalID: -859208985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_104
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f931e38ebfee44f2a7660f193462f01
+      internalID: -133604675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_105
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b6f51fa4fa1442e80e71af2d83e29b
+      internalID: 443202797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_106
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 200
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4629bfedb0f8e4715912a62862d11a06
+      internalID: -1219011608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_107
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 200
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da438cbdc52774a01930305c35b6d72f
+      internalID: -832418221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_108
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccabc7fc56aab4e33a523400d07f658c
+      internalID: -796606717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_109
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842fe4101c06a446da974f34b6403a3d
+      internalID: 1640596595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_110
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb34d17bc57734174839a35c48175a2f
+      internalID: -1830445953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_111
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 202
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bddf52a712d443780746255136f6e3
+      internalID: -1991300709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_112
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 200
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aec566041094f5e8cf1a993c43e055
+      internalID: -1690616745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_113
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 202
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88f1370afb0c47749d121d13f53ced8
+      internalID: 2135225819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_114
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4167d61c33a6a4f5f89c516889c49e31
+      internalID: 189433964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_115
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32da19a5623d460bbf1ee22f11d562a
+      internalID: -827981901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_116
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 202
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b56d09af294d2ca2ec3f5aa87c049
+      internalID: 76007629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_117
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d2d30a3231249159cfe2b53ddb83c9
+      internalID: -1815229739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_118
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f4ad3ce32f4efbb9b90e00a1d2047
+      internalID: -1001971868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_119
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 202
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9902bb2f04fa5451fbfcdefa8601d41e
+      internalID: 457861390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_120
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 202
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abce758d9296b4b5aae61e7257c794a5
+      internalID: -1459743548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_121
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b141671288d1847e1a3acb2ce27a608a
+      internalID: -260446996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_122
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ec43dc403fc452b8ce880b8a63c684
+      internalID: 1018462953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_123
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 202
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e67a8c43f3a4110bc333c0e0f3b47c
+      internalID: -897670609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_124
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85baad1cdf8474da6b0c6994364c59
+      internalID: 2003639446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_125
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbd0c14a49484648a780b51a5dab43e
+      internalID: 380463611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_126
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 202
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36479d5f978274769b2d9a2ac3fec75d
+      internalID: -531524497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_127
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4af499a0c0a94a3caa2c01739c7f40b
+      internalID: 1295685971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_128
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 202
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feabe7c8c32ca4e6b97f29682f47504d
+      internalID: -1335953510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_129
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd045d174fcb045ba86ebe3fe7458d59
+      internalID: -678230151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_130
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 201
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7747054d094aa485593aacd5e77ebf0a
+      internalID: 82660284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_131
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981edc2163faa4e279a37191f91864c8
+      internalID: 93636911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_132
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a21f705f656c4cf9916c1154ca69168
+      internalID: 1305261721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_133
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 202
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f62adeb54e407393c12318e8577e2
+      internalID: 323780799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_134
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c426fe8ddbd3b47318ee84d73d3c3844
+      internalID: 1602224175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_135
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8187e54e4ff7f45b8ab6d4ead6f0285d
+      internalID: 159833097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_136
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04255442717944b30a0337dd9d1925cf
+      internalID: 1859759510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_137
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 202
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21161d862b0bd482ba96580470819db8
+      internalID: -1463933904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_138
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 202
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6a52dfa38814793a14193564191e44
+      internalID: -1290322548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_139
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c79b654499244d4b871b32728cb3cc
+      internalID: -1290762622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_140
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 201
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439ed2b6222ca4aec9f87f8a534ad271
+      internalID: 1738990623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_141
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc9badfe9deb4dff8de231e60031997
+      internalID: 1830649512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_142
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a86acb5fca3d40019d974cbcb950f43
+      internalID: -2126339173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_143
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 202
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51a77f9898ef425a8e2d9d486c2e244
+      internalID: -1908917899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_144
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477448fe25ed04e8ea9d5fa50f17d3f9
+      internalID: -1480554592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_145
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 160
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162f04fd206e4ae3b3349da8cb64987
+      internalID: 640081582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f5f1e00955444cbf1c69c447d4651
+      internalID: -486378582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_147
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 177
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa7e0e4f8dd74034a6639088c4b4f09
+      internalID: -1544477527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_148
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 186
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c714130b7804530add1237b0b353a3
+      internalID: -693405454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_149
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 162
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81656a1211c242a496c72b05fa38a97
+      internalID: 195220149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_150
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 166
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f1d3fa8d454b86b9299fe22236c75
+      internalID: 1781400262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_151
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c499dfe24ed949b6b88449f9c9c9cf3
+      internalID: -772619393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_152
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 158
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1702ad12b5efc4eb7a9221da8ad7dcd6
+      internalID: -1007803427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_153
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 155
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3559ba88e3442fe94dccdabd491b49
+      internalID: 1014461671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_154
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 149
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d228d91d515483e9e26ea432ad51e2
+      internalID: 715073849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_155
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 104
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe7cc6526c38498d937da7b514fe190
+      internalID: -1116038527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_156
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 151
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91711e7c38804f95b86501a1db4ad54
+      internalID: 1525353973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_157
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 152
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eff051666bb4fb08e45b02cb35c5b9
+      internalID: -964449220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_158
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 150
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7915bf8d5c04b47c38ebbe0725ad32b2
+      internalID: 1061432131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_159
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 101
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a929c5cd9b474a8107e4d744c89ae
+      internalID: -1743083690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_160
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74f7e69fa804adf87cf71b70e15be2
+      internalID: -2028064721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_161
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 147
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53651fd23370e40628964daddcddad30
+      internalID: 626015093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_162
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 99
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ef8c9b31684b2e803a6954ac3f651
+      internalID: 1154920397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_163
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 146
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf8c321a5d04681b854c666f3d9e17
+      internalID: -421447462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_164
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 142
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cfe6ee7729f49c881afb58d440d029
+      internalID: 1256473746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_165
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 139
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d5614bb8b1d46c3a63ae2563e3ae27
+      internalID: 123418498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_166
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 92
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25cfaa3a0d6040b0aeccbf13af56265
+      internalID: -970792923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_167
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77772455b11f74874a73568bec10df33
+      internalID: 756007338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_168
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 134
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148e80c54b2394872be5b55ecd8d7b35
+      internalID: 1336209015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_169
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 137
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cdcafe74ca84433a3b2ff542d18080
+      internalID: 365333385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_170
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3a24037d35c4fa7af51c1a155f91ff
+      internalID: -814532915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_171
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c0aedce30334bb08f12e89f89cecfd
+      internalID: -2015506198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_172
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 128
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8242c4d1b804cec9d19cffa114992b
+      internalID: -63840129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_173
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 125
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26578956c7bda4fddaf1ccfb0fbcfa12
+      internalID: 1327011191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_174
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 122
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b624f3e970e3b417891abe519ae13352
+      internalID: 269030329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_175
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 122
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374481b76048407abe982a9a5ab10b8
+      internalID: -470529132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 126
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e732af47cc6b4f07acad4c00ed5cc14
+      internalID: -610615025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_177
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 122
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac9e9b1ef034668b40939a23c3febb
+      internalID: 1826329261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_178
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 119
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dbe4abeeb1945fdaa35ee9d809c8f6
+      internalID: 884726108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_179
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb38fb696bdb4a3b9baa0f73e96d95f
+      internalID: 1131368087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_180
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c18df544c8e3470a8ee50d692b0775e
+      internalID: 134186586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_181
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11a2de8f6114f9794e4b64e6e2b9ce
+      internalID: 1253625132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_182
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 116
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cb37e9aa6304e388d4a81034b98734
+      internalID: 1911862292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_183
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7a1bbf9b0ec463cb7b12070e8d8914
+      internalID: -1054775931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_184
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 114
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8ff8755bfd34875a1b19a8486bd8e5
+      internalID: 670158647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_185
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 108
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff9641e790e4350832895fc30e7e56
+      internalID: 945683429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_186
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 107
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b4bbec505144b1db77b4b7a3d5a59c
+      internalID: 398800630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_187
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 106
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fabf468c4674059afa2f9594e17c10
+      internalID: -263810364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_188
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 101
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcd006f72b2c4eaea5ad9ca14e9b3e0
+      internalID: -988988277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_189
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 98
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd3c89c4164947e891de51eec15feac
+      internalID: -699861106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_190
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddeb6ff8e66944618339bbe37a06a3d
+      internalID: 27262400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_191
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 96
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9227abaf2acc24888bf20187899ea158
+      internalID: -693930929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_192
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb17fcb406354a14a7c107964d31d09
+      internalID: 1572156417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_193
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 67
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b48cb575cf242fabc202412768780f
+      internalID: 152293419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_194
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 9
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c76066d6cf4bf8bba244969b3dc0e
+      internalID: -1153892571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_195
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 63
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8492642c19dae4f21827a27ac9558a19
+      internalID: 407183624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_196
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 60
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af5353ebc2074af096faec696fe1e2c
+      internalID: 1996827913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_197
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 58
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745daf5cfbdfa4f03b9c084ac6980c90
+      internalID: 461621847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_198
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 55
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d920297afc1424c8bbce779f8690bb9b
+      internalID: -804181719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_199
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 55
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c431c3e87584ee1b9d9b9177c550bf
+      internalID: 1496111344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_200
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 55
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e644c0325d2f40a1b4a4d130cbc0b61
+      internalID: 883422963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_201
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 55
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478f43a97f284328877d2fe5912fa78
+      internalID: -474770146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_202
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 5
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ea109bd012a40b28f91cfd8acde0bf
+      internalID: -1459118639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_203
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b638797df5744b9a910cd5e8874aa2
+      internalID: 2083993878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_204
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 57
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec20dc3e4f44d1992d0fbe100e2873
+      internalID: -772870858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_205
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a272e8e25444455b20799ac6950bcf
+      internalID: -385097925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_206
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea91138cfd0c2408ca323e9daee4bbce
+      internalID: 1263534319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_207
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1feada59b85246d4b43c0d7d68101a2
+      internalID: -75131060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_208
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e94f67a02ca94934afb07c60ef577e9
+      internalID: 1603261023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_209
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c1966d02c44ccfab787834e631166
+      internalID: 1979328726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_210
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc84a2b44ada4c2fb3202119e2914c0
+      internalID: 165228030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_211
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c2797509338449da7a1cebe5f8b1ee
+      internalID: -744675907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_212
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 6
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd79c28dd6fed42d9941f0005f6c0701
+      internalID: -1589696442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_213
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5349e1d78f8904227be4bb832045c53a
+      internalID: -1084236264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_214
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 45
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7cf7cba8d154aa281241844c00ea77
+      internalID: 348483493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_215
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 4
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb3cd3a3785e4a698a2162dd981cb33
+      internalID: -303047835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_216
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 4
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56415b0251ace442db567cc45ba903af
+      internalID: 177783792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_217
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a315350fef2d240bea44755bb6e1abad
+      internalID: -1890608671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_218
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 4
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7272a749be00544f083a3ce7c673d151
+      internalID: 459931900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_219
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8aed39669e64bb68fa6e4d67fc4fbf
+      internalID: -1268882763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_220
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb24d01e2afb94abea8961fd4d319c64
+      internalID: -113621505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_221
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 42
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8ab8a44a797411387b49c1b52dbf32
+      internalID: -1899895775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_222
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 42
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eaeb4fe3c9143208ba245e7b2a78e1
+      internalID: -25149146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_223
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 42
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814a450f9be04496a54e16d47ccc7d2
+      internalID: 1559647143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_224
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 42
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946b9b16f720d438b9b841b83b159f8d
+      internalID: -492983370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_225
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e415e79846c4713974ec0bd03eb3e7
+      internalID: -256860799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_226
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59acf094ff577415aa2066292d012e9a
+      internalID: 203892318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_227
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdbb161d22ac49359b8cad236e043ec
+      internalID: 1133050981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_228
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08568f5fcec6b45748323cfdf4168410
+      internalID: -465243945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_229
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 33
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54b12f95953403bb8b9b77033ac355
+      internalID: -787298979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_230
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 28
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f23f8b5110a44e66afb206577417486
+      internalID: 587982912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_231
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dae698c0eec46fda30b2dfee8bc9e5
+      internalID: 853897626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_232
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8bd9dd3faae498eb30f4ec62eaa6e5
+      internalID: 1757727273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_233
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8d2b689bd34e11af9c7e444da312b
+      internalID: 2092798872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_234
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019cbb784d8d64c6081c90b561fef9dc
+      internalID: 1620351538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_235
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 30
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55947447170fc442299f211d4630115b
+      internalID: -279700882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_236
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 27
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9b058e13c9f48efab47b218e072a99
+      internalID: 2033569056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_237
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 25
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ac50e833b04d12b1ac8f65fc6252b
+      internalID: -237762966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_238
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 25
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8050e99fa21b47a2ad9a5a3d12a89b9
+      internalID: -1480388261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_239
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 25
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b38fd1f89fbf43aabb89ebc3790b84a
+      internalID: -453718601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_240
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 25
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c75d1a1a1a4f0e9c38d9dbac4e66f
+      internalID: 481873501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_241
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 27
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6439a863ee71a416ba2b1bde0b2388d0
+      internalID: -2079423233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_242
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 24
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3926f27ed34e3415f85cef3695407369
+      internalID: -2035918672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_243
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28127bec536034187b81118f158f323e
+      internalID: 1341340565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_244
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c771870e9cb4f878a4ab301ddf98f9
+      internalID: -1699632684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_245
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f57563d834a24c4cb7fd4373e5ffe74
+      internalID: 1280809456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_246
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0ab1d4be1f64d9da408fc36ee13a50
+      internalID: -1388785609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_247
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566244bfa4efd4093b7aadd9ec909a66
+      internalID: 2044226018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_248
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8243a65ab01b2492299fea97e307a493
+      internalID: 1520884751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_249
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71678ca3088ff42edb3649492194687c
+      internalID: 1210328824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_250
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 21
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25288b5bb8464b65a0049a05f3ae5ac
+      internalID: -619512427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_251
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e7c414970b742978bca784b6c6b29c
+      internalID: -1451705689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_252
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19cf60df75740679dac643476b053b
+      internalID: -333606839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_253
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298f98be7f5404ebd897b1ec85ab450c
+      internalID: -49350852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_254
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d645d819e81d147d8a96d9c610942bce
+      internalID: -2006919722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_255
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544768b897ee94e42bd16114e34e9cf4
+      internalID: -1873224292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_256
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f73f857ce7d6478fbb6ae418cc14d73
+      internalID: 2098294231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_257
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 4
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c584826b7507475aad0fb610240b592
+      internalID: -145628421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_258
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bef582d39754e8c8900851d3840db2
+      internalID: 659362986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_259
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464dc06eca0c4b74bb5cce607bdd7aa
+      internalID: 1457576947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_260
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe539a00009432084b76fd8f831726
+      internalID: -665584979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_261
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a740efcaa1764e2186ed42e9d3c739b
+      internalID: -2114257483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghastly_262
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 3
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4ca366671c41d7904cf592c0c9664
+      internalID: 1386693912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ghastly_0: -693174722
+      Ghastly_1: 300003108
+      Ghastly_10: 1828467344
+      Ghastly_100: -214418667
+      Ghastly_101: -1022631234
+      Ghastly_102: 41763179
+      Ghastly_103: -859208985
+      Ghastly_104: -133604675
+      Ghastly_105: 443202797
+      Ghastly_106: -1219011608
+      Ghastly_107: -832418221
+      Ghastly_108: -796606717
+      Ghastly_109: 1640596595
+      Ghastly_11: -1474733493
+      Ghastly_110: -1830445953
+      Ghastly_111: -1991300709
+      Ghastly_112: -1690616745
+      Ghastly_113: 2135225819
+      Ghastly_114: 189433964
+      Ghastly_115: -827981901
+      Ghastly_116: 76007629
+      Ghastly_117: -1815229739
+      Ghastly_118: -1001971868
+      Ghastly_119: 457861390
+      Ghastly_12: -509116751
+      Ghastly_120: -1459743548
+      Ghastly_121: -260446996
+      Ghastly_122: 1018462953
+      Ghastly_123: -897670609
+      Ghastly_124: 2003639446
+      Ghastly_125: 380463611
+      Ghastly_126: -531524497
+      Ghastly_127: 1295685971
+      Ghastly_128: -1335953510
+      Ghastly_129: -678230151
+      Ghastly_13: 1671062260
+      Ghastly_130: 82660284
+      Ghastly_131: 93636911
+      Ghastly_132: 1305261721
+      Ghastly_133: 323780799
+      Ghastly_134: 1602224175
+      Ghastly_135: 159833097
+      Ghastly_136: 1859759510
+      Ghastly_137: -1463933904
+      Ghastly_138: -1290322548
+      Ghastly_139: -1290762622
+      Ghastly_14: -664608978
+      Ghastly_140: 1738990623
+      Ghastly_141: 1830649512
+      Ghastly_142: -2126339173
+      Ghastly_143: -1908917899
+      Ghastly_144: -1480554592
+      Ghastly_145: 640081582
+      Ghastly_146: -486378582
+      Ghastly_147: -1544477527
+      Ghastly_148: -693405454
+      Ghastly_149: 195220149
+      Ghastly_15: 1990007016
+      Ghastly_150: 1781400262
+      Ghastly_151: -772619393
+      Ghastly_152: -1007803427
+      Ghastly_153: 1014461671
+      Ghastly_154: 715073849
+      Ghastly_155: -1116038527
+      Ghastly_156: 1525353973
+      Ghastly_157: -964449220
+      Ghastly_158: 1061432131
+      Ghastly_159: -1743083690
+      Ghastly_16: -1334778102
+      Ghastly_160: -2028064721
+      Ghastly_161: 626015093
+      Ghastly_162: 1154920397
+      Ghastly_163: -421447462
+      Ghastly_164: 1256473746
+      Ghastly_165: 123418498
+      Ghastly_166: -970792923
+      Ghastly_167: 756007338
+      Ghastly_168: 1336209015
+      Ghastly_169: 365333385
+      Ghastly_17: -1716340783
+      Ghastly_170: -814532915
+      Ghastly_171: -2015506198
+      Ghastly_172: -63840129
+      Ghastly_173: 1327011191
+      Ghastly_174: 269030329
+      Ghastly_175: -470529132
+      Ghastly_176: -610615025
+      Ghastly_177: 1826329261
+      Ghastly_178: 884726108
+      Ghastly_179: 1131368087
+      Ghastly_18: 1669867872
+      Ghastly_180: 134186586
+      Ghastly_181: 1253625132
+      Ghastly_182: 1911862292
+      Ghastly_183: -1054775931
+      Ghastly_184: 670158647
+      Ghastly_185: 945683429
+      Ghastly_186: 398800630
+      Ghastly_187: -263810364
+      Ghastly_188: -988988277
+      Ghastly_189: -699861106
+      Ghastly_19: -954071248
+      Ghastly_190: 27262400
+      Ghastly_191: -693930929
+      Ghastly_192: 1572156417
+      Ghastly_193: 152293419
+      Ghastly_194: -1153892571
+      Ghastly_195: 407183624
+      Ghastly_196: 1996827913
+      Ghastly_197: 461621847
+      Ghastly_198: -804181719
+      Ghastly_199: 1496111344
+      Ghastly_2: -278087871
+      Ghastly_20: -1019266190
+      Ghastly_200: 883422963
+      Ghastly_201: -474770146
+      Ghastly_202: -1459118639
+      Ghastly_203: 2083993878
+      Ghastly_204: -772870858
+      Ghastly_205: -385097925
+      Ghastly_206: 1263534319
+      Ghastly_207: -75131060
+      Ghastly_208: 1603261023
+      Ghastly_209: 1979328726
+      Ghastly_21: 856733436
+      Ghastly_210: 165228030
+      Ghastly_211: -744675907
+      Ghastly_212: -1589696442
+      Ghastly_213: -1084236264
+      Ghastly_214: 348483493
+      Ghastly_215: -303047835
+      Ghastly_216: 177783792
+      Ghastly_217: -1890608671
+      Ghastly_218: 459931900
+      Ghastly_219: -1268882763
+      Ghastly_22: -401330692
+      Ghastly_220: -113621505
+      Ghastly_221: -1899895775
+      Ghastly_222: -25149146
+      Ghastly_223: 1559647143
+      Ghastly_224: -492983370
+      Ghastly_225: -256860799
+      Ghastly_226: 203892318
+      Ghastly_227: 1133050981
+      Ghastly_228: -465243945
+      Ghastly_229: -787298979
+      Ghastly_23: -425696586
+      Ghastly_230: 587982912
+      Ghastly_231: 853897626
+      Ghastly_232: 1757727273
+      Ghastly_233: 2092798872
+      Ghastly_234: 1620351538
+      Ghastly_235: -279700882
+      Ghastly_236: 2033569056
+      Ghastly_237: -237762966
+      Ghastly_238: -1480388261
+      Ghastly_239: -453718601
+      Ghastly_24: 2076873320
+      Ghastly_240: 481873501
+      Ghastly_241: -2079423233
+      Ghastly_242: -2035918672
+      Ghastly_243: 1341340565
+      Ghastly_244: -1699632684
+      Ghastly_245: 1280809456
+      Ghastly_246: -1388785609
+      Ghastly_247: 2044226018
+      Ghastly_248: 1520884751
+      Ghastly_249: 1210328824
+      Ghastly_25: 1066563811
+      Ghastly_250: -619512427
+      Ghastly_251: -1451705689
+      Ghastly_252: -333606839
+      Ghastly_253: -49350852
+      Ghastly_254: -2006919722
+      Ghastly_255: -1873224292
+      Ghastly_256: 2098294231
+      Ghastly_257: -145628421
+      Ghastly_258: 659362986
+      Ghastly_259: 1457576947
+      Ghastly_26: 301188543
+      Ghastly_260: -665584979
+      Ghastly_261: -2114257483
+      Ghastly_262: 1386693912
+      Ghastly_27: -1808368473
+      Ghastly_28: 2078919172
+      Ghastly_29: 1436474895
+      Ghastly_3: 1422600128
+      Ghastly_30: 375238845
+      Ghastly_31: 1384204906
+      Ghastly_32: -794628590
+      Ghastly_33: 622888535
+      Ghastly_34: 1747052831
+      Ghastly_35: 873674133
+      Ghastly_36: -712418726
+      Ghastly_37: -648172595
+      Ghastly_38: -874272463
+      Ghastly_39: -1864040507
+      Ghastly_4: -161733810
+      Ghastly_40: -603664047
+      Ghastly_41: 1607423892
+      Ghastly_42: 755828613
+      Ghastly_43: -204643952
+      Ghastly_44: -142017054
+      Ghastly_45: -950379736
+      Ghastly_46: 2114974496
+      Ghastly_47: 547385387
+      Ghastly_48: 2078523991
+      Ghastly_49: 503292961
+      Ghastly_5: 977120798
+      Ghastly_50: 174625908
+      Ghastly_51: -277376904
+      Ghastly_52: -1458512442
+      Ghastly_53: 1231571398
+      Ghastly_54: 2029860687
+      Ghastly_55: -885300496
+      Ghastly_56: 1065505485
+      Ghastly_57: 258709554
+      Ghastly_58: -594277867
+      Ghastly_59: -1537659697
+      Ghastly_6: 1383829730
+      Ghastly_60: -1503361524
+      Ghastly_61: -423388221
+      Ghastly_62: -358263905
+      Ghastly_63: -1463098942
+      Ghastly_64: 519358560
+      Ghastly_65: -489296562
+      Ghastly_66: -445650773
+      Ghastly_67: 1878601690
+      Ghastly_68: -1300830664
+      Ghastly_69: 149786407
+      Ghastly_7: 677150200
+      Ghastly_70: 2060981021
+      Ghastly_71: 1366393595
+      Ghastly_72: 150658125
+      Ghastly_73: 2176794
+      Ghastly_74: -833593221
+      Ghastly_75: 222657654
+      Ghastly_76: 1472491889
+      Ghastly_77: -1209039698
+      Ghastly_78: -532385901
+      Ghastly_79: -1903563056
+      Ghastly_8: -336173638
+      Ghastly_80: -1305486592
+      Ghastly_81: 264314477
+      Ghastly_82: -1893137150
+      Ghastly_83: -1979022433
+      Ghastly_84: -1187732955
+      Ghastly_85: 1165015772
+      Ghastly_86: -1304290303
+      Ghastly_87: -1942331207
+      Ghastly_88: -672050291
+      Ghastly_89: -1048929851
+      Ghastly_9: 525028306
+      Ghastly_90: 903973136
+      Ghastly_91: 1471993497
+      Ghastly_92: 907412786
+      Ghastly_93: -218021288
+      Ghastly_94: -1260711714
+      Ghastly_95: 2136550922
+      Ghastly_96: -971234779
+      Ghastly_97: 366814248
+      Ghastly_98: 1511123289
+      Ghastly_99: -1269394808
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
