@@ -99365,6 +99365,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1200314762}
+    - target: {fileID: 2671107045653981201, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8193094323183019269, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+    - target: {fileID: 9037553466385190394, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8193094323183019269, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
 --- !u!1001 &1812863605945486862
