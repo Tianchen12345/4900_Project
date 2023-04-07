@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameSession : MonoBehaviour
 {
-    [SerializeField] int playerLives = 3, playerScore = 0;
+    [SerializeField] public int playerLives = 3, playerScore = 0;
     [SerializeField] Text livesText, scoreText;
     [SerializeField] Image[] hearts;
 
@@ -16,6 +16,7 @@ public class GameSession : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1;
         int numOfGameSession = FindObjectsOfType<GameSession>().Length;
 
         if (numOfGameSession > 1)
@@ -36,7 +37,7 @@ public class GameSession : MonoBehaviour
 
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 6)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 7)
         {            
             Destroy(gameObject);
         }
