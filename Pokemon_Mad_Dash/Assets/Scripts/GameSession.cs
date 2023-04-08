@@ -37,7 +37,7 @@ public class GameSession : MonoBehaviour
 
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 7)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 8)
         {            
             Destroy(gameObject);
         }
@@ -52,9 +52,9 @@ public class GameSession : MonoBehaviour
     public void addToLives(int value)
     {
         playerLives += value;
-        if(playerLives >= 3)
+        if(playerLives > hearts.Length)
         {
-            playerLives = 3;
+            playerLives = hearts.Length;
         }
         updatedHearts();
         livesText.text = playerLives.ToString();

@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
     // continue when player recovers from injury
     IEnumerator recoveryFromInjury()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         injured = false;
     }
 
