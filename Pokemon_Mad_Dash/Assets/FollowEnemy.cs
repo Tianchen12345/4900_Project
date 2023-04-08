@@ -10,7 +10,7 @@ public class FollowEnemy : MonoBehaviour
 
     public float speed;
     public float lineOfSite;
-
+    public bool FacingRight = false;
 
     void Start()
     {
@@ -27,12 +27,26 @@ public class FollowEnemy : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(this.transform.position,player.position, speed * Time.deltaTime);
       }
-
+      if(player.transform.position.x < gameObject.transform.position.x && FacingRight)
+      {
+        Flip();
+      }
+      if(player.transform.position.x > gameObject.transform.position.x && !FacingRight)
+      {
+        Flip();
+      }
     }
 
     private void OnDrawGizmosSelected(){
       Gizmos.color = Color.green;
       Gizmos.DrawWireSphere(transform.position,lineOfSite);
 
+    }
+
+    void Flip(){
+      FacingRight = !FacingRight;
+      Vector3 tmpScale = gameObject.transform.localScale;
+      tmpScale.x *= -1;
+      gameObject.transform.localScale = tmpScale;
     }
 }
