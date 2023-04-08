@@ -52,9 +52,9 @@ public class GameSession : MonoBehaviour
     public void addToLives(int value)
     {
         playerLives += value;
-        if(playerLives >= 3)
+        if(playerLives > hearts.Length)
         {
-            playerLives = 3;
+            playerLives = hearts.Length;
         }
         updatedHearts();
         livesText.text = playerLives.ToString();
