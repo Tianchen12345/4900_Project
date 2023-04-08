@@ -14,7 +14,7 @@ public class FollowAndShootEnemy : MonoBehaviour
     public float nextFireTime;
     public GameObject bullet;
     public GameObject AttackPoint;
-
+    public bool FacingRight = false;
     void Start()
     {
       player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -27,13 +27,21 @@ public class FollowAndShootEnemy : MonoBehaviour
       float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
       if(distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
       {
-        Debug.Log(player.position);
+        
         transform.position = Vector2.MoveTowards(this.transform.position,player.position, speed * Time.deltaTime);
       }
-      else if (distanceFromPlayer <= shootingRange && nextFireTime <Time.time)
+      if (distanceFromPlayer <= shootingRange && nextFireTime <Time.time)
       {
         Instantiate(bullet, AttackPoint.transform.position, Quaternion.identity);
         nextFireTime = Time.time + fireRate;
+      }
+      if(player.transform.position.x < gameObject.transform.position.x && FacingRight)
+      {
+        Flip();
+      }
+      if(player.transform.position.x > gameObject.transform.position.x && !FacingRight)
+      {
+        Flip();
       }
     }
 
@@ -41,5 +49,11 @@ public class FollowAndShootEnemy : MonoBehaviour
       Gizmos.color = Color.green;
       Gizmos.DrawWireSphere(transform.position,lineOfSite);
       Gizmos.DrawWireSphere(transform.position,shootingRange);
+    }
+    void Flip(){
+      FacingRight = !FacingRight;
+      Vector3 tmpScale = gameObject.transform.localScale;
+      tmpScale.x *= -1;
+      gameObject.transform.localScale = tmpScale;
     }
 }

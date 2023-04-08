@@ -102,7 +102,8 @@ public class CharMovement : MonoBehaviour
            isGrounded = true;
            animator.SetBool("isJumping", false);
        }
-       if(collision.gameObject.layer == 13){
+      
+       if(myCollider2D.IsTouchingLayers(LayerMask.GetMask("Trap"))){
          TakeDamage(20);
          KBCounter = KBTotalTime;
 
@@ -144,7 +145,7 @@ public class CharMovement : MonoBehaviour
 {
 
     isInvincible = true;
-    
+
 
     yield return new WaitForSeconds(invincibilityDurationSeconds);
 

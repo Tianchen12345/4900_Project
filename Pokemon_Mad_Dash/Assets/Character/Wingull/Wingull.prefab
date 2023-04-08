@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 21.419983, y: 1.3900146}
+  m_AnchoredPosition: {x: 959.68, y: 540.88}
   m_SizeDelta: {x: 1.16, y: 0.2}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &2947023801597340007
@@ -319,7 +319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 937.77, y: 539.42}
+  m_AnchoredPosition: {x: -0.41, y: -0.38}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1209336662915884714
@@ -397,7 +397,6 @@ GameObject:
   - component: {fileID: 8887068809753849740}
   - component: {fileID: 8887068809753849741}
   - component: {fileID: 8887068809753849730}
-  - component: {fileID: 8887068809753849731}
   - component: {fileID: 708193598}
   m_Layer: 12
   m_Name: Wingull
@@ -563,23 +562,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &8887068809753849731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8887068809753849728}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 220e7933baaf34d54870d49834f53f69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  speed: 4
-  PatrolDestination: 0
 --- !u!114 &708193598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,13 +574,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba0aef3e196a48aebdcd90189371757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  lineOfSite: 6
-  shootingRange: 3
+  speed: 7
+  lineOfSite: 9
+  shootingRange: 5
   fireRate: 1
   nextFireTime: 0
   bullet: {fileID: 2659149563064358495, guid: 2a6bdb69bfb40451eb5ffad43be35f89, type: 3}
   AttackPoint: {fileID: 8887068810892948615}
+  FacingRight: 0
 --- !u!1 &8887068810892948615
 GameObject:
   m_ObjectHideFlags: 0
