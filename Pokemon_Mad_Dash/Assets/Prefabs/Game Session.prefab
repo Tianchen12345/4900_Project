@@ -612,8 +612,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 720.0823, y: -29.05603}
-  m_SizeDelta: {x: 152.7675, y: 58.114}
+  m_AnchoredPosition: {x: 739.0453, y: -29.05603}
+  m_SizeDelta: {x: 121.2467, y: 58.114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &597828622
 CanvasRenderer:
@@ -656,7 +656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 10
 --- !u!1 &1037198272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLives: 5
-  playerScore: 0
+  playerDiamond: 10
   livesText: {fileID: 1112354854}
   scoreText: {fileID: 597828621}
   hearts:
@@ -2588,7 +2588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254.2, y: 194.9}
+  m_AnchoredPosition: {x: 273.6, y: 197.3}
   m_SizeDelta: {x: 35.0554, y: 27.0375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3672848010702654342

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameSession : MonoBehaviour
 {
-    [SerializeField] public int playerLives = 3, playerScore = 0;
+    [SerializeField] public int playerLives = 5, playerDiamond = 10;
     [SerializeField] Text livesText, scoreText;
     [SerializeField] Image[] hearts;
 
@@ -32,7 +32,7 @@ public class GameSession : MonoBehaviour
     private void Start()
     {
         livesText.text = playerLives.ToString();
-        scoreText.text = playerScore.ToString();
+        scoreText.text = playerDiamond.ToString();
     }
 
     private void Update()
@@ -43,10 +43,10 @@ public class GameSession : MonoBehaviour
         }
     }
 
-    public void addToScore(int value)
+    public void addToDiamond(int value)
     {
-        playerScore += value;
-        scoreText.text = playerScore.ToString();
+        playerDiamond += value;
+        scoreText.text = playerDiamond.ToString();
     }
 
     public void addToLives(int value)

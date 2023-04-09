@@ -59,7 +59,11 @@ public class PlayerAttack : MonoBehaviour
 
     private void SpecialAttack()
     {
-        Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+        if(FindObjectOfType<GameSession>().playerDiamond >= 1)
+        {
+            FindObjectOfType<GameSession>().addToDiamond(-1);
+            Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+        }        
     }
 
     private void OnDrawGizmosSelected()
