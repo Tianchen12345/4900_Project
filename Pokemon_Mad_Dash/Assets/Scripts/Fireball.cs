@@ -9,12 +9,13 @@ public class Fireball : MonoBehaviour
     public float lifeTime;
     public float distance;
     public LayerMask whatIsSolid;
+    [SerializeField] GameObject impactEffect;
 
-    Rigidbody2D rb;
+    Rigidbody2D myRigidbody2D;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        myRigidbody2D = GetComponent<Rigidbody2D>();
         Invoke("DestroyProjectile", lifeTime);
     }
     private void Update()
@@ -25,17 +26,23 @@ public class Fireball : MonoBehaviour
             if (hitInfo.collider.CompareTag("Enemy"))
             {
                 hitInfo.collider.GetComponent<Enemies>().TakeDamage(damage);
+                Instantiate(impactEffect, transform.position, Quaternion.identity);
                 DestroyProjectile();
             }
 
         }
-        rb.velocity = transform.right * speed;
+        myRigidbody2D.velocity = transform.right * speed;
 
     }
     void DestroyProjectile()
     {
-
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Instantiate(impactEffect, transform.position, Quaternion.identity);
+        DestroyProjectile();
     }
 
 }

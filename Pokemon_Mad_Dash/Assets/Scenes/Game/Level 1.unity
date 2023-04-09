@@ -2258,7 +2258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1471873559607236065, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1471873559607236065, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -98741,7 +98741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1825034288
 Transform:
   m_ObjectHideFlags: 0
@@ -98896,6 +98896,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756343485, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+      propertyPath: Explosion
+      value: 
+      objectReference: {fileID: 8477303696491298074, guid: 097afd2921306c44db3db5880a6d2338, type: 3}
+    - target: {fileID: 1862468089, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
+      propertyPath: impactEffect
+      value: 
+      objectReference: {fileID: 8477303696491298073, guid: 097afd2921306c44db3db5880a6d2338, type: 3}
     - target: {fileID: 6623920874689396209, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -99581,7 +99589,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2135773140 stripped
 Transform:

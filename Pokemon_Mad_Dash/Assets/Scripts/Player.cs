@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] Vector2 beAttacked = new Vector2(10f, 20f);    // The force and direction of knockback when hit
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
     [SerializeField] Transform AttackPoint;
+    [SerializeField] SpriteRenderer Explosion;
 
     [Header("Sound Effects")]
     [SerializeField] AudioClip jumpingSFX, attackingSFX, beAttackedSFX, runningSFX; // SFX is Sound effects
@@ -212,6 +213,14 @@ public class Player : MonoBehaviour
             {
                 float rotationY = horizontalVelocity < 0 ? 180f : 0f;
                 AttackPoint.transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
+                if (rotationY == 180)
+                {
+                    Explosion.flipX = false;
+                }
+                else
+                {
+                    Explosion.flipX = true;
+                }
             }
         }
     }

@@ -72,5 +72,4 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawWireSphere(hurtBox.position, attackRadius);
     }
 
-
 }
