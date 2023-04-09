@@ -524,7 +524,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &8887068809753849741
 CapsuleCollider2D:
@@ -539,8 +539,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000000046625495, y: -0.039112303}
-  m_Size: {x: 2.3437517, y: 0.7041977}
+  m_Offset: {x: 0.03295494, y: 0.03458661}
+  m_Size: {x: 2.4828992, y: 0.8869635}
   m_Direction: 1
 --- !u!95 &8887068809753849730
 Animator:
@@ -575,9 +575,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  lineOfSite: 9
+  lineOfSite: 10
   shootingRange: 5
-  fireRate: 1
+  fireRate: 1.5
   nextFireTime: 0
   bullet: {fileID: 2659149563064358495, guid: 2a6bdb69bfb40451eb5ffad43be35f89, type: 3}
   AttackPoint: {fileID: 8887068810892948615}
@@ -591,7 +591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8887068810892948614}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8887068810892948615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.772, y: -0.231, z: 0}
+  m_LocalPosition: {x: -0.89, y: -0.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -18,17 +18,33 @@ public class EmberMovement : MonoBehaviour
   }
   private void Update()
   {
+    /*
     RaycastHit2D hitInfo=Physics2D.Raycast(transform.position,transform.right,distance);
+
     if(hitInfo.collider!= null){
+
       if(hitInfo.collider.CompareTag("Enemy")){
+        Debug.Log(hitInfo);
         hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
         DestroyProjectile();
       }
 
     }
+    */
     rb.velocity = transform.right * speed;
 
+
+
   }
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    if(collision.tag == "Enemy"){
+      collision.GetComponent<Enemy>().TakeDamage(damage);
+      DestroyProjectile();
+    }
+
+  }
+
   void DestroyProjectile(){
 
     Destroy(gameObject);
