@@ -7,8 +7,8 @@ public class PlayerAttack : MonoBehaviour
 {
     private float timeBtwAttack;
     [SerializeField] float startTimeBetweenAttack;
-    [SerializeField] Transform AttackPoint;
-    [SerializeField] GameObject SpecialAttackPrefab;
+    [SerializeField] Transform attackPoint;
+    [SerializeField] GameObject specialAttackPrefab;
 
     [SerializeField] Transform hurtBox; // The center position of the player's hurt box for attacking
     [SerializeField] float attackRadius = 2f;   // player attack range
@@ -62,7 +62,7 @@ public class PlayerAttack : MonoBehaviour
         if(FindObjectOfType<GameSession>().playerDiamond >= 1)
         {
             FindObjectOfType<GameSession>().addToDiamond(-1);
-            Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+            Instantiate(specialAttackPrefab, attackPoint.position, attackPoint.rotation);
         }        
     }
 

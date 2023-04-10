@@ -6,7 +6,7 @@ public class Fireball : MonoBehaviour
 {
     public int damage = 30;
     public float speed;
-    public float lifeTime;
+    private float lifeTime = 5f;
     public float distance;
     public LayerMask whatIsSolid;
     [SerializeField] GameObject impactEffect;
