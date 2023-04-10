@@ -25,6 +25,8 @@ public class CharMovement : MonoBehaviour
     [SerializeField] private float invincibilityDurationSeconds;
     public UnityEvent<float> OnHealthChange;
 
+
+
     public float KBForce;
     public float KBCounter;
     public float KBTotalTime;
@@ -102,7 +104,7 @@ public class CharMovement : MonoBehaviour
            isGrounded = true;
            animator.SetBool("isJumping", false);
        }
-      
+
        if(myCollider2D.IsTouchingLayers(LayerMask.GetMask("Trap"))){
          TakeDamage(20);
          KBCounter = KBTotalTime;

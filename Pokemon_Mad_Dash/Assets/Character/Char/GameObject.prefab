@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7231005292787554250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.135, y: 2.732, z: -0.060107697}
+  m_LocalPosition: {x: 0.14, y: 2.732, z: -0.060107697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128,6 +128,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   rb: {fileID: 85243237}
+  impactEffect: {fileID: 8477303696491298073, guid: 097afd2921306c44db3db5880a6d2338, type: 3}
 --- !u!50 &85243237
 Rigidbody2D:
   serializedVersion: 4

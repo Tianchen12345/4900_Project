@@ -10,7 +10,8 @@ public class EmberMovement : MonoBehaviour
     public float lifeTime;
     public float distance;
     public LayerMask whatIsSolid;
-   public Rigidbody2D rb;
+    public Rigidbody2D rb;
+    [SerializeField] GameObject impactEffect;
 
   private void Start(){
 
@@ -40,7 +41,12 @@ public class EmberMovement : MonoBehaviour
   {
     if(collision.tag == "Enemy"){
       collision.GetComponent<Enemy>().TakeDamage(damage);
+      Instantiate(impactEffect, transform.position, Quaternion.identity);
       DestroyProjectile();
+    }
+    if(collision.tag == "Ground"){
+        Instantiate(impactEffect, transform.position, Quaternion.identity);
+        DestroyProjectile();
     }
 
   }

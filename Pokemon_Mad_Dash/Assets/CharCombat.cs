@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CharCombat : MonoBehaviour
 {
@@ -17,7 +18,16 @@ public class CharCombat : MonoBehaviour
     private float timeBtwShots;
     private float startTimeBtwShot;
 
+    public float mana = 100f;
+    public float maxMana = 100f;
+    public float manaCost = 10f;
+    public float manaRegen = 1f;
+    public UnityEvent<float> OnManaChange;
 
+    void Start(){
+
+      mana = maxMana;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -36,7 +46,17 @@ public class CharCombat : MonoBehaviour
           nextAttackTime=Time.time+ 1f / attackRate;
         }
       }
+      mana += manaRegen * Time.deltaTime;
+      OnManaChange?.Invoke((float)mana / maxMana);
+      if(mana > maxMana){
+        mana = maxMana;
+      }
+      if(mana<0){
+        mana = 0;
+      }
     }
+
+
     void Attack()
     {
       //attack trigger
@@ -66,8 +86,11 @@ public class CharCombat : MonoBehaviour
     {
 
       //Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
-      animator.SetTrigger("SpecialAttack");
-      Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+        animator.SetTrigger("SpecialAttack");
+        useMana();
+
+
+
 
 
     }
@@ -79,4 +102,12 @@ public class CharCombat : MonoBehaviour
 
     }
 
+    public void useMana(){
+      if(mana >= manaCost){
+        mana = mana - manaCost;
+        OnManaChange?.Invoke( mana / maxMana);
+        Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
+      }
+
+    }
 }
