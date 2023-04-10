@@ -241,6 +241,7 @@ MonoBehaviour:
   beAttacked: {x: 10, y: 30}
   hurtBox: {fileID: 538098018}
   AttackPoint: {fileID: 76629380}
+  Explosion: {fileID: 8477303696491298074, guid: 097afd2921306c44db3db5880a6d2338, type: 3}
   jumpingSFX: {fileID: 8300000, guid: 4a49f54c131c92a4bbe3055767742a0b, type: 3}
   attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}
   beAttackedSFX: {fileID: 8300000, guid: 3f896834aeaeb434498aa6ab953c5155, type: 3}
