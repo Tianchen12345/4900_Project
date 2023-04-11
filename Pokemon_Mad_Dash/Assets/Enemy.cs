@@ -82,9 +82,5 @@ public UnityEvent<float> OnHealthChange;
 
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
 
-
   }
-
-
-
 }
