@@ -8,7 +8,7 @@ public class BulletScript : MonoBehaviour
   [SerializeField] private string targetTag;
   public float speed;
   Rigidbody2D bulletRB;
-    private int damage = 10;
+    [SerializeField]private int damage = 15;
     // Start is called before the first frame update
     void Start()
     {
