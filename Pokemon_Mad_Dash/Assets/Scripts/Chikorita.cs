@@ -5,11 +5,10 @@ using UnityEngine;
 
 public class Chikorita : MonoBehaviour
 {
-    public Rigidbody2D myRigidbody;
     [SerializeField] GameObject razorLeaf;
-    [SerializeField] Transform attackPoint;
 
     Animator myAnimator;
+    Rigidbody2D myRigidbody;
 
     private bool isAttacking = false;
     private float attackTime = 3f;
@@ -27,9 +26,8 @@ public class Chikorita : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Attack();
-        EnemyMovement();
-        speed = GetComponent<Enemies>().speed;        
+        Attack();        
+        speed = GetComponent<Enemies>().speed;
     }
 
     private void EnemyMovement()
@@ -54,9 +52,11 @@ public class Chikorita : MonoBehaviour
 
     private void FlipSprites()
     {
-        transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
+        float sign = Mathf.Sign(myRigidbody.velocity.x);
+        transform.localScale = new Vector2(sign, 1f);
 
     }
+
 
     private bool IsFacingLeft()
     {
@@ -64,19 +64,27 @@ public class Chikorita : MonoBehaviour
     }
     public void Attack()
     {
+        EnemyMovement();
         if (!isAttacking)
         {
             myAnimator.SetTrigger("Attack");
             isAttacking = true;
+            StartCoroutine(WaitASecond(4.5f));
+            Vector2 direction = new Vector2(-transform.localScale.x, 0);
+            GameObject rL = Instantiate(razorLeaf, transform.position, Quaternion.identity);
+            rL.GetComponent<RazorLeaf>().SetDirection(direction);
             StartCoroutine(AttackCoroutine());
         }
     }
 
     private IEnumerator AttackCoroutine()
     {
-        GameObject Razor = Instantiate(this.razorLeaf, attackPoint.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(attackTime);
-        Destroy(Razor);
         isAttacking = false;
+    }
+
+    private IEnumerator WaitASecond(float f)
+    {
+        yield return new WaitForSeconds(f);
     }
 }
