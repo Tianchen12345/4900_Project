@@ -1,0 +1,3885 @@
+fileFormatVersion: 2
+guid: af8d66a940d0c490689571ec8a67ef81
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tropius 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 709
+        width: 118
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a60b28f33f514e398723abc5743744c
+      internalID: -1001493578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 709
+        width: 130
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4b03b81f6d481eaeeecfde0c84cb2
+      internalID: 191925093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 708
+        width: 156
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f783b4aa95f794630b025c062735c260
+      internalID: 163062424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 709
+        width: 198
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3e76c1c415478e829c5b0748bfbbd
+      internalID: 487691671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 709
+        width: 188
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fdd70042cd0407fb94bade1362938e
+      internalID: -1069587279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 709
+        width: 180
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8584d7e3733f44ccb8afc0f2a5904f7c
+      internalID: 1555882546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_6
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 709
+        width: 196
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e00b91a3420f42b5b1afb281b7843bb
+      internalID: -1261968330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_7
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 708
+        width: 159
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae4725f1c5e446ebcd4546d4cda435
+      internalID: -1875631678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_8
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 709
+        width: 129
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583b8efe03a87432d8eace180ea3e8c0
+      internalID: 38135312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_9
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 709
+        width: 109
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2116f0716c798465dae49c676165b2a9
+      internalID: 1026618315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_10
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 752
+        width: 97
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b25d48ea60349bbae8570da17f663e
+      internalID: 1718756145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_11
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 713
+        width: 97
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78acb7cc61cf344fdbf80f94276fc31d
+      internalID: 457551798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 590
+        width: 128
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143edfe9269f34142a3a5af6c8ead6e9
+      internalID: -1028746303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_13
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 679
+        width: 62
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0755adfefc7f64d77b4ad8d23c01e626
+      internalID: -724176201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_14
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 687
+        width: 31
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c3a4eca948a4ff389683839ac86f53
+      internalID: 446800283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 629
+        width: 54
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1a30055152f4d37b2427c987f39134
+      internalID: -2083762972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 628
+        width: 67
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21be0752caaa14a78a77ca1e8082e592
+      internalID: -2063085082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_17
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 660
+        width: 52
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9e961e2a4e9417fb08870eb1dcad5f
+      internalID: 41162488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 687
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5411e009d36944a6abba9dc7a2c6dc0d
+      internalID: -1038455276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_19
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 686
+        width: 68
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6af2c29ced41e48e88736b9858dc8
+      internalID: 698485152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_20
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 641
+        width: 75
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5f17bc74094873bc07ba343534755
+      internalID: 1690135493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_21
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 654
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e398b5745e384ed28c41fa0e4308f53
+      internalID: 1475298836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_22
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 667
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962108419bf714d899781f41b28791ae
+      internalID: 15986698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_23
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 631
+        width: 46
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61de9d10d85e34cf693e90b394cfaacd
+      internalID: -597068764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_24
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 653
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35d78ce71314465faf18d69d7c0ba26
+      internalID: 284450135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_25
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 667
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790f0c6c912244e4a82ded3232f7f749
+      internalID: -1388415965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_26
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 622
+        width: 37
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3768a02492f491f972aef71ddb56e6
+      internalID: 1593983493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_27
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 663
+        width: 82
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36731ab716c143eba90b0c52d2a545f
+      internalID: 1434709921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_28
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 656
+        width: 84
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be2c6824d1cc4794922100d1470ea6b
+      internalID: -2034161076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_29
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 630
+        width: 39
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8349b6a28bfa54399810559624c887fe
+      internalID: -412329321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_30
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 649
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfec884a845fc4af7ab037ac47945fb4
+      internalID: 170071555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_31
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 666
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c649060ff62c4709a4a0618967d089a
+      internalID: 1331636842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_32
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 623
+        width: 32
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f74f66958944431972737c7bcf4efb
+      internalID: 52814307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 629
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9314c6583207e4f75810596dcee2bdaa
+      internalID: 133968867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_34
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 646
+        width: 21
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d0e8c6f0dd246a9a4f91d2eb12a0e4
+      internalID: -2129955090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_35
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 660
+        width: 33
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b601b2ba6154892b751083ff7e0cba
+      internalID: 1720040617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_36
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 647
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d058a166eea0d44749ffecf8ec9209bd
+      internalID: -1344207219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_37
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 640
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6efab763401f4d50ab072fc53328dab
+      internalID: -769661067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_38
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 640
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a1afa24c77941cdb7e78f8a94fbec3
+      internalID: 1153639492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_39
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 639
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1fcb4f92b7248e6bffcffda1ba42ac
+      internalID: 2047101288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_40
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 642
+        width: 49
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7dd3b2e9734fc28046e92f3a75040
+      internalID: -1240111164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_41
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 638
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56344c833c4b84505a8115df3318a18d
+      internalID: 1727448160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 653
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f39ac74a71a540db84984d66a7d0de9
+      internalID: 1382987358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64028a67a4c734d34b948a621a8129b8
+      internalID: -1120265759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ba05d16e25437b90e8f060c0543ac
+      internalID: 489790575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_45
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c512943b20a5493b84f97ef6e8deb82
+      internalID: 1237641331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_46
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 653
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d57eb84d8cb4372892e2f2fe7ec051
+      internalID: 457754390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_47
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316eca55ee7446059e65edb0888f1f0
+      internalID: -626471479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4da4a740aefa4b2a9eb95ab6efecfb4
+      internalID: 1321827423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31080429dd8f84ac38887ab9ff9fddae
+      internalID: -469226798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_50
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479680c3f835341fea159638727dcd02
+      internalID: -957537558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5509a5918306e434d80bddb2a28be5bf
+      internalID: 618890962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbff9466028e4b32b78a1ffaf725d1b
+      internalID: 487924112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_53
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbfec7093b8d48abafd2d1038209993
+      internalID: -363528106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_54
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 653
+        width: 9
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201318272e0c14fd9a1d8b17125d2aaa
+      internalID: -1876754980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 653
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df245163b23440a986851b375154a38
+      internalID: 1666765340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_56
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba37d304b7f6841a6802abad81b30f22
+      internalID: -674138430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_57
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 653
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b205a68c0242b4440b2e41420ab9a3f3
+      internalID: -71332617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_58
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe99d3b06e6b4db1a947bceac3ac908
+      internalID: 645149908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_59
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 653
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1545223134bfa479f96a35f629e26d4b
+      internalID: -1591254505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_60
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 653
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82e3940c61fd46d69f8ac4f93faae3c
+      internalID: 181234376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 653
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d612cc109ce47ca88b3b27f9fee390
+      internalID: -1581548521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_62
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 648
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2eebf05046946e0bcdb7809436a477
+      internalID: -699391960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_63
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 632
+        width: 37
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852ef9294c08e43309637949f42df3da
+      internalID: -1826920413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_64
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 647
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349d09afbb3747ae9075fd0279bb3ae
+      internalID: 914356973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_65
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 647
+        width: 28
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70315f21e0d964604834c8a0816f0358
+      internalID: 264621385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_66
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 644
+        width: 23
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d308b8be5904b2897ee8a80d2b7976
+      internalID: -1939416232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_67
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 639
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621bb04a5187b4adbb91ddd7e5d8b763
+      internalID: -1359141654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_68
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 641
+        width: 25
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd15db82cf4b476bacd1c0e90b346a4
+      internalID: 2038873823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_69
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 616
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ea893e4805445f994c91a35dda76a5
+      internalID: -205149960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_70
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 638
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b9b49d182d4a61a2d7d5dedec12db
+      internalID: -1685716243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_71
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 640
+        width: 25
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6706ddd7e2544d6805a70095792af6
+      internalID: 1867897415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_72
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124a512429744728a90ef08c0baa677
+      internalID: 617420624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_73
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e200a2182e4e4e8ecaee941bae0a0
+      internalID: 905366405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b460dba215f654339bec43992d5f3dcd
+      internalID: -1373260959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f444c05263c41339c18b354e460545
+      internalID: -121788877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0055ba294355d42a5ab9bdb39e8f9054
+      internalID: 509373540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_77
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63847f6c44d86467c87f47a68adeb8cb
+      internalID: 858567566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_78
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95374a2c2b814b40997b2a0cefdfa6a
+      internalID: 230831334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 631
+        width: 9
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821922f9ffa86466698cd4bdddd26c15
+      internalID: -1694344540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_80
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98973b2f236134ce5ae03fd6c0ff9e34
+      internalID: 357779114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_81
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 642
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c3b3ea31f5144e5bd4a379cc0b98ab
+      internalID: -899670817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_82
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c3fcd8e06e4db18c90bb3155a0459
+      internalID: 780927579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_83
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 642
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe77ab76f924bf08f263103022bb4a
+      internalID: 687917969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48db5c334a54a46fface7f2e46cdd5a3
+      internalID: -693283689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_85
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d6402c478a64995b66745b2366284b
+      internalID: 525272894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_86
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 642
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b718b8cb6f04c82b57c3c4a756449c
+      internalID: -783178483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_87
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae4273600c2c4f71bdd4d10408d374e
+      internalID: -258426830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 642
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53bdac6c5b3546a39d23cbcf102c8d9
+      internalID: -1172027432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 642
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e3040a4d204a91b589446ba7b69ec
+      internalID: 1084760008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8eab6ce5b3040c38e5c13a63468c67
+      internalID: -200993896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_91
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81da584a968a6408ca8b2743991ce0cd
+      internalID: 263299940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_92
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 642
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21eaa7f48cb94af7bb2446d139f5cb7
+      internalID: -1903608659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cfbc374b81d4c3aa89fdf1bd4e138c
+      internalID: -597273156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_94
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92493d9170d0342fcb69115694a81f10
+      internalID: -987018345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_95
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f898d103eea34c6d94faca5c2ed5c9b
+      internalID: -924637699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_96
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 642
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81350a57584124f8eb76dbc03b4a6171
+      internalID: -2000125880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_97
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 629
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb079bc3db23c43cf834c208410661e4
+      internalID: -1546386940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_98
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 621
+        width: 54
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60f07fe3d434c529a894eeaab985af
+      internalID: 1567464278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_99
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 601
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7b8deb7c6234ef9b3ecd278bed2d09
+      internalID: -1847459606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_100
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 627
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c4a98a3c8ad487f881046d027b0d2a
+      internalID: 1720956681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_101
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96f47d35da804c7c8c719caab0f0261
+      internalID: -699429942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a830607dc1944479a2b837b8607f8a7
+      internalID: -899644477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_103
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 631
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8734bbebd3f42b3b708c492014c668
+      internalID: -1109284596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_104
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c279e85b8804c13936d4cc75557d49
+      internalID: 1872185100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_105
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc0f65665d1494c8980415c649028e
+      internalID: -493202129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_106
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 631
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2101b81c2ef4d1db463da60826ac5e
+      internalID: 1614922028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_107
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 631
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f9915fcee7843c4948d438bbe6abad
+      internalID: -1451028660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_108
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 631
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030fa2ca3da74f1abf85c30f30a4cf8
+      internalID: 1134313839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_109
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 631
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140b12cc39d8842728d1f6436566addc
+      internalID: -1301602782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_110
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deabb485951a54917817042971f7710f
+      internalID: -270629444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_111
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 631
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19627100858db47a59e4b61097fcd019
+      internalID: -588165699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 631
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85ec20e4e50047908ed81df438e5205
+      internalID: -865825269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_113
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 600
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b2a4490b0948a19bdc6ca4b96b2d5
+      internalID: 1021701852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_114
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 619
+        width: 35
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5678ab336174a9a8a8432d27070932
+      internalID: -670284698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_115
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 619
+        width: 20
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086b670e994a646ffb0d2b9f76b5c30c
+      internalID: -97386411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_116
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 616
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f04a547a3e440ba7a238b921dbb9d
+      internalID: 468835435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_117
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 610
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2062ea144c74fe3970352ae9fb7002
+      internalID: -1325536376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_118
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 608
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d7ca5340d4417c8cbd75d54d40868
+      internalID: -1984477245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_119
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 601
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e561f648e9d444497bb30dee15a78460
+      internalID: 1127078994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_120
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 600
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d99d9f51e8a42ada8c566d55f3a8a6
+      internalID: 382941923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_121
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 600
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d98aa499c4f491b8fb839da9ee937d
+      internalID: 955609486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_122
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 601
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb04ca6ce9bb044549f3ab67eafd608c
+      internalID: -2013971854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_123
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 600
+        width: 17
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c645430911444778f65514a4378405
+      internalID: -394590316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_124
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 602
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673b3c187d4b74a1289f70506fc62d7b
+      internalID: 949547101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_125
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 589
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc37315e2b774aaaba9734e0b3380fa
+      internalID: 461958612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_126
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 589
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd62b01635c3414d9936f3c36da2a98
+      internalID: 2019444494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_127
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 591
+        width: 27
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482ccbed63604577a0c549db94ae8a4
+      internalID: 898327483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 118
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeae2e52532a49f0898af727fb96086
+      internalID: 2032272356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_129
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 448
+        width: 109
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e515a366e349f413eb2a9f59446cc5b0
+      internalID: -82211670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_130
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 448
+        width: 102
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20565817a2aca4f6084890352c4ae7ac
+      internalID: 1421225202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_131
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 448
+        width: 128
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294c39107887f4988b7ed029018129ad
+      internalID: 958373357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_132
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 448
+        width: 153
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426dfba7c36148788b12a73d718246e
+      internalID: -1591898296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_133
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 461
+        width: 164
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72471213e110d405580884367b7278a7
+      internalID: 48974691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_134
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 454
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad46abdeb51340b3a7aea70b8b6c2bb
+      internalID: -1023683940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_135
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 465
+        width: 107
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61dbd8e4b1a0451bb39e860b51f5f6c
+      internalID: 163161772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_136
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 485
+        width: 149
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ef08ef0e244ffbba3295a78be3abc
+      internalID: -873214424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_137
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 491
+        width: 164
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb86cde07bc457eb01eaf776f9e610
+      internalID: -1116436495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_138
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 502
+        width: 185
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a12f05820dc4961bfd996de370b68b
+      internalID: 391041646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_139
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 528
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438cdd1952e8b45a8a0d3f42c4810468
+      internalID: 1247184301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_140
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 464
+        width: 149
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b3b9d68c474fcdb42477c8bf87d4d
+      internalID: 691881241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_141
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 378
+        width: 185
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc4513462904f63b8966fedbbcca94
+      internalID: 80522330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_142
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 376
+        width: 184
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2a8ba918a145c19dea917978295f5
+      internalID: 335714755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_143
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 375
+        width: 185
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb38da1620474ca7884080c2cc800f1
+      internalID: -1745439948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_144
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 374
+        width: 184
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5edfad7bf1464ab6a1bfa70e48529
+      internalID: -626426515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_145
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 372
+        width: 185
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dde87f8ef0a432da410eb7c5ad464d
+      internalID: 947530694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_146
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 371
+        width: 184
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94296589585e46deb49b2a9f2401411
+      internalID: -1274882589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_147
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 368
+        width: 185
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db82405fb3c4af992fc9eb6df6c754
+      internalID: 1300355829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_148
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 367
+        width: 184
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e01939e3160747c0ac7702d2df58dd8
+      internalID: -1535119014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_149
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 364
+        width: 182
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffd73ab56eb481883db558476ffa33
+      internalID: -487733453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 185
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ade1dd59c4142d7bb8b52a98924faa
+      internalID: 1367941318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_151
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 182
+        width: 178
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d2e538c48a42c88a326b1cebcd932
+      internalID: 1444607012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_152
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 182
+        width: 176
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acacf18fde44589a4b15c74321a2ad
+      internalID: 1503195232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_153
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 152
+        width: 130
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628dc24cd21d34b0684d763e2d976dd4
+      internalID: 1638019135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_154
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 159
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f771c3a2bf67433cb0f84b0238230bb
+      internalID: 1475673652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_155
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 156
+        width: 129
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9358f5cdfeca40b3a2a1beefcab1dfb
+      internalID: -1309602422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_156
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 180
+        width: 154
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be9d0ab3e11148cf82f32850cc35f5a
+      internalID: -1010543839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_157
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 189
+        width: 197
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15740d06da2e34bd0b60b7a8db7eb6d2
+      internalID: -529744771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_158
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 186
+        width: 135
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ec4fa68ef346288046a271bb24637
+      internalID: -1566614827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_159
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 182
+        width: 124
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96caaef55100c4dbfb2a33e86a3736ed
+      internalID: 678911573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_160
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 177
+        width: 133
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e83a38c6a5e41ad8e7c4abae6a5443
+      internalID: 1389725812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_161
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 118
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e80b1cc368cf44a1bab8dfee42e6a5d
+      internalID: -1049361494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_162
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 14
+        width: 155
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ab0d33495054074b235af9de1107d5
+      internalID: -1590664223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_163
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 13
+        width: 172
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e046e305e2e48f7a410e0fde5c3753
+      internalID: 1059073816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_164
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 13
+        width: 198
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a65bf0b8a9c4752ac714e9dbaeddee
+      internalID: 1416421886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_165
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 13
+        width: 202
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edffb3f1aee2b47e6948b820f1f4210d
+      internalID: 585165629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_166
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 15
+        width: 188
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0205054353ea4a0dafbaead66618dde
+      internalID: 1537068922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_167
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 16
+        width: 172
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a070f3c9ac4fcfb48b38635cd9614
+      internalID: -237163207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_168
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 16
+        width: 197
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ee93729ad3143a08f2f60b281ad187
+      internalID: -1200669166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_169
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 16
+        width: 135
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c370ae0079d4452d98239685f405ca6
+      internalID: -835335271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tropius 1_170
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 16
+        width: 124
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c4550729e554ab5bdfc3504063e322
+      internalID: 533197530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tropius 1_0: -1001493578
+      Tropius 1_1: 191925093
+      Tropius 1_10: 1718756145
+      Tropius 1_100: 1720956681
+      Tropius 1_101: -699429942
+      Tropius 1_102: -899644477
+      Tropius 1_103: -1109284596
+      Tropius 1_104: 1872185100
+      Tropius 1_105: -493202129
+      Tropius 1_106: 1614922028
+      Tropius 1_107: -1451028660
+      Tropius 1_108: 1134313839
+      Tropius 1_109: -1301602782
+      Tropius 1_11: 457551798
+      Tropius 1_110: -270629444
+      Tropius 1_111: -588165699
+      Tropius 1_112: -865825269
+      Tropius 1_113: 1021701852
+      Tropius 1_114: -670284698
+      Tropius 1_115: -97386411
+      Tropius 1_116: 468835435
+      Tropius 1_117: -1325536376
+      Tropius 1_118: -1984477245
+      Tropius 1_119: 1127078994
+      Tropius 1_12: -1028746303
+      Tropius 1_120: 382941923
+      Tropius 1_121: 955609486
+      Tropius 1_122: -2013971854
+      Tropius 1_123: -394590316
+      Tropius 1_124: 949547101
+      Tropius 1_125: 461958612
+      Tropius 1_126: 2019444494
+      Tropius 1_127: 898327483
+      Tropius 1_128: 2032272356
+      Tropius 1_129: -82211670
+      Tropius 1_13: -724176201
+      Tropius 1_130: 1421225202
+      Tropius 1_131: 958373357
+      Tropius 1_132: -1591898296
+      Tropius 1_133: 48974691
+      Tropius 1_134: -1023683940
+      Tropius 1_135: 163161772
+      Tropius 1_136: -873214424
+      Tropius 1_137: -1116436495
+      Tropius 1_138: 391041646
+      Tropius 1_139: 1247184301
+      Tropius 1_14: 446800283
+      Tropius 1_140: 691881241
+      Tropius 1_141: 80522330
+      Tropius 1_142: 335714755
+      Tropius 1_143: -1745439948
+      Tropius 1_144: -626426515
+      Tropius 1_145: 947530694
+      Tropius 1_146: -1274882589
+      Tropius 1_147: 1300355829
+      Tropius 1_148: -1535119014
+      Tropius 1_149: -487733453
+      Tropius 1_15: -2083762972
+      Tropius 1_150: 1367941318
+      Tropius 1_151: 1444607012
+      Tropius 1_152: 1503195232
+      Tropius 1_153: 1638019135
+      Tropius 1_154: 1475673652
+      Tropius 1_155: -1309602422
+      Tropius 1_156: -1010543839
+      Tropius 1_157: -529744771
+      Tropius 1_158: -1566614827
+      Tropius 1_159: 678911573
+      Tropius 1_16: -2063085082
+      Tropius 1_160: 1389725812
+      Tropius 1_161: -1049361494
+      Tropius 1_162: -1590664223
+      Tropius 1_163: 1059073816
+      Tropius 1_164: 1416421886
+      Tropius 1_165: 585165629
+      Tropius 1_166: 1537068922
+      Tropius 1_167: -237163207
+      Tropius 1_168: -1200669166
+      Tropius 1_169: -835335271
+      Tropius 1_17: 41162488
+      Tropius 1_170: 533197530
+      Tropius 1_18: -1038455276
+      Tropius 1_19: 698485152
+      Tropius 1_2: 163062424
+      Tropius 1_20: 1690135493
+      Tropius 1_21: 1475298836
+      Tropius 1_22: 15986698
+      Tropius 1_23: -597068764
+      Tropius 1_24: 284450135
+      Tropius 1_25: -1388415965
+      Tropius 1_26: 1593983493
+      Tropius 1_27: 1434709921
+      Tropius 1_28: -2034161076
+      Tropius 1_29: -412329321
+      Tropius 1_3: 487691671
+      Tropius 1_30: 170071555
+      Tropius 1_31: 1331636842
+      Tropius 1_32: 52814307
+      Tropius 1_33: 133968867
+      Tropius 1_34: -2129955090
+      Tropius 1_35: 1720040617
+      Tropius 1_36: -1344207219
+      Tropius 1_37: -769661067
+      Tropius 1_38: 1153639492
+      Tropius 1_39: 2047101288
+      Tropius 1_4: -1069587279
+      Tropius 1_40: -1240111164
+      Tropius 1_41: 1727448160
+      Tropius 1_42: 1382987358
+      Tropius 1_43: -1120265759
+      Tropius 1_44: 489790575
+      Tropius 1_45: 1237641331
+      Tropius 1_46: 457754390
+      Tropius 1_47: -626471479
+      Tropius 1_48: 1321827423
+      Tropius 1_49: -469226798
+      Tropius 1_5: 1555882546
+      Tropius 1_50: -957537558
+      Tropius 1_51: 618890962
+      Tropius 1_52: 487924112
+      Tropius 1_53: -363528106
+      Tropius 1_54: -1876754980
+      Tropius 1_55: 1666765340
+      Tropius 1_56: -674138430
+      Tropius 1_57: -71332617
+      Tropius 1_58: 645149908
+      Tropius 1_59: -1591254505
+      Tropius 1_6: -1261968330
+      Tropius 1_60: 181234376
+      Tropius 1_61: -1581548521
+      Tropius 1_62: -699391960
+      Tropius 1_63: -1826920413
+      Tropius 1_64: 914356973
+      Tropius 1_65: 264621385
+      Tropius 1_66: -1939416232
+      Tropius 1_67: -1359141654
+      Tropius 1_68: 2038873823
+      Tropius 1_69: -205149960
+      Tropius 1_7: -1875631678
+      Tropius 1_70: -1685716243
+      Tropius 1_71: 1867897415
+      Tropius 1_72: 617420624
+      Tropius 1_73: 905366405
+      Tropius 1_74: -1373260959
+      Tropius 1_75: -121788877
+      Tropius 1_76: 509373540
+      Tropius 1_77: 858567566
+      Tropius 1_78: 230831334
+      Tropius 1_79: -1694344540
+      Tropius 1_8: 38135312
+      Tropius 1_80: 357779114
+      Tropius 1_81: -899670817
+      Tropius 1_82: 780927579
+      Tropius 1_83: 687917969
+      Tropius 1_84: -693283689
+      Tropius 1_85: 525272894
+      Tropius 1_86: -783178483
+      Tropius 1_87: -258426830
+      Tropius 1_88: -1172027432
+      Tropius 1_89: 1084760008
+      Tropius 1_9: 1026618315
+      Tropius 1_90: -200993896
+      Tropius 1_91: 263299940
+      Tropius 1_92: -1903608659
+      Tropius 1_93: -597273156
+      Tropius 1_94: -987018345
+      Tropius 1_95: -924637699
+      Tropius 1_96: -2000125880
+      Tropius 1_97: -1546386940
+      Tropius 1_98: 1567464278
+      Tropius 1_99: -1847459606
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
