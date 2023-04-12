@@ -10,24 +10,25 @@ public class RazorLeaf : MonoBehaviour
 
     // Private fields
     private Rigidbody2D myRigidbody2D;     // The rigidbody of the razor leaf
-    private Vector2 direction;  // The direction of the razor leaf's movement
+    private Vector2 direction;
 
     private void Start()
     {
         // Get the rigidbody component of the razor leaf
         myRigidbody2D = GetComponent<Rigidbody2D>();
 
-        // Set the direction of the razor leaf to the right
-        direction = Vector2.right;
-
         // Destroy the razor leaf after its lifespan has expired
         Destroy(gameObject, lifespan);
     }
-
-    private void FixedUpdate()
+    
+    private void Update()
     {
-        // Move the razor leaf in its current direction at a constant speed
-        myRigidbody2D.MovePosition(myRigidbody2D.position + Vector2.right * speed * Time.fixedDeltaTime);
+        transform.Translate(direction * speed * Time.deltaTime);
+    }
+
+    public void SetDirection(Vector2 direction)
+    {
+        this.direction = direction;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -39,5 +40,8 @@ public class RazorLeaf : MonoBehaviour
             player.BeAttacked();
             Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
+
+
 }
