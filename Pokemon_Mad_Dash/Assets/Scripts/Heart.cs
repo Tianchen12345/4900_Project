@@ -8,6 +8,11 @@ public class Heart : MonoBehaviour
     public CharMovement charMovement; // must add charMovement to hearts object
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision is PolygonCollider2D)
+        {
+            return;
+        }
+
         if (collision.gameObject.tag == "Player")
         {
             AudioSource.PlayClipAtPoint(heartSFX, Camera.main.transform.position);
