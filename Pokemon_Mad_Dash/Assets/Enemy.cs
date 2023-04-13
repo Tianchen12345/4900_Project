@@ -14,6 +14,7 @@ public int maxHealth= 50;
 public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
+public bool isBoss2 = false;
 public UnityEvent<float> OnHealthChange;
 //public bool isChar1 = true;
 //public bool isChar2 = false;
@@ -38,6 +39,11 @@ public UnityEvent<float> OnHealthChange;
        GetComponent<EnemyPatrolMovement>().enabled = false;
        GetComponent<EnemyJump>().enabled = true;
        GetComponent<Animator>().SetBool("IsJumping", true);
+     }
+     if(isBoss2 && currentHealth <= 150)
+     {
+       GetComponent<FollowAndShootEnemy>().enabled = false;
+       GetComponent<HomingShootingEnemy>().enabled = true;
      }
   }
 
