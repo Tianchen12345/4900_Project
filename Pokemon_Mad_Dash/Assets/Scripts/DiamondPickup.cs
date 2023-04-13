@@ -9,6 +9,11 @@ public class DiamondPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision is PolygonCollider2D)
+        {
+            return;
+        }
+
         if (collision.gameObject.tag == "Player")
         {
             AudioSource.PlayClipAtPoint(diamondSFX, Camera.main.transform.position);
