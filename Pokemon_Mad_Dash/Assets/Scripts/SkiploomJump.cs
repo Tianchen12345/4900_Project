@@ -24,35 +24,38 @@ public class SkiploomJump : MonoBehaviour
         // Check if the enemy is on the ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundMask);
 
-        // Move the enemy horizontally
-        if (rb.bodyType != RigidbodyType2D.Static)
+        if (GetComponent<BoxCollider2D>().enabled)
         {
-            rb.velocity = new Vector2(moveSpeed * moveDirection, rb.velocity.y);
-        }
-            
+            // Move the enemy horizontally
+            if (rb.bodyType != RigidbodyType2D.Static)
+            {
+                rb.velocity = new Vector2(moveSpeed * moveDirection, rb.velocity.y);
+            }
 
-        // Flip the enemy's sprite if it changes direction
-        if (moveDirection > 0f)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        else if (moveDirection < 0f)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            // Flip the enemy's sprite if it changes direction
+            if (moveDirection > 0f)
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            else if (moveDirection < 0f)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+
+            // If the enemy is on the ground, jump
+            if (isGrounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+
+            // Check if the enemy has moved beyond its maximum distance
+            if (Mathf.Abs(transform.position.x - startingPosition.x) >= moveDistance)
+            {
+                // Change direction and move back to starting position
+                moveDirection *= -1f;
+                rb.velocity = new Vector2(moveSpeed * moveDirection, rb.velocity.y);
+            }
         }
 
-        // If the enemy is on the ground, jump
-        if (isGrounded)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
-
-        // Check if the enemy has moved beyond its maximum distance
-        if (Mathf.Abs(transform.position.x - startingPosition.x) >= moveDistance)
-        {
-            // Change direction and move back to starting position
-            moveDirection *= -1f;
-            rb.velocity = new Vector2(moveSpeed * moveDirection, rb.velocity.y);
-        }
     }
 }

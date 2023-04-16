@@ -12,11 +12,17 @@ public class Enemies : MonoBehaviour
     private Animator myAnimator;
     private Rigidbody2D myRigidbody;
 
+    [SerializeField] GameObject hpBar;
+    [SerializeField] GameObject hp;
+
+    int maxHealth;
+
     // Start is called before the first frame update
     void Start()
     {
         myAnimator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        maxHealth = health;
     }
 
     // Update is called once per frame
@@ -51,5 +57,8 @@ public class Enemies : MonoBehaviour
     {
         dazedTime = startDazedTime;
         health -= damage;
+        float scale = (float)health / (float)maxHealth;
+        hpBar.transform.localScale = new Vector3(Mathf.Max(scale, 0f), 1f, 1f);
+        hp.transform.localScale = new Vector3(Mathf.Max(scale, 0f), 1f, 1f);
     }
 }
