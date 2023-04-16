@@ -51,7 +51,7 @@ public class Glalie : MonoBehaviour
             if (timeBtwDamage <= 0)
             {
                 camAnim.SetTrigger("shake");
-                other.GetComponent<Player2>().health -= damage;
+                other.GetComponent<Player2>().BeAttacked();
             }
         }
     }
