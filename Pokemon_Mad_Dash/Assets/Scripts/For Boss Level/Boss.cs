@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour {
 
     public int health;
     public int damage;
     private float timeBtwDamage = 1.5f;
-
 
     public Animator camAnim;
     public Slider healthBar;
@@ -37,6 +37,18 @@ public class Boss : MonoBehaviour {
         }
 
         healthBar.value = health;
+
+        if (isDead)
+        {
+            StartCoroutine(LoadNextLevel());
+        }
+    }
+
+    IEnumerator LoadNextLevel()
+    {
+        yield return new WaitForSeconds(8f);
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
