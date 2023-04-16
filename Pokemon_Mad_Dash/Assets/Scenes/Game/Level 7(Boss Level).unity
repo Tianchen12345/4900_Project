@@ -1149,6 +1149,14 @@ PrefabInstance:
     - target: {fileID: 1258636163, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 237553301}
+    - target: {fileID: 1258636163, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSoundVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258636163, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Player2, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 749561055799169778, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
       propertyPath: m_RootOrder
