@@ -15,6 +15,7 @@ public int damage = 10;
 int currentHealth;
 public bool isBoss1 = false;
 public bool isBoss2 = false;
+public bool isBoss3 = false;
 public UnityEvent<float> OnHealthChange;
 public bool isInvulerable = false;
 //public bool isChar1 = true;
@@ -48,6 +49,18 @@ public bool isInvulerable = false;
      {
        GetComponent<FollowAndShootEnemy>().enabled = false;
        GetComponent<HomingShootingEnemy>().enabled = true;
+     }
+     if(isBoss3){
+       GetComponent<Animator>().enabled = true;
+     }
+     if(isBoss3 && currentHealth <= 300){
+       GetComponent<Animator>().SetTrigger("transform1");
+     }
+     if(isBoss3 && currentHealth <= 200){
+       GetComponent<Animator>().SetTrigger("transform2");
+     }
+     if(isBoss3 && currentHealth <=100){
+       GetComponent<Animator>().SetTrigger("transform3");
      }
   }
 
