@@ -12,7 +12,7 @@ public CharMovement charMovement1;
 //public CharMovement charMovement2;
 public int maxHealth= 50;
 public int damage = 10;
-int currentHealth;
+public int currentHealth;
 public bool isBoss1 = false;
 public bool isBoss2 = false;
 public bool isBoss3 = false;
