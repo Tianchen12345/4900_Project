@@ -280,6 +280,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &3428896421695880170
 Rigidbody2D:
   serializedVersion: 4
@@ -372,5 +373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580e70d7a6b642e489f1c6e67e49c0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bomb: {fileID: 4033489172438460914, guid: 92d7e07de61fc014f8e810fbd48e7c6b, type: 3}
   movementDistanceX: 3
   movementDistanceY: 1
