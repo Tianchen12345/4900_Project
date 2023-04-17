@@ -16,7 +16,7 @@ public class Heart : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             AudioSource.PlayClipAtPoint(heartSFX, Camera.main.transform.position);
-            //FindObjectOfType<GameSession>().addToLives(1);
+            FindObjectOfType<GameSession>().addToLives(1);
             charMovement.Heal(20);
             Destroy(gameObject);
         }

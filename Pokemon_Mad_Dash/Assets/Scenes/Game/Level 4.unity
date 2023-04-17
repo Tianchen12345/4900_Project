@@ -34778,7 +34778,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1084875244918144664, guid: b78c5aaeb960347beb41709d285232a3, type: 3}
       propertyPath: m_Name
-      value: ' Tropius Boss'
+      value: Tropius Boss
       objectReference: {fileID: 0}
     - target: {fileID: 1084875244918144741, guid: b78c5aaeb960347beb41709d285232a3, type: 3}
       propertyPath: m_RootOrder
