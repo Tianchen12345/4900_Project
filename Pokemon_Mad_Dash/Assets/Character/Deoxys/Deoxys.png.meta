@@ -1,0 +1,7603 @@
+fileFormatVersion: 2
+guid: e8a58a2bc3bb344bbbc613b1a4be91df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deoxys_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9192dc79ee07044b1a17326d4d673e46
+      internalID: -984120478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 988
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765515b15db0475484f42d6c5a10c99
+      internalID: -1325810402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 987
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d521c997583db46fc8806ee0e911bdf3
+      internalID: -1805033058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 987
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ec4f445c184caa9d9d386c4442e08
+      internalID: 1426048770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 992
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab19636ec8a84400b8b0681042b10fb
+      internalID: 101045495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 987
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7133a4d2cd214c538877f4208ee0176
+      internalID: 2146549271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 988
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8208891bd2a64df7810aa65a2ad8905
+      internalID: 606101571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da280c91526ee41598a1168df3305948
+      internalID: -1882007602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53de88abcba704d6ab61853d54576a3a
+      internalID: 715099954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a82f994ec70f43649a568f239d2dfd2
+      internalID: 53802403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad604e0e8c4447948f4319ac6452c77
+      internalID: 1055996921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 982
+        width: 69
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4103136, y: 0.5000019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae398430db25840ff9e9190e946d00b3
+      internalID: -1172425195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_12
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 982
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f07e54e09443259325ad94e96b582
+      internalID: -1969922961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_13
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 982
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbcaaa9979324eb4a0b029d494924b3
+      internalID: 763550966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_14
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 982
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8a56fbe5a0f472da8bebcff45108a9
+      internalID: 1791292161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_15
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 982
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d2e1f783e8462f8ceadb2da07c498
+      internalID: 1694525251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_16
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dcbc484a10040f9bdd47b8c81b59f4
+      internalID: 1714105008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_17
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39deafd8467cb4839aab45e14edeb46e
+      internalID: 1306522658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_18
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfaaf2fc9eff41b694212cb9dc3a9e9
+      internalID: 1120430122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 995
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe113338b7c454692d6af2a6f4ed26
+      internalID: -346922814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 89
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd23009c025064714a97bc42cf30d6d7
+      internalID: -231209301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 915
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1636bc4db6494f74a5fe36f540352b1
+      internalID: 1880848544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 926
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47220972799b5427cacc2a290d977ad8
+      internalID: 989302511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 915
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd3d053f53a249b78d059f03aff7261
+      internalID: -817816092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 915
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf34e681865c9469290efcc2a6bcd96d
+      internalID: -970544540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e004bd7875e0349579aca01ad89fb500
+      internalID: -655637569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_26
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 914
+        width: 89
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb0311656c5b42c39de827c5a16602d
+      internalID: 762513742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_27
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 915
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa45dc6e3f67400585e0c58c447a66a
+      internalID: 843342300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_28
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 915
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a4a9c2f845f4ec8a549c2649a29062
+      internalID: 1812799563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_29
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 915
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272acdf1d4eb84bb29e4f8540a35f44e
+      internalID: 1399588117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78894934f10184900ae829545ead105c
+      internalID: -132369887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa72b3f872b64819b54077693dbabb8
+      internalID: 1245302331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f4bce63a2c4dd197d4d7283d054fa
+      internalID: -483310874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9afcd20dcc5a469db7ca0c6f146d595
+      internalID: -278640550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f8278441f8543a990f4ac8563155c4
+      internalID: 755094078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93c2490d0bc44c1eb3a13da37014eeb
+      internalID: 393831802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b472a7f91f8f64155b65bf77116374ad
+      internalID: 8080998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_37
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41145a749ad44ca0a719e76b1620eff
+      internalID: 1566462601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4211103ebcbe748dba4a8c4ecf73c0dc
+      internalID: 358043556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_39
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27eb5994c1646aea8366d9de9544be
+      internalID: 425745569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_40
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63d49a42240b4b45a0b13669b198a9a
+      internalID: 2146225073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_41
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce56affbb16554cbc91b3b106834755e
+      internalID: -426416515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 931
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafed71d4a2b446dc9398174eb762ab3
+      internalID: -1122420689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749772d0098bb46859a0d5394cd90bed
+      internalID: -980330090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a6a5f8bcad248d892b028cc96bc757
+      internalID: 322016810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c1ccddf76224fbfba633272d00aaa7
+      internalID: 2015726934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2767a47070efa479396e7a3e4453b9a1
+      internalID: -2118395530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0669e276f4a6414fa997ddcb4085c19
+      internalID: 1443782916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be1700202ca24bffb984f1d9f2d04d2
+      internalID: 1780579433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c272d5f1f520a40aca000a68fdcd0e6f
+      internalID: -1999859600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b429027e6d2426c853d8f7c5fd8d22
+      internalID: 1148968463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65ba352ebca64227b996b05f3390aee
+      internalID: 128527116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4a9529548d741579da7feb438d3233
+      internalID: -452781859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdae066e963c44c79dba3788d6f1754
+      internalID: -216524615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec2860ba2f1c46d9a576b362bc48171
+      internalID: -1409301411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a229bad96d37a4a8897146f3794c4d99
+      internalID: 75096923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_56
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a3b78142da64f70b64bf8b9f7e6774
+      internalID: 915090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e54455aef4342bb91b03d1a5825056
+      internalID: -1950910007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9432f587536c84992ba076649cfc1e12
+      internalID: -925737021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce96056874f1b4010923a5b45dfffa6a
+      internalID: -976745482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ccec6af79ed4fb2b3defb996bd6ad6
+      internalID: -533676519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_61
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad1504a239f14b4bbc660689b917a82
+      internalID: -2115028700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_62
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d228b840b45c549a2b01404ba22dd709
+      internalID: 1015193378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_63
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3642fc0a0c5438f8cc20c22f816812
+      internalID: -2089728655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_64
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1320d9f372d7453da279fc8ccb1340f
+      internalID: -1910515793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_65
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 867
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b282f2ec7e843bea2d030330aaa8ee
+      internalID: 1358381855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd45e02074e8848d99c50a6fe27acdfe
+      internalID: -675482160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212f38f2a32841488420fbe353116ee
+      internalID: 573157118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_68
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 710
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf48bd7847a4390ab47f8f055e5618
+      internalID: -151121027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79cefbf02294a0e9e4bd99b62c8044
+      internalID: 1889769689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8bbdc3372e544f38418b3c7f942019
+      internalID: -1167292983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907fc5d967c984f67a3e660ddf29239e
+      internalID: 1867391101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52328747f141c4235b3cc97fd1ea02dd
+      internalID: -526822102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_73
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636e661b869754b9f9311641bec62655
+      internalID: 1294235686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b18c0f32b674c3187e7022fce18bf5
+      internalID: 368655810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde3db00a229845e1bb46d6912fefaef
+      internalID: 254604114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e22c53991e4018be8a98f08ef315b
+      internalID: -1651556645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_77
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba98c4af7feb846b2b14e8a296c9a454
+      internalID: 1519020459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c3c4af322534d66a42d94b8fdd0120
+      internalID: 819702788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_79
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8be1ce00262d4437a5f9765c20eefe3
+      internalID: 1972942595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_80
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf77ba6c1c4491bbca05873a9a5cb1
+      internalID: -813062486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_81
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9554948ba9b4ef4acf31dbc83f0f36
+      internalID: -623770088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_82
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd18beb30ae41f99a512cb87f1c25c
+      internalID: 1447738816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_83
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb768edf603a4b20a9192ecf6165a7b
+      internalID: 348561016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d51496d9317415cb16dd1d6eae6bfe
+      internalID: -959568644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_85
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7e2d3e6c2e947c0ab97cf46fb0fe52
+      internalID: 1707762461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_86
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d537784502d4a13a1b6104260207b6
+      internalID: 1117803135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_87
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6790412f31943f99845fad544caa4c
+      internalID: -726075542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_88
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740b51cdd5f74c38a48370dcfe0152b
+      internalID: 1416529168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_89
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3133b0f3665e64b3fb56dcdb946961c9
+      internalID: 2062229043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_90
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 803
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf91f55e93ea04de48f851f57a2f5ba8
+      internalID: 690609878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 710
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d96b95320434c29b7413f286e9cee4
+      internalID: -1010669030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_92
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 710
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78b931db8bb542f3abf8eab40e9349a
+      internalID: 221786506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_93
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 710
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3478c0d2579074fdab422b2ac457c676
+      internalID: -1511577892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_94
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 711
+        width: 46
+        height: 67
+      alignment: 9
+      pivot: {x: 0.38808942, y: 0.5839329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e8b73828944e16a6d222175647b56
+      internalID: 1457382223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_95
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 711
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c3a712f1acc4ebc9f718a4b2fba9d5
+      internalID: 74599472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_96
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 711
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb2017a530e3443bae903ecfdabf73c
+      internalID: 413434277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_97
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a212a3a8e6d048b28f036a28804dd0b
+      internalID: 881230511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_98
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8c2f60304774207a2518e45cf01e96
+      internalID: 1161664048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_99
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8c659d8d4b40a2854735a95e27c28
+      internalID: -1735929313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_100
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0984724434a46e2a74c34487862390
+      internalID: -1070253995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_101
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8b826045cca47d8a49fea7d6d46036
+      internalID: 1652810723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_102
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7378d85db5014b8299b1832693d5811
+      internalID: 1938978571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_103
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0bdc540040444e2a344598c26e1ca0
+      internalID: -2005177015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_104
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b9e235a573d459991031e8f92a1c8e
+      internalID: -825458987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_105
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95f4e55713b742f587da0ce136b5a86
+      internalID: 703418572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_106
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e0df12441834c9785994eb88376421
+      internalID: -1638695125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_107
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086917bef0d114abaa3bd427dd72b898
+      internalID: -1196050424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_108
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f658b22721da4feebc0299798c052ea
+      internalID: 1434962195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_109
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f25780ff9cc440dbd332b89abff64f
+      internalID: 2126836195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_110
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cc5d71482b54836b6fec78e9ce2113
+      internalID: 1183334894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 739
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7be6a78bb3d2483c98b9c28fc727714
+      internalID: -1849644063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0edff1aff574abc86cd3942d4e9779
+      internalID: 1202112198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd8b154a0144c219c0c7dede22fc31
+      internalID: 1179728888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1877254d708c04b9fb0e0cf84976f82f
+      internalID: 434696973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b68610c6a86496a9c93b733f2bc9b9
+      internalID: 891063930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aa45d94bfa4452ca9ff67140dbf382
+      internalID: 1345854880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba2f2bfb05a64cada1887f1151d2043
+      internalID: 195360935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a2e19761d034f52951e2a36e9ada4d
+      internalID: -335677266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd11e4826074832aa9756f184587d2
+      internalID: -1753243669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e964f3c06c3a4553b69fb28869ef127
+      internalID: -1770926336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_121
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118d0242ffc4742d6833555b0f3e1f60
+      internalID: -1056272772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_122
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f28d1937b3324b56986de82c4e5c160
+      internalID: -878472832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_123
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb5562a455004a36825ed94e6aa19b2
+      internalID: 183896251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_124
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819be825bf74457fa1e20ccf5bcc0ff
+      internalID: -1759379775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_125
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880a59490f924680a38e51acd82ff96
+      internalID: -1505941853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_126
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42252a8f86b54d89bce82fa0f7ec971
+      internalID: -1337504442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_127
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c4f38f84d44dd7ae6d77f5a2a4cf9
+      internalID: -1339329713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_128
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869ac51f5028d48d68f601703da3378f
+      internalID: 1225419888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7db2348a1684c178a033990956c42e
+      internalID: 1059643514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_130
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a647372db78471193818d9a4068eec
+      internalID: -587749690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_131
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba25b9c78459049fe9b07d9e4d83207b
+      internalID: -194920523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c4ee5956d94db284496d95d6d8f9d
+      internalID: -1579525204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea1431b376d74b74bd89bdf6d6bbf2f
+      internalID: 2109878992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6017a1b8744d4b25b7d955c239cc59b
+      internalID: -504386508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_135
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b447d0f77f048fe905ab0b72ed501e
+      internalID: -812292082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0d8609c089477887bb5a6a420b9c1
+      internalID: -678554887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_137
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079d3ba270ba4ad4b71d8826434b2f2
+      internalID: -463714189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_138
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684b693c12a7443b88f480e571a16b1
+      internalID: -1947915599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc3247f048304308a9a1e093ef9318b
+      internalID: 963933610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_140
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b7337e048c7417ba4b59fc605127e7
+      internalID: -2046833171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c39e7b4f56ad4430be378d3dd83fe02
+      internalID: 1921398946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_142
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b409c3e00c949a1a2ba37184f24a11
+      internalID: 199185434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_143
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993758be47f9b4f2790980aca8750971
+      internalID: 1986232808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_144
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 576
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d581f6092521d48018e89ece7d55e107
+      internalID: -518694335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_145
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 576
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f14811120894176bd4ed4099987d74
+      internalID: -536653098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_146
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 577
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406dcc4b9df047298c38d403a57ed53
+      internalID: 1849101278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_147
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 577
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09388186b389a45e6928f77a8f6ffd45
+      internalID: 471574109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_148
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 577
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f15bd20cba417c91613cc53ff6737
+      internalID: -836467690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_149
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 576
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7517872e380134ceeafe3788e393787b
+      internalID: -1950771568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_150
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 576
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19103009f2d104aa58eb19dc9e58897a
+      internalID: -949550102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_151
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 576
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79062c5a04a404099a8477798f81deb8
+      internalID: -997233290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_152
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 576
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb400f14e747462e89ac4823d5c909d
+      internalID: -1610953032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_153
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 576
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44172cd70bbee410ba40d054470edc5f
+      internalID: -172646617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_154
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb15065b1097e48b7a9c44cabe540bd6
+      internalID: 1316595750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_155
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 611
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cad66493c5542399962fa01681be03
+      internalID: -1363958054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349c2e51202a4467f939fb95c425168c
+      internalID: 1893051114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1743e9b89d9d4786b5a1efb0081fe3b
+      internalID: 1433389482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dfd471fd74542418762ca16cb5ecc8
+      internalID: -1326507374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517b444112b149208ec01f97df4f05a
+      internalID: -1064102402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d99c9beb20944fca0ad7390e2e503f
+      internalID: -68931029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_161
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3205686c133466d99501a733c57a22
+      internalID: -1761726366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_162
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065a53c682c7d445c89581555c48b36a
+      internalID: -1935455087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_163
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb194c618a71479eb0c8dfc3bf5c4a9
+      internalID: 717045525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_164
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361325dbd61444eb2abaac46751b973f
+      internalID: 1741977623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_165
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a027ccd6fde4f5d96f51611b6fa66b
+      internalID: 842452724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_166
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffb9ac062cca4cdf9b99a7300c14894
+      internalID: 485813861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_167
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffea176f50f934b77abce9403cad3709
+      internalID: -1706184762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_168
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e6c37e97a504e2e8ec7ddd49442d9b
+      internalID: -532863245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_169
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389569233599146a68ed6090f35ccc0d
+      internalID: 1817743557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_170
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52d3cb3dde7a4f0bac50497a590340d
+      internalID: 364306409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_171
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0580c52450922407f8688f9df3cb910e
+      internalID: -832811591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_172
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a284fee0c96274a5b90c34ca268e1e45
+      internalID: 2040028155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_173
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782465778a29a4a2d95ac79d28ace2bd
+      internalID: 909819968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_174
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e24cd61f65409cab1f57a27d4bfef
+      internalID: -9948047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_175
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 547
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca0d616f03b94a4492982d63359102c
+      internalID: -1706007543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaad222705b3d41f1aa0e725dd8e26bb
+      internalID: 1865820670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdbc15d79aef4e9c98dede8cb421da7
+      internalID: -752455295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d253848238d4457902f666a89db286
+      internalID: 247735064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449b82f3c3eb3410d9fde18d1a8b1c71
+      internalID: 264252048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c54ba850d7843afac25e5086d0bc03
+      internalID: -1413408417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060cdee4c8d1488fa06f143bce518c4
+      internalID: -2045715669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1603d1d444c9e45bd8f0ac3febe2b922
+      internalID: 1421247878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16fcb7f3d934d75becbf4eb928421d
+      internalID: -1881774080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb41f5ad50854b4fb5f5d65677a3d15
+      internalID: -2139424638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee4076da350449468bcf796e7779ac7
+      internalID: -357538014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ce92443b6648729709be0dc66a12b
+      internalID: 621355161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2339ca0ff107e413aa957555db08feee
+      internalID: 1465469762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_188
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ef44e63e4e4471aa228abf849bad7
+      internalID: -1598936218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_189
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcb8c6efb5684ea88e0e058df8c1b48
+      internalID: -903724246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_190
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 503
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ce6797b218e41379406efeb12c4a27
+      internalID: -1562255223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_191
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 503
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d384e6c9684a3caa86f65f5e710f4
+      internalID: 854891644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_192
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 503
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9141138370748029bc43ea375cb317
+      internalID: -1215132637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_193
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 503
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855b09bf1d564f2cb51bb609e377bed
+      internalID: 1520437302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_194
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ca8c80479f3421b894c7e51dc768bb
+      internalID: -578818953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_195
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfd29d0e7b1041649edd494323f5fde
+      internalID: -560266144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_196
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5040ecaff32470ab502a35c323399b
+      internalID: -481874698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_197
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87550532cb841918e9f0b1304dca87
+      internalID: -530259758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3867a7008acf400ab05dde7e7cd0503
+      internalID: -401511218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_199
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a29ed7cc868b4e45be863e50de9d6ee
+      internalID: -1523119136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978d4c99af81413194c135c0e02b15a
+      internalID: -1943501672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_201
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed00043c4d914263a51767e8fdf01e0
+      internalID: -281866900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f01131f4fb8e4b2586614a629e27e66
+      internalID: -44798740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_203
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217d9b50fb5ce440fb95a6e64bc07b25
+      internalID: 1227017506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_204
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52646394b2ad341d7a031cc40c88615c
+      internalID: -589155487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_205
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db348a4f047045dd920379f5420302d
+      internalID: -786713489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_206
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f88b3b8e32f47768847606fa8172f5
+      internalID: -1438935522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_207
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599c44e342ca144b889099089d0b223f
+      internalID: 702504252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_208
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9aea340373e4454836dcd4dfb422ca
+      internalID: -1321425213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_209
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c25d8debbfb44eb9c2764a7ae8bf41
+      internalID: 588032948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_210
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593897304e7d4446ba10b71ec101af27
+      internalID: -245364594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_211
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35037ab96475431784eacda725dd9d7
+      internalID: -395009044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_212
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c6b19d7fac49cf9c92952ba88c348
+      internalID: -1915741992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_213
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b781a48643946aabaa9d42e3e5296d
+      internalID: -489241551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_214
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 419
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa4951300614f9fb708d61afdfaa2b
+      internalID: -1109438983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_215
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b625a355045a49ffa533e11863a0350
+      internalID: 1252792551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_216
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 317
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abff5e97eb044f60b06af743dc765df
+      internalID: -653436890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_217
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 317
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cee0ebaca634ec98ad6b2383d011e3
+      internalID: -1729614749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_218
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 317
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a73d610ae4844d08e61d461b2aca42
+      internalID: -834406338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_219
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 316
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0634141e5af740e5b6495b915770ec8
+      internalID: -541301902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_220
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aaed056a70447118ef2e18c3c24d62
+      internalID: 1306395246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_221
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee73397ea2d6e40089fae097bc7170c3
+      internalID: -311746225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_222
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a3b3e3ca7944ac90821d758cec490
+      internalID: 62101632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_223
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af00aad6db549f69d137953ef8e344
+      internalID: 1505263876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_224
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad741b63f906c495183cf104eb31c20b
+      internalID: -1150816842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_225
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ea9379f4c34e609f3a0609261d899
+      internalID: -1542367134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_226
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413d656b33264432b00e4c62a616901
+      internalID: -1960532343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_227
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e692a58030304ae1878cf2e6476e0fc
+      internalID: 1270645635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_228
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc57e49affa442a1bc5b96f7f50a61b
+      internalID: 115317333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_229
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 354
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3f54291a9f54ef8822687c5705ca2d
+      internalID: -1728673503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_230
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 353
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4afe14222c244daa9c78c317822b09
+      internalID: 1795821696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_231
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eba7e1455f74f279c38cb705ed5bd5
+      internalID: -705382820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_232
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca0b9b8eb0aa417a831e025a92e332b
+      internalID: 1090725288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_233
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 355
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a1d9716e8684b8b82eddec7db6b94f
+      internalID: 130452007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_234
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0cd7016506439f9b1e992e8465050
+      internalID: -1481517037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_235
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 355
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa88acefe0256416ab74e295135311ae
+      internalID: 1939000230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5b6650152ff4adfbf0b09b97397eda
+      internalID: -1573468102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_237
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d98ee765844e12b3cf84ffb5f71b9
+      internalID: 1046486127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_238
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06fdcffbd4434d7e8f2e398d93fdcef
+      internalID: -67853370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_239
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9f4b168f08b416e9a513bd177dc5b5
+      internalID: -341663301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_240
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae064be891c421daee6a2ba693fb80
+      internalID: 402887405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_241
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb84bed719bc94deaba984b324f98533
+      internalID: -1950378626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_242
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e916e5d45d4e288a77b87dcc88814
+      internalID: -1350546109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_243
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76658450e8ce411ea72d449be2b5d3e
+      internalID: 386497202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_244
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de97ace842514d67b7c6107f88b4a5c
+      internalID: 894241684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_245
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a826b077984b0582da11dcac274ab
+      internalID: 802965724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_246
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e44a0982308b44b498ea07e16478b02
+      internalID: 502731136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_247
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60def1268e9b34dd0b6704a2536058c5
+      internalID: 910254195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_248
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38293b553d7f48398eee6593741eb7b
+      internalID: 955893647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_249
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe6222122dc94ffcaf70530359ac3f1
+      internalID: -828743893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_250
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a588ac4d77d464c47b6d71b6aa1c43d4
+      internalID: 988019252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_251
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21e197d4fe0d41e099474f8b7618a35
+      internalID: -1878678387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_252
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7a472f4cfd41b09b2e3c241cfaad4
+      internalID: 1752048644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_253
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7de799760074770a91b02f72bdfaa1
+      internalID: -729716415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_254
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae2df3182bb4d83968ab0d4cdb0305
+      internalID: -1026219997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_255
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b0d286ca09c449ba93d7794878f02d
+      internalID: 96765745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_256
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbde17e923c8747648dbac9765cb6733
+      internalID: -1605880669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_257
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873b3b6c63f3a4ee0baad08f9663e12c
+      internalID: -1163929145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_258
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2a6809b83384ca4b572a47006bf4dd
+      internalID: 346523322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_259
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c57515913d4e6b83114dc44959344
+      internalID: -1533722779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_260
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f124a27284784c73b49eb07988fc11b
+      internalID: 1998214023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_261
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081dad327a8064cfe8d68f1267d47a80
+      internalID: 244302983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_262
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cf2c6afa29b4781af76af5cccc0419
+      internalID: -659277179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_263
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b0141395ece42909d1c0bf0b75b9ab
+      internalID: -220176138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_264
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db541cbb793c64804b035b1ebe4c85d7
+      internalID: -392333711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_265
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d38ab73f46240929feef78f2a5a5eb
+      internalID: 2105133433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_266
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea44baf226e47404a9311fc35b826a66
+      internalID: 907162387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_267
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7234237f6f6448e19a3065cce6d2c8c
+      internalID: 1045759375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_268
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e2b8ad9fd7c447fafd18dc4e50c45c
+      internalID: 233243292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_269
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3317bffe2d58f4514b0f888badc4ed79
+      internalID: -466715413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_270
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b336fb322c5f4400b8629592c92482f
+      internalID: -1022818225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_271
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2430aaf53feb741c79867c93fdd1c91f
+      internalID: 1550165829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_272
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b246975777d450184a8406cffeef21
+      internalID: 604705804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_273
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a8e1f658bb4e6983bb6cd1b03f614
+      internalID: -475744756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_274
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174c7a0aac79d473380d8c5520e69506
+      internalID: -780613654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_275
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 227
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd6eea3725b74052b24cfd2f63a3581
+      internalID: 1356026961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f32400b0b3d41ecb6e517d196c0d0c
+      internalID: 1189796628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_277
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fcb80055e164e9382235309b51a2ab
+      internalID: -1318481091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_278
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c496f7731541d2ba6eb6873831441
+      internalID: 1021163611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_279
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8e8c1f4ef734b549280be275f6d884
+      internalID: -2055194868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_280
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268ec41425c8741a0a5900f082a049bd
+      internalID: -752542176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_281
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2583fcd1640440faaad31af18d9555
+      internalID: 2085863353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_282
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0e67bcb95d4a73bd54ba8c3852f65
+      internalID: -1909076061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_283
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7035b1d31b0a74a9383205550c37c471
+      internalID: -22178515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_284
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6d34d8c6f14dc48985ff2d06a2698
+      internalID: 777614912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_285
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262f8afb2b194bf19557ae6385c53a7
+      internalID: 238283316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_286
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50a1d16518a0498cadd76a4294b51e6
+      internalID: -262227507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_287
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410249b52b96b4beeb3b7780e679ccf5
+      internalID: 112886510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_288
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f5721e497bd4acbac3dcfdea56dc46
+      internalID: 377970048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_289
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747bd452c0334ed9a057622540900a8
+      internalID: -659750301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_290
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee7b3cf5f3bb493981976fdc04ec3c4
+      internalID: 419793511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_291
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c282f4b835e4dce8a87cb59e777128
+      internalID: 519159858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_292
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaab1aa501594467bac94b75fb81e6d
+      internalID: 1485506539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_293
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c7bc9f12e14cc9b86a17b7866d72d
+      internalID: 1935868719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_294
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf8c4ab00904193b7086b06834e065
+      internalID: 1273418563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_295
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af38dda8f2308466bbe31eaf120a0dc5
+      internalID: 1969310459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_296
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274806a464a404e2e8d27e61eac9a395
+      internalID: 888889540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_297
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199b16046a52a481d99c16b06e294c92
+      internalID: 932711772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_298
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 163
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb826b3a4b8e641b3a42acfaa3de6416
+      internalID: 1080719119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_299
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c8c4ec5d9354261857956e2a2e21f5
+      internalID: -1520633774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_300
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 92
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a441c1a490cf4653a83a2ce992813a6
+      internalID: -2136521315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_301
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 92
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d9ea1efdd154404b38dcc51c180816
+      internalID: 630204367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_302
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 92
+        width: 69
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5563333, y: 0.5093889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04cc13bbe72e4f2d812dac4a7cdbd7f
+      internalID: 1150746769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_303
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 92
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202f61aaa1d3f4534bc95dbe3cfe3465
+      internalID: 803519719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_304
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 91
+        width: 150
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e29e63a1bec41c997a615c1fe3e7e8
+      internalID: -1218640971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_305
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286fd0819a72c4f6d94a661169958d60
+      internalID: 1342848148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_306
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e218508486b70458385cf703de8bd3b3
+      internalID: 2078307596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_307
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d8a78ae75954a9dbf26c28b653e636
+      internalID: 1338312501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_308
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722625bcc414c4e92a9043e3f348518a
+      internalID: -714524054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_309
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23953f4ea6ad4c2b872d8f330570467
+      internalID: -306690700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_310
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f106b37dd900d4a738dbb7b6c6285b29
+      internalID: 1443493853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_311
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e85f7e84a244e4cbaee580c7721fad
+      internalID: 1266097849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_312
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8896fab61549f42aca8ee5a6b4d8d6f1
+      internalID: 194750334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_313
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8be86888b73a452a81caa6d486fdfcb
+      internalID: -41428708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_314
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf089c58bc864015bbb5ad10cdd3c69
+      internalID: 419882955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_315
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfdb68b76ccb46888261fd9d93b2302
+      internalID: 784153403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_316
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1acc74801c04ade94ab4f50f1668ea
+      internalID: -1934969807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_317
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa584ddb27a774120b6a99c09f059a0b
+      internalID: 1419428697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_318
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b9f6b46f384211984c17858e544c8
+      internalID: -445503038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_319
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1e5cdb5f5bb4d4894d104630655f19
+      internalID: 1376033453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_320
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a3ad84ce0d4a33ab6e6453c919c64
+      internalID: -374677993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_321
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b202d590b243d9b935895488bfce4
+      internalID: -1590315512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_322
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389c89f18aca8462e9fc51b0f152dad9
+      internalID: 1956203302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_323
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17eba21112c74e04a1e5b9988db0fbf
+      internalID: -1946236853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e96315597f04af396f0f4da582e303
+      internalID: 2110265078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_325
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57cfad2cca9840d88b17cc1cff2c5b2
+      internalID: 1105477300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_326
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c0d4f98d2245688db4fa84110b012
+      internalID: -801266940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_327
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b8fca70c6a04176a6eba10db66689a
+      internalID: 680170120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_328
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c73371539364ea9bae0f41888f122f
+      internalID: 600514878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_329
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b8ade99d7e40698eabb8366cb5d03
+      internalID: 1196919435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_330
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1225095e06a47eaa427d2ac06e1a7a
+      internalID: -2062258002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_331
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a40c4dbddf0e4eedadcf424492afa13
+      internalID: 1913076070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_332
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3cc4e1b9a2f4200864f53676359729
+      internalID: -1497843189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_333
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cec025c5ccf4bab9fc4795161920b3
+      internalID: 298176642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_334
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a553ba032713843f8be93dabc799b67f
+      internalID: 270645636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_335
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05247e61f5f040388f5e65b80e5f39d
+      internalID: 1705909650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_336
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40267bc6ac9e24046997b934dfd5e6fa
+      internalID: -1712196275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_337
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764d7922d5bc74f5e878631ab9ac14f2
+      internalID: 663349819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_338
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ddb172a58294f0d96d8ea44f506b0b
+      internalID: 451993013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deoxys_339
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ecb4e1455f14d4e9b79a0bdde3b05f
+      internalID: -552905685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Deoxys_0: -984120478
+      Deoxys_1: -1325810402
+      Deoxys_10: 1055996921
+      Deoxys_100: -1070253995
+      Deoxys_101: 1652810723
+      Deoxys_102: 1938978571
+      Deoxys_103: -2005177015
+      Deoxys_104: -825458987
+      Deoxys_105: 703418572
+      Deoxys_106: -1638695125
+      Deoxys_107: -1196050424
+      Deoxys_108: 1434962195
+      Deoxys_109: 2126836195
+      Deoxys_11: -1172425195
+      Deoxys_110: 1183334894
+      Deoxys_111: -1849644063
+      Deoxys_112: 1202112198
+      Deoxys_113: 1179728888
+      Deoxys_114: 434696973
+      Deoxys_115: 891063930
+      Deoxys_116: 1345854880
+      Deoxys_117: 195360935
+      Deoxys_118: -335677266
+      Deoxys_119: -1753243669
+      Deoxys_12: -1969922961
+      Deoxys_120: -1770926336
+      Deoxys_121: -1056272772
+      Deoxys_122: -878472832
+      Deoxys_123: 183896251
+      Deoxys_124: -1759379775
+      Deoxys_125: -1505941853
+      Deoxys_126: -1337504442
+      Deoxys_127: -1339329713
+      Deoxys_128: 1225419888
+      Deoxys_129: 1059643514
+      Deoxys_13: 763550966
+      Deoxys_130: -587749690
+      Deoxys_131: -194920523
+      Deoxys_132: -1579525204
+      Deoxys_133: 2109878992
+      Deoxys_134: -504386508
+      Deoxys_135: -812292082
+      Deoxys_136: -678554887
+      Deoxys_137: -463714189
+      Deoxys_138: -1947915599
+      Deoxys_139: 963933610
+      Deoxys_14: 1791292161
+      Deoxys_140: -2046833171
+      Deoxys_141: 1921398946
+      Deoxys_142: 199185434
+      Deoxys_143: 1986232808
+      Deoxys_144: -518694335
+      Deoxys_145: -536653098
+      Deoxys_146: 1849101278
+      Deoxys_147: 471574109
+      Deoxys_148: -836467690
+      Deoxys_149: -1950771568
+      Deoxys_15: 1694525251
+      Deoxys_150: -949550102
+      Deoxys_151: -997233290
+      Deoxys_152: -1610953032
+      Deoxys_153: -172646617
+      Deoxys_154: 1316595750
+      Deoxys_155: -1363958054
+      Deoxys_156: 1893051114
+      Deoxys_157: 1433389482
+      Deoxys_158: -1326507374
+      Deoxys_159: -1064102402
+      Deoxys_16: 1714105008
+      Deoxys_160: -68931029
+      Deoxys_161: -1761726366
+      Deoxys_162: -1935455087
+      Deoxys_163: 717045525
+      Deoxys_164: 1741977623
+      Deoxys_165: 842452724
+      Deoxys_166: 485813861
+      Deoxys_167: -1706184762
+      Deoxys_168: -532863245
+      Deoxys_169: 1817743557
+      Deoxys_17: 1306522658
+      Deoxys_170: 364306409
+      Deoxys_171: -832811591
+      Deoxys_172: 2040028155
+      Deoxys_173: 909819968
+      Deoxys_174: -9948047
+      Deoxys_175: -1706007543
+      Deoxys_176: 1865820670
+      Deoxys_177: -752455295
+      Deoxys_178: 247735064
+      Deoxys_179: 264252048
+      Deoxys_18: 1120430122
+      Deoxys_180: -1413408417
+      Deoxys_181: -2045715669
+      Deoxys_182: 1421247878
+      Deoxys_183: -1881774080
+      Deoxys_184: -2139424638
+      Deoxys_185: -357538014
+      Deoxys_186: 621355161
+      Deoxys_187: 1465469762
+      Deoxys_188: -1598936218
+      Deoxys_189: -903724246
+      Deoxys_19: -346922814
+      Deoxys_190: -1562255223
+      Deoxys_191: 854891644
+      Deoxys_192: -1215132637
+      Deoxys_193: 1520437302
+      Deoxys_194: -578818953
+      Deoxys_195: -560266144
+      Deoxys_196: -481874698
+      Deoxys_197: -530259758
+      Deoxys_198: -401511218
+      Deoxys_199: -1523119136
+      Deoxys_2: -1805033058
+      Deoxys_20: -231209301
+      Deoxys_200: -1943501672
+      Deoxys_201: -281866900
+      Deoxys_202: -44798740
+      Deoxys_203: 1227017506
+      Deoxys_204: -589155487
+      Deoxys_205: -786713489
+      Deoxys_206: -1438935522
+      Deoxys_207: 702504252
+      Deoxys_208: -1321425213
+      Deoxys_209: 588032948
+      Deoxys_21: 1880848544
+      Deoxys_210: -245364594
+      Deoxys_211: -395009044
+      Deoxys_212: -1915741992
+      Deoxys_213: -489241551
+      Deoxys_214: -1109438983
+      Deoxys_215: 1252792551
+      Deoxys_216: -653436890
+      Deoxys_217: -1729614749
+      Deoxys_218: -834406338
+      Deoxys_219: -541301902
+      Deoxys_22: 989302511
+      Deoxys_220: 1306395246
+      Deoxys_221: -311746225
+      Deoxys_222: 62101632
+      Deoxys_223: 1505263876
+      Deoxys_224: -1150816842
+      Deoxys_225: -1542367134
+      Deoxys_226: -1960532343
+      Deoxys_227: 1270645635
+      Deoxys_228: 115317333
+      Deoxys_229: -1728673503
+      Deoxys_23: -817816092
+      Deoxys_230: 1795821696
+      Deoxys_231: -705382820
+      Deoxys_232: 1090725288
+      Deoxys_233: 130452007
+      Deoxys_234: -1481517037
+      Deoxys_235: 1939000230
+      Deoxys_236: -1573468102
+      Deoxys_237: 1046486127
+      Deoxys_238: -67853370
+      Deoxys_239: -341663301
+      Deoxys_24: -970544540
+      Deoxys_240: 402887405
+      Deoxys_241: -1950378626
+      Deoxys_242: -1350546109
+      Deoxys_243: 386497202
+      Deoxys_244: 894241684
+      Deoxys_245: 802965724
+      Deoxys_246: 502731136
+      Deoxys_247: 910254195
+      Deoxys_248: 955893647
+      Deoxys_249: -828743893
+      Deoxys_25: -655637569
+      Deoxys_250: 988019252
+      Deoxys_251: -1878678387
+      Deoxys_252: 1752048644
+      Deoxys_253: -729716415
+      Deoxys_254: -1026219997
+      Deoxys_255: 96765745
+      Deoxys_256: -1605880669
+      Deoxys_257: -1163929145
+      Deoxys_258: 346523322
+      Deoxys_259: -1533722779
+      Deoxys_26: 762513742
+      Deoxys_260: 1998214023
+      Deoxys_261: 244302983
+      Deoxys_262: -659277179
+      Deoxys_263: -220176138
+      Deoxys_264: -392333711
+      Deoxys_265: 2105133433
+      Deoxys_266: 907162387
+      Deoxys_267: 1045759375
+      Deoxys_268: 233243292
+      Deoxys_269: -466715413
+      Deoxys_27: 843342300
+      Deoxys_270: -1022818225
+      Deoxys_271: 1550165829
+      Deoxys_272: 604705804
+      Deoxys_273: -475744756
+      Deoxys_274: -780613654
+      Deoxys_275: 1356026961
+      Deoxys_276: 1189796628
+      Deoxys_277: -1318481091
+      Deoxys_278: 1021163611
+      Deoxys_279: -2055194868
+      Deoxys_28: 1812799563
+      Deoxys_280: -752542176
+      Deoxys_281: 2085863353
+      Deoxys_282: -1909076061
+      Deoxys_283: -22178515
+      Deoxys_284: 777614912
+      Deoxys_285: 238283316
+      Deoxys_286: -262227507
+      Deoxys_287: 112886510
+      Deoxys_288: 377970048
+      Deoxys_289: -659750301
+      Deoxys_29: 1399588117
+      Deoxys_290: 419793511
+      Deoxys_291: 519159858
+      Deoxys_292: 1485506539
+      Deoxys_293: 1935868719
+      Deoxys_294: 1273418563
+      Deoxys_295: 1969310459
+      Deoxys_296: 888889540
+      Deoxys_297: 932711772
+      Deoxys_298: 1080719119
+      Deoxys_299: -1520633774
+      Deoxys_3: 1426048770
+      Deoxys_30: -132369887
+      Deoxys_300: -2136521315
+      Deoxys_301: 630204367
+      Deoxys_302: 1150746769
+      Deoxys_303: 803519719
+      Deoxys_304: -1218640971
+      Deoxys_305: 1342848148
+      Deoxys_306: 2078307596
+      Deoxys_307: 1338312501
+      Deoxys_308: -714524054
+      Deoxys_309: -306690700
+      Deoxys_31: 1245302331
+      Deoxys_310: 1443493853
+      Deoxys_311: 1266097849
+      Deoxys_312: 194750334
+      Deoxys_313: -41428708
+      Deoxys_314: 419882955
+      Deoxys_315: 784153403
+      Deoxys_316: -1934969807
+      Deoxys_317: 1419428697
+      Deoxys_318: -445503038
+      Deoxys_319: 1376033453
+      Deoxys_32: -483310874
+      Deoxys_320: -374677993
+      Deoxys_321: -1590315512
+      Deoxys_322: 1956203302
+      Deoxys_323: -1946236853
+      Deoxys_324: 2110265078
+      Deoxys_325: 1105477300
+      Deoxys_326: -801266940
+      Deoxys_327: 680170120
+      Deoxys_328: 600514878
+      Deoxys_329: 1196919435
+      Deoxys_33: -278640550
+      Deoxys_330: -2062258002
+      Deoxys_331: 1913076070
+      Deoxys_332: -1497843189
+      Deoxys_333: 298176642
+      Deoxys_334: 270645636
+      Deoxys_335: 1705909650
+      Deoxys_336: -1712196275
+      Deoxys_337: 663349819
+      Deoxys_338: 451993013
+      Deoxys_339: -552905685
+      Deoxys_34: 755094078
+      Deoxys_35: 393831802
+      Deoxys_36: 8080998
+      Deoxys_37: 1566462601
+      Deoxys_38: 358043556
+      Deoxys_39: 425745569
+      Deoxys_4: 101045495
+      Deoxys_40: 2146225073
+      Deoxys_41: -426416515
+      Deoxys_42: -1122420689
+      Deoxys_43: -980330090
+      Deoxys_44: 322016810
+      Deoxys_45: 2015726934
+      Deoxys_46: -2118395530
+      Deoxys_47: 1443782916
+      Deoxys_48: 1780579433
+      Deoxys_49: -1999859600
+      Deoxys_5: 2146549271
+      Deoxys_50: 1148968463
+      Deoxys_51: 128527116
+      Deoxys_52: -452781859
+      Deoxys_53: -216524615
+      Deoxys_54: -1409301411
+      Deoxys_55: 75096923
+      Deoxys_56: 915090
+      Deoxys_57: -1950910007
+      Deoxys_58: -925737021
+      Deoxys_59: -976745482
+      Deoxys_6: 606101571
+      Deoxys_60: -533676519
+      Deoxys_61: -2115028700
+      Deoxys_62: 1015193378
+      Deoxys_63: -2089728655
+      Deoxys_64: -1910515793
+      Deoxys_65: 1358381855
+      Deoxys_66: -675482160
+      Deoxys_67: 573157118
+      Deoxys_68: -151121027
+      Deoxys_69: 1889769689
+      Deoxys_7: -1882007602
+      Deoxys_70: -1167292983
+      Deoxys_71: 1867391101
+      Deoxys_72: -526822102
+      Deoxys_73: 1294235686
+      Deoxys_74: 368655810
+      Deoxys_75: 254604114
+      Deoxys_76: -1651556645
+      Deoxys_77: 1519020459
+      Deoxys_78: 819702788
+      Deoxys_79: 1972942595
+      Deoxys_8: 715099954
+      Deoxys_80: -813062486
+      Deoxys_81: -623770088
+      Deoxys_82: 1447738816
+      Deoxys_83: 348561016
+      Deoxys_84: -959568644
+      Deoxys_85: 1707762461
+      Deoxys_86: 1117803135
+      Deoxys_87: -726075542
+      Deoxys_88: 1416529168
+      Deoxys_89: 2062229043
+      Deoxys_9: 53802403
+      Deoxys_90: 690609878
+      Deoxys_91: -1010669030
+      Deoxys_92: 221786506
+      Deoxys_93: -1511577892
+      Deoxys_94: 1457382223
+      Deoxys_95: 74599472
+      Deoxys_96: 413434277
+      Deoxys_97: 881230511
+      Deoxys_98: 1161664048
+      Deoxys_99: -1735929313
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

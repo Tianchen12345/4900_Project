@@ -16,6 +16,7 @@ int currentHealth;
 public bool isBoss1 = false;
 public bool isBoss2 = false;
 public UnityEvent<float> OnHealthChange;
+public bool isInvulerable = false;
 //public bool isChar1 = true;
 //public bool isChar2 = false;
   // Start is called before the first frame update
@@ -27,6 +28,9 @@ public UnityEvent<float> OnHealthChange;
   // Update is called once per frame
   public void TakeDamage(int damage)
   {
+    if(isInvulerable){
+      return;
+    }
     currentHealth -= damage;
     OnHealthChange?.Invoke((float)currentHealth / maxHealth);
      if(currentHealth <=0)
@@ -89,4 +93,5 @@ public UnityEvent<float> OnHealthChange;
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
 
   }
+
 }
