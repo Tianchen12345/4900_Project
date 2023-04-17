@@ -1,8 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Starly : MonoBehaviour
 {
     Rigidbody2D myRigidbody;
+
+    [SerializeField] GameObject bomb;
 
     [SerializeField] private float movementDistanceX;
     [SerializeField] private float movementDistanceY;
@@ -16,6 +20,7 @@ public class Starly : MonoBehaviour
     private float downEdge;
 
     float speed;
+    private bool isAttacking = false;
 
     private void Awake()
     {
@@ -85,6 +90,27 @@ public class Starly : MonoBehaviour
                 movingUp = true;
             }
         }
+
+        if (!isAttacking)
+        {
+            isAttacking = true;
+            Attack();
+            StartCoroutine(AttackCoroutine());
+        }
+
+
+    }
+
+    private void Attack()
+    {
+        Instantiate(bomb, transform.position, Quaternion.identity);        
+    }
+
+    private IEnumerator AttackCoroutine()
+    {
+        float time = Random.Range(3f, 7f);
+        yield return new WaitForSeconds(time);
+        isAttacking = false;
     }
 
 
