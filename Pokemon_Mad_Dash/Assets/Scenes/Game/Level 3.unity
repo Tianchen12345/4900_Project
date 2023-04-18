@@ -52383,6 +52383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022467259041077782, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
+      propertyPath: charMovement
+      value: 
+      objectReference: {fileID: 1212248716}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
 --- !u!4 &1162604406 stripped

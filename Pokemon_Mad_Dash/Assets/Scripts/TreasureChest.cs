@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TreasureChest : MonoBehaviour
 {
+    [SerializeField] AudioClip treasureChestSFX;
+    [SerializeField] GameObject gun;
     Animator myAnimator;
 
     private bool isOpened = false; // Flag to check if the chest is already opened
@@ -21,6 +23,8 @@ public class TreasureChest : MonoBehaviour
             isOpened = true;
 
             myAnimator.SetTrigger("OpenTreasureChests");
+            AudioSource.PlayClipAtPoint(treasureChestSFX, Camera.main.transform.position);
+            gun.SetActive(true);
 
             // Disable the collider so that the chest can't be opened again
             GetComponent<Collider2D>().enabled = false;

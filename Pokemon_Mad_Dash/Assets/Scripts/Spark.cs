@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Spark : MonoBehaviour
 {
+    [SerializeField] AudioClip thunderSFX;
     CircleCollider2D myCircleCollider2D;
     private void Awake()
     {
         myCircleCollider2D = GetComponent<CircleCollider2D>();
+        AudioSource.PlayClipAtPoint(thunderSFX, transform.position);
         Destroy(gameObject, 0.8f);
     }
 

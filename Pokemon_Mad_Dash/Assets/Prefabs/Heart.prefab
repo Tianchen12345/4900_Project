@@ -107,6 +107,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &8962296373727450417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,3 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heartSFX: {fileID: 8300000, guid: 5fd1d0474ecf3544e9302a2f78146683, type: 3}
+  charMovement: {fileID: 0}

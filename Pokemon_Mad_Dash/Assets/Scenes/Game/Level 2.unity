@@ -2500,7 +2500,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2524,7 +2524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.34791, y: -4.07818, z: -10.132756}
+  m_LocalPosition: {x: -90.35, y: -4.19, z: -10.132756}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51884,6 +51884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022467259041077782, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
+      propertyPath: charMovement
+      value: 
+      objectReference: {fileID: 597151340}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
 --- !u!4 &1160208746 stripped
@@ -133292,6 +133296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022467259041077782, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
+      propertyPath: charMovement
+      value: 
+      objectReference: {fileID: 597151340}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
 --- !u!1 &1716845938
@@ -136455,6 +136463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022467259041077782, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
+      propertyPath: charMovement
+      value: 
+      objectReference: {fileID: 597151340}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60694a046e1582f4eaee3fdc86ea9e57, type: 3}
 --- !u!4 &2126591534 stripped

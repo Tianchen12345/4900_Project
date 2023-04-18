@@ -107,6 +107,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5097125377601221013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690264222a573514b9b9f279b6cc881a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thunderSFX: {fileID: 8300000, guid: 7a4ef8c413ce1dd4f843c63f75d1935e, type: 3}
 --- !u!58 &-9189737634519829807
 CircleCollider2D:
   m_ObjectHideFlags: 0

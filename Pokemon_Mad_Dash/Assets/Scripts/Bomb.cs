@@ -21,7 +21,8 @@ public class Bomb : MonoBehaviour
     void BombExplosion()
     {
         Collider2D playerCollider = Physics2D.OverlapCircle(transform.position, radius, LayerMask.GetMask("Player"));
-        myAudioSource.PlayOneShot(bombExplosionSFX);
+        //myAudioSource.PlayOneShot(bombExplosionSFX);
+        AudioSource.PlayClipAtPoint(bombExplosionSFX, transform.position);
 
         if (playerCollider)
         {
@@ -36,7 +37,8 @@ public class Bomb : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         myAnimator.SetTrigger("Bomb On");
-        myAudioSource.PlayOneShot(bombBurningSFX);
+        //myAudioSource.PlayOneShot(bombBurningSFX);
+        AudioSource.PlayClipAtPoint(bombBurningSFX, transform.position);
     }
 
     void DestroyBomb()
