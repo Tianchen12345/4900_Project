@@ -55,12 +55,17 @@ public bool isInvulerable = false;
      }
      if(isBoss3 && currentHealth <= 300){
        GetComponent<Animator>().SetTrigger("transform1");
+       GetComponent<FollowEnemy>().enabled = false;
+
      }
      if(isBoss3 && currentHealth <= 200){
        GetComponent<Animator>().SetTrigger("transform2");
+       GetComponent<EnemyPatrolMovement>().enabled = true;
      }
      if(isBoss3 && currentHealth <=100){
        GetComponent<Animator>().SetTrigger("transform3");
+       GetComponent<EnemyPatrolMovement>().enabled = false;
+       GetComponent<FollowAndShootEnemy>().enabled = true;
      }
   }
 

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6058051213816530507}
   - component: {fileID: -2852575600954935823}
   - component: {fileID: -7476946310914377194}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RazorLeaf
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 11060509
-  m_SortingLayer: 8
+  m_SortingLayerID: -563487009
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -725503134, guid: 29b555398082f4bf48ee1f2630c7a14f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -129,6 +129,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &-2852575600954935823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +145,7 @@ MonoBehaviour:
   targetTag: Player
   speed: 5
   damage: 15
+  time: 2
 --- !u!70 &-7476946310914377194
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

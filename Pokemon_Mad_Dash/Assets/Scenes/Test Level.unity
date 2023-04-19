@@ -38750,18 +38750,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: meteor
       objectReference: {fileID: 0}
-    - target: {fileID: 2031300801227001720, guid: 21c8e7b03944046b8a66e5e9dcbbc253, type: 3}
-      propertyPath: m_GravityScale
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746728517601788924, guid: 21c8e7b03944046b8a66e5e9dcbbc253, type: 3}
-      propertyPath: speed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746728517601788924, guid: 21c8e7b03944046b8a66e5e9dcbbc253, type: 3}
-      propertyPath: damage
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 6495240540956839421, guid: 21c8e7b03944046b8a66e5e9dcbbc253, type: 3}
       propertyPath: m_RootOrder
       value: 21
