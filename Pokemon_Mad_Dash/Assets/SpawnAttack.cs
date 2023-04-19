@@ -24,7 +24,7 @@ public class SpawnAttack : MonoBehaviour
     private void spawnAttack(){
       if(enemy.currentHealth <=300){
   		GameObject a = Instantiate(attackPrefab) as GameObject;
-  		a.transform.position=new Vector2(Random.Range(-screenBounds.x,screenBounds.x), Random.Range(screenBounds.y,screenBounds.y));
+  		a.transform.position=new Vector2(Random.Range(-screenBounds.x,screenBounds.x), Random.Range(screenBounds.y+16,screenBounds.y+16));
     }
 
 
