@@ -280,6 +280,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &504377096255458774
 Rigidbody2D:
   serializedVersion: 4
@@ -329,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1907c5a8544ddb142994ffd2520eb092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 10
   speed: 3
   startDazedTime: 0.3
   hpBar: {fileID: 1098878360}

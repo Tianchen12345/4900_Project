@@ -175,6 +175,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &5681758260098636064
 Rigidbody2D:
   serializedVersion: 4
@@ -388,5 +389,5 @@ MonoBehaviour:
   specialAttackPrefab: {fileID: 7231005292787554250, guid: d51f833b15d7ca84d9ffa4336b293f67, type: 3}
   hurtBox: {fileID: 538098018}
   attackRadius: 1.5
-  damage: 5
+  damage: 10
   attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}

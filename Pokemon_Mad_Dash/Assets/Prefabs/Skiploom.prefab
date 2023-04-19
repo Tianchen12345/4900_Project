@@ -349,6 +349,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1300252196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1907c5a8544ddb142994ffd2520eb092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 10
   speed: 0
   startDazedTime: 0.3
   hpBar: {fileID: 3200973}

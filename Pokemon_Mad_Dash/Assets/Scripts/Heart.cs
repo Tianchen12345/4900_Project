@@ -17,7 +17,11 @@ public class Heart : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(heartSFX, Camera.main.transform.position);
             FindObjectOfType<GameSession>().addToLives(1);
-            charMovement.Heal(20);
+
+            if (charMovement != null)
+            {
+                charMovement.Heal(20);
+            }
             Destroy(gameObject);
         }
     }
