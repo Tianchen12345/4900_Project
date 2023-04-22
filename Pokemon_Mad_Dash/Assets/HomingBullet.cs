@@ -7,16 +7,18 @@ public class HomingBullet : MonoBehaviour
     GameObject target;
     public float speed = 5;
     public bool FacingRight = false;
+    public int bulletHP = 1;
+    public int lifeTime = 2;
     [SerializeField] private string targetTag;
 
     [SerializeField]private int damage = 15;
     // Start is called before the first frame update
     void Start()
     {
-        
+
         target = GameObject.FindGameObjectWithTag("Player");
         //player = GameObject.FindGameObjectWithTag("Player").transform;
-        Destroy(this.gameObject, 2);
+        Destroy(this.gameObject, lifeTime);
     }
 
     // Update is called once per frame
@@ -39,9 +41,10 @@ public class HomingBullet : MonoBehaviour
         target.GetComponent<CharMovement>().TakeDamage(damage);
         DestroyProjectile();
       }
-      else{
-        DestroyProjectile();
+      if(collision.gameObject.layer == 16 ){
+        TakeDamage(20);
       }
+
     }
 
     void DestroyProjectile(){
@@ -51,7 +54,10 @@ public class HomingBullet : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+      bulletHP -= damage;
+      if(bulletHP<0){
       DestroyProjectile();
+      }
     }
     void Flip(){
       FacingRight = !FacingRight;

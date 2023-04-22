@@ -48,6 +48,10 @@ public class EmberMovement : MonoBehaviour
         Instantiate(impactEffect, transform.position, Quaternion.identity);
         DestroyProjectile();
     }
+    if(collision.tag == "Bullet"){
+      collision.GetComponent<HomingBullet>().TakeDamage(damage);
+      //DestroyProjectile;
+    }
 
   }
 

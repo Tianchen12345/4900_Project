@@ -582,7 +582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  lineOfSite: 20
+  lineOfSite: 40
   FacingRight: 0
 --- !u!114 &3078265583690807090
 MonoBehaviour:
@@ -613,12 +613,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba0aef3e196a48aebdcd90189371757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  lineOfSite: 20
-  shootingRange: 7
+  speed: 4
+  lineOfSite: 25
+  shootingRange: 20
   fireRate: 2
   nextFireTime: 0
-  bullet: {fileID: 6863591976915634980, guid: 5d266b04cc59841f793272f9a5b8c405, type: 3}
+  bullet: {fileID: 2632794236809457660, guid: c05ee527482c5418ca6fe92cda5bbe50, type: 3}
   AttackPoint: {fileID: 3078265584622823961}
   FacingRight: 0
 --- !u!1 &3078265584622823961

@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Door
   - Ladder
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Trap
   - Pickable
   - NPC
-  - 
+  - Bullet
   - 
   - 
   - 
