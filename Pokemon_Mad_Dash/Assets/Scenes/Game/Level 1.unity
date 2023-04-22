@@ -193,11 +193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569a5102c90444a7b91dfbe43a5b77a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!70 &36963874 stripped
-CapsuleCollider2D:
-  m_CorrespondingSourceObject: {fileID: 871039256, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-  m_PrefabInstance: {fileID: 377644240}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &41883860
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,18 +2523,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774089623}
     m_Modifications:
-    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-      propertyPath: jumpForce
-      value: 1100
-      objectReference: {fileID: 0}
-    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-      propertyPath: myCollider2D
-      value: 
-      objectReference: {fileID: 36963874}
-    - target: {fileID: 871039255, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -2603,10 +2586,6 @@ PrefabInstance:
     - target: {fileID: 1471873559607236070, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_Name
       value: Char
-      objectReference: {fileID: 0}
-    - target: {fileID: 1471873559607236070, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}

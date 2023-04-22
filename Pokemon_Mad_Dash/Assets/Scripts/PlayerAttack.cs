@@ -17,7 +17,7 @@ public class PlayerAttack : MonoBehaviour
     Animator myAnimator;
     AudioSource myAudioSource;
 
-    [SerializeField] AudioClip attackingSFX; // SFX is Sound effects
+    [SerializeField] AudioClip attackingSFX, fireballSFX; // SFX is Sound effects
 
     private void Start()
     {
@@ -62,6 +62,7 @@ public class PlayerAttack : MonoBehaviour
         if(FindObjectOfType<GameSession>().playerDiamond >= 1)
         {
             FindObjectOfType<GameSession>().addToDiamond(-1);
+            myAudioSource.PlayOneShot(fireballSFX);
             Instantiate(specialAttackPrefab, attackPoint.position, attackPoint.rotation);
         }        
     }
