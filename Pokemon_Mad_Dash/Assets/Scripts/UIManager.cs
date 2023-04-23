@@ -14,12 +14,12 @@ public class UIManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
 
-        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 9)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 8)
         {
             pauseGameScreen.SetActive(false);
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 1)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             SettingScreen.SetActive(false);
             MainMenuScreen.SetActive(true);
@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
         Time.timeScale = 1;
     }
 
@@ -59,7 +59,7 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 9)
+        if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 8)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
