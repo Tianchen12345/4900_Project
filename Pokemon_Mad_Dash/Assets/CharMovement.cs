@@ -25,12 +25,19 @@ public class CharMovement : MonoBehaviour
     [SerializeField] private float invincibilityDurationSeconds;
     public UnityEvent<float> OnHealthChange;
 
-
+    AudioSource myAudioSource;
+    [SerializeField] AudioClip beAttackedSFX; // SFX is Sound effects
 
     public float KBForce;
     public float KBCounter;
     public float KBTotalTime;
     public bool KnockFromRight;
+
+    private void Awake()
+    {
+        myAudioSource = GetComponent<AudioSource>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -121,13 +128,14 @@ public class CharMovement : MonoBehaviour
 
  }
    public void TakeDamage(int damage){
-     if(isInvincible) return;
+        if (isInvincible) return;
 
-     health -=damage;
-     OnHealthChange?.Invoke((float)health / maxHealth);
-     animator.SetTrigger("TakeDamage");
+        health -= damage;
+        OnHealthChange?.Invoke((float)health / maxHealth);
+        animator.SetTrigger("TakeDamage");
+        myAudioSource.PlayOneShot(beAttackedSFX);
 
-     if(health<=0){
+        if (health<=0){
 
        //Destroy(gameObject);
        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;

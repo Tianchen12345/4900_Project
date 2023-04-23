@@ -391,3 +391,4 @@ MonoBehaviour:
   attackRadius: 1.5
   damage: 10
   attackingSFX: {fileID: 8300000, guid: 0db971e3acfe2e04ab2f2b8e0b917d04, type: 3}
+  fireballSFX: {fileID: 8300000, guid: 40098869d65eb364588d87106d6f98e2, type: 3}
