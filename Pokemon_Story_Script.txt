@@ -21,7 +21,7 @@ Trainer: There's a lot of creepy stuff around here and I'm still not
 much closer to figuring out why and how I got here...
 
 Second level end:
-Phew I'm finally out.
+I think that was a pretty easy fight. It's great to have a type advantage!
 
 Third level start:
 I'm glad that I'm finally out of the mansion. It feels great to be outside again!
@@ -30,21 +30,31 @@ Third level end:
 Hey charmander! Be careful not to burn the forest alright!? 
 
 Fourth level start:
+Wow...There's a lot of things to see here. Even though I'm in the middle of nowhere, it's nice to a whole bunch of pokemon here.
 
 Fourth level end:
+Well that was a tough fight. I guess type advantages aren't everything.
 
 Fifth level start:
+Man, why do I have to go to yet another creepy area?
 
 Fifth level end:
+I'm still really confused about how I got stranded in a mansion where the exit leads to a forest in the middle of nowhere.
+Also, I'm not sure if I'm going crazy but it got dark pretty fast once I left the forest.
 
 Sixth level start:
+Thinking more about it, it would've been one thing if someone kidnapped me but these places haven't been making sense for a while.
 
 Sixth level end:
+If it wasn't a person who brought me here, was it some sort of pokemon? But then why?
 
 Seventh level start:
+I've got a bad feeling about this...but it also feels like I can get out of here soon.
 
 Seventh level end:
+So now I know that Deoxys was probably the pokemon who brought me here. And since there's now a convenient portal here, I can get back to where I was.
+I still don't know why it brought me here though.
 
-Eighth level start:
-
-Eighth level end:
+Ending Scene:
+As I slowly woke up in the desert, I felt as though I had gone through a long dream. I don't really remember what it was about, but it felt like it might have been fun.
+As I sat up, I found a note sitting on my lap: "Thanks for playing our game!"
