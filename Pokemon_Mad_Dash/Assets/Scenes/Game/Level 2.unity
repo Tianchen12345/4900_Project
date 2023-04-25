@@ -50894,6 +50894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+--- !u!1 &925075754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 124434915, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+  m_PrefabInstance: {fileID: 925075753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &946007593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6422645101752874564, guid: 4b446d9a00e53d14d8ee2b8574b9e5a1, type: 3}
@@ -136867,21 +136872,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464621852}
     m_Modifications:
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 925075754}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588516126, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588516126, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1471873559607236065, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_RootOrder

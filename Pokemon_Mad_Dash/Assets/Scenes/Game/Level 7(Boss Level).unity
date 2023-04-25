@@ -585,6 +585,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1581749771}
     m_Modifications:
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2125705841}
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: jumpForce
       value: 1300
       objectReference: {fileID: 0}
@@ -602,19 +606,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588516126, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588516126, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1471873559607236065, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_RootOrder
@@ -4875,6 +4879,11 @@ RectTransform:
   m_AnchoredPosition: {x: -14, y: 101}
   m_SizeDelta: {x: 261.56, y: 113.33}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2125705841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 124434915, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
+  m_PrefabInstance: {fileID: 493902741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2146725943
 GameObject:
   m_ObjectHideFlags: 0
