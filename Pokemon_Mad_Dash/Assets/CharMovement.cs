@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 public class CharMovement : MonoBehaviour
 {
+    [SerializeField] GameObject canvas;
 
     [SerializeField] float climbSpeed = 8f;
     [SerializeField] float movement;
@@ -36,6 +37,7 @@ public class CharMovement : MonoBehaviour
     private void Awake()
     {
         myAudioSource = GetComponent<AudioSource>();
+        canvas.SetActive(false);
     }
 
     // Start is called before the first frame update
