@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1609976689920573255}
   m_Layer: 12
   m_Name: bubble
-  m_TagString: Bullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,3 +138,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Player
   speed: 7
+  damage: 10
+  time: 2
