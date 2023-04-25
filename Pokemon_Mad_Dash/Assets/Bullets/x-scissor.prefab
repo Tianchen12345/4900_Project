@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1003561110}
   m_Layer: 10
   m_Name: x-scissor
-  m_TagString: Bullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
