@@ -108,11 +108,13 @@ public bool isInvulerable = false;
   private IEnumerator IgnoreCollision(){
 
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), true);
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<BoxCollider2D>(), GetComponent<CapsuleCollider2D>(), true);
 
 
     yield return new WaitForSeconds(1);
 
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<BoxCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
 
   }
 

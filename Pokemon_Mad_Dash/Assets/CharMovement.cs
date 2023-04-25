@@ -18,7 +18,7 @@ public class CharMovement : MonoBehaviour
 
     public bool door = false;
     public Animator animator;
-    [SerializeField] CapsuleCollider2D myCollider2D;
+    [SerializeField] BoxCollider2D myCollider2D;
 
     public int health;
     public int maxHealth= 30;
