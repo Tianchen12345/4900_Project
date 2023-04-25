@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
+
 public class Enemy : MonoBehaviour
 {
 //public GameObject [] characters;
@@ -66,10 +66,6 @@ public bool isInvulerable = false;
        GetComponent<Animator>().SetTrigger("transform3");
        GetComponent<EnemyPatrolMovement>().enabled = false;
        GetComponent<FollowAndShootEnemy>().enabled = true;
-     }if(isBoss3 && currentHealth <=0){
-       Die();
-       var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-       SceneManager.LoadScene(currentSceneIndex+1);
      }
   }
 

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5746728517601788924}
   m_Layer: 12
   m_Name: meteor
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,6 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Player
-  speed: 1
+  speed: 2
   damage: 15
   time: 3
