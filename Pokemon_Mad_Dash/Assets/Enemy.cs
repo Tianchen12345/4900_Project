@@ -75,8 +75,6 @@ public bool isInvulerable = false;
 
   void Die()
   {
-
-   Debug.Log("enemy die");
     Destroy(gameObject);
     GetComponent<Collider2D>().enabled = false;
     GetComponent<SpriteRenderer>().enabled =false;

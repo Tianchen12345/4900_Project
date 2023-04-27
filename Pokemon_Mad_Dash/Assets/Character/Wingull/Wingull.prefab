@@ -340,7 +340,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -1411519273
+  m_SortingLayerID: -563487009
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &2525404226742716939
@@ -489,7 +489,10 @@ MonoBehaviour:
   charMovement1: {fileID: 0}
   maxHealth: 50
   damage: 10
+  currentHealth: 0
   isBoss1: 0
+  isBoss2: 0
+  isBoss3: 0
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -505,6 +508,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isInvulerable: 0
 --- !u!50 &8887068809753849740
 Rigidbody2D:
   serializedVersion: 4
@@ -562,6 +566,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &708193598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,10 +579,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba0aef3e196a48aebdcd90189371757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   lineOfSite: 10
   shootingRange: 5
-  fireRate: 1.5
+  fireRate: 1
   nextFireTime: 0
   bullet: {fileID: 2659149563064358495, guid: 2a6bdb69bfb40451eb5ffad43be35f89, type: 3}
   AttackPoint: {fileID: 8887068810892948615}
