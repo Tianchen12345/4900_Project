@@ -1310,7 +1310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 292915366363711284, guid: 6e9c3cb9c29d84c5fa60d58d8a846b53, type: 3}
       propertyPath: m_Mass
-      value: 10
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 292915366363711284, guid: 6e9c3cb9c29d84c5fa60d58d8a846b53, type: 3}
       propertyPath: m_GravityScale
@@ -1732,6 +1732,10 @@ PrefabInstance:
     - target: {fileID: 7018314342039807708, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018314342039807711, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 7018314342039807712, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: charMovement1
@@ -2601,6 +2605,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 774089623}
     m_Modifications:
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1047527702}
@@ -2779,6 +2787,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 36963869}
+    - target: {fileID: 4549176577913126195, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 4549176577913126196, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
       propertyPath: m_Name
       value: Skiploom (1)
@@ -4523,7 +4535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 292915366363711284, guid: 6e9c3cb9c29d84c5fa60d58d8a846b53, type: 3}
       propertyPath: m_Mass
-      value: 10
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 292915366363711287, guid: 6e9c3cb9c29d84c5fa60d58d8a846b53, type: 3}
       propertyPath: charMovement1
@@ -35547,6 +35559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rattata 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2063844630408518206, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2063844630408518207, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: charMovement1
       value: 
@@ -35822,6 +35838,10 @@ PrefabInstance:
     - target: {fileID: 2063844630408518201, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: m_Name
       value: Rattata
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063844630408518206, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 2063844630408518207, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: charMovement1
@@ -36594,6 +36614,10 @@ PrefabInstance:
     - target: {fileID: 2063844630408518201, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: m_Name
       value: Rattata 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063844630408518206, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 2063844630408518207, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: charMovement1
@@ -100326,6 +100350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rattata 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2063844630408518206, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2063844630408518207, guid: 83ae949508e75431daaa70b432614fcb, type: 3}
       propertyPath: charMovement1
       value: 
@@ -100576,6 +100604,10 @@ PrefabInstance:
     - target: {fileID: 7018314342039807710, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018314342039807711, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 7018314342039807712, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: charMovement1
