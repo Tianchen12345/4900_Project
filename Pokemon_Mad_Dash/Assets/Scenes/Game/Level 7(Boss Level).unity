@@ -590,7 +590,11 @@ PrefabInstance:
       objectReference: {fileID: 2125705841}
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: jumpForce
-      value: 1300
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: maxHealth
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 871039255, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_GravityScale
@@ -1507,6 +1511,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 1104450451}
+    - target: {fileID: 3078265583690807102, guid: f7a8bddd716a34fb699cb2d109721911, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a8bddd716a34fb699cb2d109721911, type: 3}
 --- !u!4 &553004710 stripped

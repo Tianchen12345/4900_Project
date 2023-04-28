@@ -34302,6 +34302,14 @@ PrefabInstance:
       propertyPath: movementDistanceX
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3957757257055031997, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3957757257055031997, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6537067905749079057, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -35471,6 +35479,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 1212248716}
+    - target: {fileID: 4549176577913126195, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 4549176577913126196, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
       propertyPath: m_Name
       value: Skiploom
@@ -52820,6 +52832,10 @@ PrefabInstance:
     - target: {fileID: 2490543859746406089, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2490543859746406091, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 2490543859746406092, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: m_Name
@@ -131034,6 +131050,14 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3957757257055031997, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3957757257055031997, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6537067905749079057, guid: 721c75e3429a64f389a0e9cf43fd2da5, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -131110,6 +131134,10 @@ PrefabInstance:
     - target: {fileID: 2490543859746406089, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2490543859746406091, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 2490543859746406092, guid: 833c0dc9041e2413baf50d8af84e9713, type: 3}
       propertyPath: m_Name
@@ -131716,6 +131744,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 501149746}
     m_Modifications:
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: canvas
       value: 

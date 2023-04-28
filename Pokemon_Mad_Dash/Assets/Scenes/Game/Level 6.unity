@@ -225,6 +225,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 443108557}
+    - target: {fileID: 2015873039211423311, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2015873039211423346, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -16627,6 +16631,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1739274280}
     m_Modifications:
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: canvas
       value: 
@@ -109934,6 +109942,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 443108557}
+    - target: {fileID: 2015873039211423311, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2015873039211423346, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -110704,6 +110716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lunatone
       objectReference: {fileID: 0}
+    - target: {fileID: 5434284266081619550, guid: 99e82990a1aea484ea79406a48003357, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e82990a1aea484ea79406a48003357, type: 3}
 --- !u!4 &1494595006 stripped
@@ -110972,6 +110988,10 @@ PrefabInstance:
     - target: {fileID: 7018314342039807708, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018314342039807711, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 7018314342039807712, guid: 5c23f58cb447045c89cbb96f96a24fdc, type: 3}
       propertyPath: charMovement1
@@ -111270,6 +111290,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 443108557}
+    - target: {fileID: 2015873039211423311, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2015873039211423346, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -112160,6 +112184,10 @@ PrefabInstance:
       propertyPath: charMovement1
       value: 
       objectReference: {fileID: 443108557}
+    - target: {fileID: 2015873039211423311, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2015873039211423346, guid: bf15d2b77e8564354a2f464ab8aed5a7, type: 3}
       propertyPath: m_RootOrder
       value: 6
