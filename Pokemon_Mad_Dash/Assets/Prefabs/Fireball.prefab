@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3829745982178573375}
   - component: {fileID: 1597743187}
   - component: {fileID: 8240849494355139521}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 15
   speed: 10
-  lifeTime: 1
   distance: 0
   whatIsSolid:
     serializedVersion: 2
@@ -149,6 +148,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!58 &8240849494355139521
 CircleCollider2D:
   m_ObjectHideFlags: 0

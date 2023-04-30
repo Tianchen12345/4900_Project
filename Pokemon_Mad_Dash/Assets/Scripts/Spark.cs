@@ -18,8 +18,10 @@ public class Spark : MonoBehaviour
         if (collision is BoxCollider2D && myCircleCollider2D.IsTouchingLayers(LayerMask.GetMask("Player")))
         {
             FindObjectOfType<Player>().BeAttacked();
+            myCircleCollider2D.enabled = false;
         }
     }
+
 
 
 }
