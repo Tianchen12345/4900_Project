@@ -32,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(timeBtwAttack <= 0)
         {
-            if (CrossPlatformInputManager.GetButtonDown("Fire1"))
+            if (CrossPlatformInputManager.GetButtonDown("Fire1") && Time.timeScale != 0)
             {
                 myAnimator.SetTrigger("Attacking");
                 myAudioSource.PlayOneShot(attackingSFX);                
@@ -53,7 +53,10 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SpecialAttack();
+            if(Time.timeScale != 0)
+            {
+                SpecialAttack();
+            }            
         }
     }
 
