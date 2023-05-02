@@ -21,7 +21,4 @@ public class Spark : MonoBehaviour
             myCircleCollider2D.enabled = false;
         }
     }
-
-
-
 }

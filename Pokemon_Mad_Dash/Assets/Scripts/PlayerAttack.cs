@@ -60,6 +60,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
+    //fireball attack
     private void SpecialAttack()
     {
         if(FindObjectOfType<GameSession>().playerDiamond >= 1)
