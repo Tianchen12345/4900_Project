@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+
 
 public class CharCombat : MonoBehaviour
 {
@@ -44,6 +46,11 @@ public class CharCombat : MonoBehaviour
           SpecialAttack();
           //animator.SetTrigger("SpecialAttack");
           nextAttackTime=Time.time+ 1f / attackRate;
+        }
+        if(Input.GetKeyDown(KeyCode.U))
+        {
+          var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+          SceneManager.LoadScene(currentSceneIndex);
         }
       }
       mana += manaRegen * Time.deltaTime;
