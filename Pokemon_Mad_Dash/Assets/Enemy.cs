@@ -17,7 +17,7 @@ public bool isBoss1 = false;
 public bool isBoss2 = false;
 public bool isBoss3 = false;
 public UnityEvent<float> OnHealthChange;
-public bool isInvulerable = false;
+public bool isInvulnerable = false;
 //public bool isChar1 = true;
 //public bool isChar2 = false;
   // Start is called before the first frame update
@@ -29,7 +29,7 @@ public bool isInvulerable = false;
   // Update is called once per frame
   public void TakeDamage(int damage)
   {
-    if(isInvulerable){
+    if(isInvulnerable){
       return;
     }
     currentHealth -= damage;
@@ -55,17 +55,17 @@ public bool isInvulerable = false;
      }
      if(isBoss3 && currentHealth <= 300){
        GetComponent<Animator>().SetTrigger("transform1");
-       GetComponent<FollowEnemy>().enabled = false;
+       //GetComponent<FollowEnemy>().enabled = false;
 
      }
      if(isBoss3 && currentHealth <= 200){
        GetComponent<Animator>().SetTrigger("transform2");
-       GetComponent<EnemyPatrolMovement>().enabled = true;
+       //GetComponent<EnemyPatrolMovement>().enabled = true;
      }
      if(isBoss3 && currentHealth <=100){
        GetComponent<Animator>().SetTrigger("transform3");
-       GetComponent<EnemyPatrolMovement>().enabled = false;
-       GetComponent<FollowAndShootEnemy>().enabled = true;
+      // GetComponent<EnemyPatrolMovement>().enabled = false;
+       //GetComponent<FollowAndShootEnemy>().enabled = true;
      }if(isBoss3 && currentHealth <=0){
        Die();
        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
