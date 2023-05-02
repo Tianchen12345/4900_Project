@@ -585,6 +585,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1581749771}
     m_Modifications:
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 2125705841}
@@ -602,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 871039260, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: manaRegen
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 871039260, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: lightDamage
@@ -1506,6 +1510,10 @@ PrefabInstance:
     - target: {fileID: 3078265583690807098, guid: f7a8bddd716a34fb699cb2d109721911, type: 3}
       propertyPath: m_Name
       value: Deoxys
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078265583690807098, guid: f7a8bddd716a34fb699cb2d109721911, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3078265583690807100, guid: f7a8bddd716a34fb699cb2d109721911, type: 3}
       propertyPath: charMovement1
