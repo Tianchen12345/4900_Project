@@ -18,7 +18,7 @@ public class Heart : MonoBehaviour
             AudioSource.PlayClipAtPoint(heartSFX, Camera.main.transform.position);
             FindObjectOfType<GameSession>().addToLives(1);
 
-            if (charMovement != null)
+            if (charMovement != null) // if player is charmander, it will work
             {
                 charMovement.Heal(20);
             }

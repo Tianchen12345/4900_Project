@@ -32,8 +32,6 @@ public class Bomb : MonoBehaviour
         }
     }
 
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         myAnimator.SetTrigger("Bomb On");
