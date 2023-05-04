@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerAttack : MonoBehaviour
@@ -55,7 +56,10 @@ public class PlayerAttack : MonoBehaviour
         {
             if(Time.timeScale != 0)
             {
-                SpecialAttack();
+                if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 8)
+                {
+                    SpecialAttack();
+                }                    
             }            
         }
     }
