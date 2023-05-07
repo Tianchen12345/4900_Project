@@ -2923,7 +2923,7 @@ PrefabInstance:
       objectReference: {fileID: 36963869}
     - target: {fileID: 4549176577913126195, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
       propertyPath: m_Mass
-      value: 10000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4549176577913126196, guid: a4465fd81d34e433987f321a4786cac5, type: 3}
       propertyPath: m_Name

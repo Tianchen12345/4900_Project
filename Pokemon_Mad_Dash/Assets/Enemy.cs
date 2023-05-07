@@ -53,6 +53,9 @@ public bool isInvulnerable = false;
        GetComponent<FollowAndShootEnemy>().enabled = false;
        GetComponent<HomingShootingEnemy>().enabled = true;
      }
+     if(isBoss2 && currentHealth <=0){
+       charMovement1.Unlock();
+     }
      if(isBoss3){
        GetComponent<Animator>().enabled = true;
      }
