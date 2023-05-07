@@ -45,6 +45,9 @@ public bool isInvulnerable = false;
        GetComponent<EnemyJump>().enabled = true;
        GetComponent<Animator>().SetBool("IsJumping", true);
      }
+     if(isBoss1 && currentHealth <=0){
+       charMovement1.Unlock();
+     }
      if(isBoss2 && currentHealth <= 150)
      {
        GetComponent<FollowAndShootEnemy>().enabled = false;

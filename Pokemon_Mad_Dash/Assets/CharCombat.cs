@@ -115,4 +115,7 @@ public class CharCombat : MonoBehaviour
       }
 
     }
+    public void HealMana(int SP){
+      mana += SP;
+    }
 }

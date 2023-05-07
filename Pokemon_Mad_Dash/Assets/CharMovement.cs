@@ -15,6 +15,7 @@ public class CharMovement : MonoBehaviour
     [SerializeField] bool jumpPressed = false;
     [SerializeField] float jumpForce = 1500.0f;
     [SerializeField] bool isGrounded = true;
+    public int isLock = 0;
 
     public bool door = false;
     public Animator animator;
@@ -165,11 +166,14 @@ public class CharMovement : MonoBehaviour
 
 
 }
+public void Unlock(){
+  isLock +=1;
+}
 private void ExitLevel()
 {
     if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))) { return; }
 
-    if (Input.GetButtonDown("Vertical"))
+    if (Input.GetButtonDown("Vertical") && isLock==3)
     {
         animator.SetTrigger("EnterDoor");
     }
