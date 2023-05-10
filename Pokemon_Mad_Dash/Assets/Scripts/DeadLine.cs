@@ -14,6 +14,7 @@ public class DeadLine : MonoBehaviour
 
     private void Update()
     {
+        // if palyer is touching the dead line, player will die
         if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Player")))
         {
             GameSession.GetComponent<GameSession>().playerLives = 1;

@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diamondSFX: {fileID: 8300000, guid: 8407810ed9287074f84ffe27ea4bdf3c, type: 3}
+  charCombat: {fileID: 0}
 --- !u!61 &1050314958667001560
 BoxCollider2D:
   m_ObjectHideFlags: 0
