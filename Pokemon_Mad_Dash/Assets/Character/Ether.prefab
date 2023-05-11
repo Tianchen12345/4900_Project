@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8536787238986631888}
   - component: {fileID: 912487048722203092}
   - component: {fileID: 4145007260302255448}
-  - component: {fileID: 6242061904938566276}
   - component: {fileID: 1050314958667001560}
+  - component: {fileID: 368363760}
   m_Layer: 14
   m_Name: Ether
   m_TagString: Untagged
@@ -108,20 +108,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6242061904938566276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5981971913816235635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95382d3081b8af14d9624fd5ec7160e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diamondSFX: {fileID: 8300000, guid: 8407810ed9287074f84ffe27ea4bdf3c, type: 3}
-  charCombat: {fileID: 0}
 --- !u!61 &1050314958667001560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,3 +134,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34373474, y: 0.4593749}
   m_EdgeRadius: 0
+--- !u!114 &368363760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5981971913816235635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced4294fb80924e64b6affd2407ac4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamondSFX: {fileID: 8300000, guid: 8407810ed9287074f84ffe27ea4bdf3c, type: 3}

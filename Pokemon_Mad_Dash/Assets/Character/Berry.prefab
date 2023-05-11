@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9077715943298220685}
   - component: {fileID: 1309550012278217587}
   - component: {fileID: 951843690072736955}
-  - component: {fileID: 1162220185009261468}
+  - component: {fileID: 501408357}
   m_Layer: 14
   m_Name: Berry
   m_TagString: Untagged
@@ -134,7 +134,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4567213, y: 0.37383938}
   m_EdgeRadius: 0
---- !u!114 &1162220185009261468
+--- !u!114 &501408357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3422975430031636614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c9ee62ecac6974f8ae21a065589af4, type: 3}
+  m_Script: {fileID: 11500000, guid: 423f2846e38d64135a0cc794381853c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   heartSFX: {fileID: 8300000, guid: 5fd1d0474ecf3544e9302a2f78146683, type: 3}
