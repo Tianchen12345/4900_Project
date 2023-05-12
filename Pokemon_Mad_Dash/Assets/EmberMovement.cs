@@ -49,6 +49,9 @@ public class EmberMovement : MonoBehaviour
         DestroyProjectile();
     }
     if(collision.tag == "Bullet"){
+      collision.GetComponent<BulletScript>().TakeDamage(damage);
+    }
+    if(collision.tag == "HomingBullet"){
       collision.GetComponent<HomingBullet>().TakeDamage(damage);
       //DestroyProjectile;
     }

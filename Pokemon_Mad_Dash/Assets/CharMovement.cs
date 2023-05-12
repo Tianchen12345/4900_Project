@@ -46,7 +46,7 @@ public class CharMovement : MonoBehaviour
     {
       if (rigid == null)
           rigid = GetComponent<Rigidbody2D>();
-      speed = 10;
+      speed = 12;
       health=maxHealth;
     }
 

@@ -26,10 +26,11 @@ public class CharCombat : MonoBehaviour
     public float manaRegen = 1f;
     public UnityEvent<float> OnManaChange;
 
-    void Start(){
-
+    void Start()
+    {
       mana = maxMana;
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -66,46 +67,37 @@ public class CharCombat : MonoBehaviour
 
     void Attack()
     {
-      //attack trigger
-      //animator.SetTrigger("LightAttack");
-
       //Detect enemies hit
       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position,AttackRange,enemyLayers);
-
-      //
       foreach(Collider2D enemy in hitEnemies)
       {
-          if(enemy.tag == "Bullet"){
+          if(enemy.tag == "Projectile")
+          {
             enemy.GetComponent<Projectile>().TakeDamage(lightDamage);
-
           }
-        else{
-        enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
+          else if(enemy.tag == "Bullet"){
+            enemy.GetComponent<BulletScript>().TakeDamage(lightDamage);
+          }
+          else if(enemy.tag == "HomingBullet"){
+            enemy.GetComponent<HomingBullet>().TakeDamage(lightDamage);
+          }
+          else
+          {
+            enemy.GetComponent<Enemy>().TakeDamage(lightDamage);
+          }
       }
-
-      }
-
     }
 
     void SpecialAttack()
     {
-
-      //Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
         animator.SetTrigger("SpecialAttack");
         useMana();
-
-
-
-
-
     }
     void OnDrawGizmosSelected()
     {
-
-
       Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
-
     }
+
 
     public void useMana(){
       if(mana >= manaCost){
@@ -113,8 +105,8 @@ public class CharCombat : MonoBehaviour
         OnManaChange?.Invoke( mana / maxMana);
         Instantiate(SpecialAttackPrefab, AttackPoint.position, AttackPoint.rotation);
       }
-
     }
+
     public void HealMana(int SP){
       mana += SP;
     }

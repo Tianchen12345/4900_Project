@@ -8,7 +8,8 @@ public class BulletScript : MonoBehaviour
   [SerializeField] private string targetTag;
   public float speed;
   Rigidbody2D bulletRB;
-  
+  public int bulletHP = 1;
+
     public int damage = 10;
     public int time =2;
 
@@ -46,6 +47,11 @@ public class BulletScript : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-      DestroyProjectile();
-    }
+
+        bulletHP -= damage;
+        if(bulletHP<0){
+        DestroyProjectile();
+        }
+      }
+
 }
