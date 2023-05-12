@@ -48,6 +48,7 @@ public class CharMovement : MonoBehaviour
           rigid = GetComponent<Rigidbody2D>();
       speed = 12;
       health=maxHealth;
+      myAudioSource.Play();
     }
 
     // Update is called once per frame

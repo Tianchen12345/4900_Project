@@ -135206,6 +135206,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 597151340}
     - target: {fileID: 4442889033718587234, guid: 1e55be9d63100429f906b1370b9d07a1, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442889033718587234, guid: 1e55be9d63100429f906b1370b9d07a1, type: 3}
+      propertyPath: jumpforce
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442889033718587234, guid: 1e55be9d63100429f906b1370b9d07a1, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
       objectReference: {fileID: 228568502}
@@ -138066,6 +138074,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464621852}
     m_Modifications:
+    - target: {fileID: 377644244, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3fc1c1c5911f39347badf1a45f7ad849, type: 3}
+    - target: {fileID: 645890767, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 645890767, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 871039254, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: speed
       value: 10
@@ -138074,6 +138094,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 925075754}
+    - target: {fileID: 871039260, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: AttackRange
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1398221722, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -138088,6 +138112,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1588516126, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2083195178, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1471873559607236065, guid: 2f1d8c077bd1f445eb07642fadf73da8, type: 3}

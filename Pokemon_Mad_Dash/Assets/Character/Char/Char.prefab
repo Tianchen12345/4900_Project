@@ -814,6 +814,7 @@ GameObject:
   - component: {fileID: 871039260}
   - component: {fileID: 377644244}
   - component: {fileID: 377644248}
+  - component: {fileID: 2083195178}
   m_Layer: 8
   m_Name: Char
   m_TagString: Player
@@ -965,11 +966,12 @@ MonoBehaviour:
   climbSpeed: 8
   movement: 0
   rigid: {fileID: 871039255}
-  speed: 0
+  speed: 10
   isFacingRight: 1
   jumpPressed: 0
   jumpForce: 1100
   isGrounded: 1
+  isLock: 0
   door: 0
   animator: {fileID: 1471873559607236071}
   myCollider2D: {fileID: 377644248}
@@ -1046,11 +1048,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 38a92e8dc0d20fb4c834282904e9922d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1158,3 +1160,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7623149, y: 1.3125}
   m_EdgeRadius: 0
+--- !u!81 &2083195178
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471873559607236070}
+  m_Enabled: 1
