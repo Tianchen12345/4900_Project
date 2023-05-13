@@ -34958,17 +34958,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25cf66e975d8a5641b1070cc335e4107, type: 3}
---- !u!114 &251893480 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1756343485, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
-  m_PrefabInstance: {fileID: 1682486826}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b1bc14632458af4aac30cda0b846ebb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &251893483 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6623920874689396211, guid: fcfba65f0ec6af54a93f47cc6b6da089, type: 3}
@@ -121388,7 +121377,7 @@ PrefabInstance:
     - target: {fileID: 1258636163, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 251893480}
+      objectReference: {fileID: 1538964566}
     - target: {fileID: 1258636163, guid: db7bb9020f83ad54cba4762933f1a028, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeSoundVolume

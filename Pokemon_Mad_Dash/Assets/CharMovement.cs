@@ -202,4 +202,25 @@ private void Climb()
     }
 }
 
+    public void ChangeSoundVolume()
+    {
+        //get the initial volume of Sound and Change it
+        float currentVolume = PlayerPrefs.GetFloat("soundVolume");
+        currentVolume += 0.2f;
+
+        //check if the volume reach the maximum and minimum
+        if (currentVolume < 0)
+        {
+            currentVolume = 1;
+        }
+        else if (currentVolume > 1)
+        {
+            currentVolume = 0;
+        }
+        //assign final volume
+        myAudioSource.volume = currentVolume;
+
+        PlayerPrefs.SetFloat("soundVolume", currentVolume);
+    }
+
 }
