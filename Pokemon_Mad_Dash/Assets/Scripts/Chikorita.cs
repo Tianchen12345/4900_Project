@@ -28,6 +28,7 @@ public class Chikorita : MonoBehaviour
         Attack();
     }
 
+    // Move the enemy character left or right based on its direction and speed
     private void EnemyMovement()
     {
         if (GetComponent<BoxCollider2D>().enabled)
@@ -48,18 +49,19 @@ public class Chikorita : MonoBehaviour
         FlipSprites();
     }
 
+    // Flip the character sprites based on its current velocity direction
     private void FlipSprites()
     {
         float sign = Mathf.Sign(myRigidbody.velocity.x);
         transform.localScale = new Vector2(sign, 1f);
-
     }
-
 
     private bool IsFacingLeft()
     {
         return transform.localScale.x > 0;
     }
+
+    // Check for attacks and execute them
     public void Attack()
     {
         EnemyMovement();

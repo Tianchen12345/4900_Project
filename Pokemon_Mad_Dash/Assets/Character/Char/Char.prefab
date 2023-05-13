@@ -813,6 +813,8 @@ GameObject:
   - component: {fileID: 871039254}
   - component: {fileID: 871039260}
   - component: {fileID: 377644244}
+  - component: {fileID: 377644248}
+  - component: {fileID: 2083195178}
   m_Layer: 8
   m_Name: Char
   m_TagString: Player
@@ -829,7 +831,7 @@ Transform:
   m_GameObject: {fileID: 1471873559607236070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.19, y: 1.2, z: 0.02502221}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.92386395, y: 0.864937, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 645890767}
@@ -939,9 +941,9 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471873559607236070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 61ab401f4dbf4c04a8d146fb43ee3cdd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -960,17 +962,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569a5102c90444a7b91dfbe43a5b77a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
   climbSpeed: 8
   movement: 0
   rigid: {fileID: 871039255}
-  speed: 0
+  speed: 10
   isFacingRight: 1
   jumpPressed: 0
   jumpForce: 1100
   isGrounded: 1
+  isLock: 0
   door: 0
   animator: {fileID: 1471873559607236071}
-  myCollider2D: {fileID: 871039256}
+  myCollider2D: {fileID: 377644248}
   health: 0
   maxHealth: 100
   invincibilityDurationSeconds: 1.5
@@ -1044,11 +1048,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 38a92e8dc0d20fb4c834282904e9922d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1130,3 +1134,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &377644248
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471873559607236070}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.27509254, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.3125, y: 1.3125}
+    newSize: {x: 1.5625, y: 1.5625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7623149, y: 1.3125}
+  m_EdgeRadius: 0
+--- !u!81 &2083195178
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471873559607236070}
+  m_Enabled: 1

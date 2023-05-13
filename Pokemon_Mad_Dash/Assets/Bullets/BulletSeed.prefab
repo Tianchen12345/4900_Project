@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 570007431995334636}
   m_Layer: 12
   m_Name: BulletSeed
-  m_TagString: Bullet
+  m_TagString: HomingBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,5 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   FacingRight: 0
+  bulletHP: 1
+  lifeTime: 2
   targetTag: Player
   damage: 15

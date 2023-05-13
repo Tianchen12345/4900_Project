@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 public class CharMovement : MonoBehaviour
 {
+    [SerializeField] GameObject canvas;
 
     [SerializeField] float climbSpeed = 8f;
     [SerializeField] float movement;
@@ -14,10 +15,11 @@ public class CharMovement : MonoBehaviour
     [SerializeField] bool jumpPressed = false;
     [SerializeField] float jumpForce = 1500.0f;
     [SerializeField] bool isGrounded = true;
+    public int isLock = 0;
 
     public bool door = false;
     public Animator animator;
-    [SerializeField] CapsuleCollider2D myCollider2D;
+    [SerializeField] BoxCollider2D myCollider2D;
 
     public int health;
     public int maxHealth= 30;
@@ -36,6 +38,7 @@ public class CharMovement : MonoBehaviour
     private void Awake()
     {
         myAudioSource = GetComponent<AudioSource>();
+        canvas.SetActive(false);
     }
 
     // Start is called before the first frame update
@@ -43,8 +46,9 @@ public class CharMovement : MonoBehaviour
     {
       if (rigid == null)
           rigid = GetComponent<Rigidbody2D>();
-      speed = 15;
+      speed = 12;
       health=maxHealth;
+      myAudioSource.Play();
     }
 
     // Update is called once per frame
@@ -163,11 +167,14 @@ public class CharMovement : MonoBehaviour
 
 
 }
+public void Unlock(){
+  isLock +=1;
+}
 private void ExitLevel()
 {
     if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Interactable"))) { return; }
 
-    if (Input.GetButtonDown("Vertical"))
+    if (Input.GetButtonDown("Vertical") && isLock==3)
     {
         animator.SetTrigger("EnterDoor");
     }

@@ -315,6 +315,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3957757257055031991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +331,10 @@ MonoBehaviour:
   charMovement1: {fileID: 0}
   maxHealth: 200
   damage: 10
+  currentHealth: 0
   isBoss1: 0
+  isBoss2: 0
+  isBoss3: 0
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -346,6 +350,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isInvulerable: 0
 --- !u!114 &3957757257055031996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementDistanceX: 10
   movementDistanceY: 0
-  speed: 2
+  speed: 5
 --- !u!50 &3957757257055031997
 Rigidbody2D:
   serializedVersion: 4
@@ -456,7 +461,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -1411519273
+  m_SortingLayerID: -563487009
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &8730405909106520706

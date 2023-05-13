@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeadLine : MonoBehaviour
 {
@@ -14,10 +15,13 @@ public class DeadLine : MonoBehaviour
 
     private void Update()
     {
+        // if palyer is touching the dead line, player will die
         if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Player")))
         {
-            GameSession.GetComponent<GameSession>().playerLives = 1;
-            GameSession.GetComponent<GameSession>().ProcessPlayerDeath();
+            var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex);
+          //  GameSession.GetComponent<GameSession>().playerLives = 1;
+              //GameSession.GetComponent<GameSession>().ProcessPlayerDeath();
         }
     }
 }

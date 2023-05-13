@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
 //public GameObject [] characters;
@@ -17,7 +17,7 @@ public bool isBoss1 = false;
 public bool isBoss2 = false;
 public bool isBoss3 = false;
 public UnityEvent<float> OnHealthChange;
-public bool isInvulerable = false;
+public bool isInvulnerable = false;
 //public bool isChar1 = true;
 //public bool isChar2 = false;
   // Start is called before the first frame update
@@ -29,7 +29,7 @@ public bool isInvulerable = false;
   // Update is called once per frame
   public void TakeDamage(int damage)
   {
-    if(isInvulerable){
+    if(isInvulnerable){
       return;
     }
     currentHealth -= damage;
@@ -45,34 +45,42 @@ public bool isInvulerable = false;
        GetComponent<EnemyJump>().enabled = true;
        GetComponent<Animator>().SetBool("IsJumping", true);
      }
+     if(isBoss1 && currentHealth <=0){
+       charMovement1.Unlock();
+     }
      if(isBoss2 && currentHealth <= 150)
      {
        GetComponent<FollowAndShootEnemy>().enabled = false;
        GetComponent<HomingShootingEnemy>().enabled = true;
+     }
+     if(isBoss2 && currentHealth <=0){
+       charMovement1.Unlock();
      }
      if(isBoss3){
        GetComponent<Animator>().enabled = true;
      }
      if(isBoss3 && currentHealth <= 300){
        GetComponent<Animator>().SetTrigger("transform1");
-       GetComponent<FollowEnemy>().enabled = false;
+       //GetComponent<FollowEnemy>().enabled = false;
 
      }
      if(isBoss3 && currentHealth <= 200){
        GetComponent<Animator>().SetTrigger("transform2");
-       GetComponent<EnemyPatrolMovement>().enabled = true;
+       //GetComponent<EnemyPatrolMovement>().enabled = true;
      }
      if(isBoss3 && currentHealth <=100){
        GetComponent<Animator>().SetTrigger("transform3");
-       GetComponent<EnemyPatrolMovement>().enabled = false;
-       GetComponent<FollowAndShootEnemy>().enabled = true;
+      // GetComponent<EnemyPatrolMovement>().enabled = false;
+       //GetComponent<FollowAndShootEnemy>().enabled = true;
+     }if(isBoss3 && currentHealth <=0){
+       Die();
+       var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+       SceneManager.LoadScene(currentSceneIndex+1);
      }
   }
 
   void Die()
   {
-
-   Debug.Log("enemy die");
     Destroy(gameObject);
     GetComponent<Collider2D>().enabled = false;
     GetComponent<SpriteRenderer>().enabled =false;
@@ -104,11 +112,13 @@ public bool isInvulerable = false;
   private IEnumerator IgnoreCollision(){
 
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), true);
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<BoxCollider2D>(), GetComponent<CapsuleCollider2D>(), true);
 
 
     yield return new WaitForSeconds(1);
 
     Physics2D.IgnoreCollision(charMovement1.GetComponent<CapsuleCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
+    Physics2D.IgnoreCollision(charMovement1.GetComponent<BoxCollider2D>(), GetComponent<CapsuleCollider2D>(), false);
 
   }
 

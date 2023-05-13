@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerAttack : MonoBehaviour
@@ -32,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(timeBtwAttack <= 0)
         {
-            if (CrossPlatformInputManager.GetButtonDown("Fire1"))
+            if (CrossPlatformInputManager.GetButtonDown("Fire1") && Time.timeScale != 0)
             {
                 myAnimator.SetTrigger("Attacking");
                 myAudioSource.PlayOneShot(attackingSFX);                
@@ -53,10 +54,17 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SpecialAttack();
+            if(Time.timeScale != 0)
+            {
+                if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 8)
+                {
+                    SpecialAttack();
+                }                    
+            }            
         }
     }
 
+    //fireball attack
     private void SpecialAttack()
     {
         if(FindObjectOfType<GameSession>().playerDiamond >= 1)
